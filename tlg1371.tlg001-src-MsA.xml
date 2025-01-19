@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="la">Evangelium Petri (Ms A)</title>
+            <author>
+               <persName key="tlg1371">Pseudo-Peter</persName>
+            </author>
+            <respStmt>
+               <resp>transcribed by</resp>
+               <persName xml:id="MGB">Mark G. Bilby</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Diplomatic transcription</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Clavis Consulting, LLC (Kansas)</publisher>
+            <distributor>@mgbilby and/or @nauarchus account on GitHub</distributor>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Available under a Creative Commons Attribution Non-Commercial ShareAlike 4.0 International License</licence>
+            </availability>
+            <copyright>
+               <p>© 2025 Clavis Consulting, LLC (Kansas)</p>
+            </copyright>
+            <date when="2025-01-20"></date>
+            <idno type="TLG">tlg1371.tlg001</idno>
+            <idno type="CANT">13</idno>
+            <idno type="BHG"/>1486x</idno>
+            <idno type="Pinakes-Oeuvre">16616</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier xml:id="A" corresp="SRCMS00001">
+                  <provenance>Panopolis (Akhmim)</provenance>
+		            <date notBefore="0500-01-01" notAfter="699-12-31"/>
+		            <settlement>Alexandria</settlement>
+                  <repository>Bibliotheca Alexandria Antiquities Museum (BAAM)</repository>
+                     <idno ref="https://antiquities.bibalex.org/Collection/Detail.aspx?lang=en&a=522">0522</idno>
+                     <note>olim P.Cair. 10579</note>
+                     <altIdentifier type="LDAB">
+                        <idno>1088</idno>
+                     </altIdentifier>
+                     <altIdentifier type="trismegistos">
+                        <idno ref="https://www.trismegistos.org/text/59976">59976</idno>
+                     </altIdentifier>
+                     <altIdentifier type="DCLP">
+                        <idno ref="https://papyri.info/dclp/59976">59976</idno>
+                     </altIdentifier>
+		               <altIdentifier type="APIS">
+		                  <idno>>oxford-ipap.apis.2174</idno>
+               </msIdentifier>
+            </msDesc>
+            <p>Two sets of photographs were consulted, listed in the bibliographic entries that follow.</p>
+            <bibl>
+                <title>Photographic Archive of Papyri, Centre for the Study of Ancient Documents, University of Oxford</title>
+                <ptr target="http://ipap.csad.ox.ac.uk/GP/GP.html"/>
+                <note>300 dpi black and white images taken by Dr. Adam Bulow-Jacobsen of the AIP-archive. This source does not include a license statement.</note>
+            </bibl>
+            <bibl>
+                <title>Bibliotheca Alexandria Antiquities Museum (BAAM)</title>
+                <ptr target="https://antiquities.bibalex.org/Collection/Detail.aspx?lang=en&a=522"/>
+                <note>High quality color photographs provided on request by Mohamed Essan of the Bibliotheca Alexandrina Antiquities Museum (BAAM). Photographs © BAAM by M. Aly and M. Magdy. Photographs used with permission, solely for the purpose of checking the diplomatic transcription. Low resolution color photographs are publicly available.</note>
+            </bibl>
+        </sourceDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <editorialDecl>
+            <interpretation>
+               <p>
+            This file is encoded according to the guidelines of the Patristic Text Archive (PTA). See <ref target="https://pta.bbaw.de/project/encoding-guidelines">https://pta.bbaw.de/project/encoding-guidelines</ref> and <ref target="https://doi.org/10.5281/zenodo.3737666">https://doi.org/10.5281/zenodo.3737666</ref>.
+          </p>
+               <p xml:id="biblical-quotations"
+                  ana="not-annotated not-identified">
+            Biblical quotations are not annotated and not referenced. References follow the scheme declared <ref target="#biblical">above</ref>.
+          </p>
+               <p xml:id="other-references"
+                  ana="not-annotated not-identified">
+            Other references are not annotated and not referenced. References to texts in the PTA follow the scheme declared <ref target="#pta">above (pta)</ref>, references to texts available in the <ref target="https://scaife.perseus.org/">Perseus Digital Library</ref> follow the scheme declared <ref target="#perseus">above (perseus)</ref>. If the referenced text is not available in either repository, the reference for the referenced text is given in the attribute @source in the form “Authorabbrev_Workabbrev_Location”; ancient Greek authors should be referenced according to the lists of H. G. Liddell/R. Scott/H. S. Jones, A Greek - English Lexicon, Oxford 1968 (9th edition) and G. W. H. Lampe, A Patristic Greek Lexicon, Oxford 1987 (3d edition), for Latin ones the abbreviations of the Thesaurus Linguae Latinae (cf. Index librorum scriptorum inscriptionum ex quibus exempla afferuntur) should be used, with dots in the abbreviations deleted without replacement.
+          </p>
+               <p xml:id="persons"
+                  ana="not-annotated not-identified">
+            Persons are not annotated and not referenced with IDs according to the <ref target="https://github.com/PatristicTextArchive/tipnr_data">TIPNR - Tyndale Individualised Proper Names with all References</ref> list for biblical persons and IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_persons.json">PTA persons index</ref> for all other persons.
+          </p>
+               <p xml:id="groups"
+                  ana="not-annotated not-identified">
+            Groups of persons and organisations are not annotated and not referenced with IDs according to the IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_groups.json">PTA groups index</ref> for all other groups.
+          </p>
+               <p xml:id="places"
+                  ana="not-annotated not-identified">
+            Places are not annotated and not referenced with <ref target="https://pleiades.stoa.org/">Pleiades Gazetteer</ref> IDs.
+          </p>
+            </interpretation>
+            <normalization>
+               <p>Diplomatic transcript without normalisation.</p>
+            </normalization>
+            <punctuation>
+               <p>Punctuation as in manuscript (as discerned by the transcriber).</p>
+            </punctuation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="comphistsem">
+               <bibl>
+          Text Type Classification by <ref target="https://www.comphistsem.org/46.html">"Computational Historical Semantics</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="editionstatus">
+               <bibl>
+          Scripture Restoration Collective Status of edition
+               </bibl>
+               <category xml:id="critical-edition">
+                  <catDesc>
+            Critical edition in which the text-critical variants have been encoded.
+                  </catDesc>
+               </category>
+               <category xml:id="critical-edition-no-app">
+                  <catDesc>
+            Critical edition in which the text-critical variants have not been encoded, e.g. because it is a retro-digitisation of a printed critical edition and for copyright reasons the apparatus cannot be included in the retro-digitisation.
+                  </catDesc>
+               </category>
+               <category xml:id="critical-edition-outdated">
+                  <catDesc>
+              Edition which notes text-critical variants, but does not, for example, comprehensively include the manuscripts.
+                  </catDesc>
+               </category>
+               <category xml:id="pre-critical-edition">
+                  <catDesc>
+              Pre-modern editions (e.g. editions in the Patrologia Graeca or Latina)
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="annotationstatus">
+               <bibl>
+          Scripture Restoration Collective Status of annotation
+               </bibl>
+               <category xml:id="fully-annotated">
+                  <catDesc>
+            All instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+                  </catDesc>
+               </category>
+               <category xml:id="partially-annotated">
+                  <catDesc>
+            Some instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+                  </catDesc>
+               </category>
+               <category xml:id="not-annotated">
+                  <catDesc>
+            No instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+                  </catDesc>
+               </category>
+               <category xml:id="fully-identified">
+                  <catDesc>
+            All encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data.
+                  </catDesc>
+               </category>
+               <category xml:id="partially-identified">
+                  <catDesc>
+            Some encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data
+                  </catDesc>
+               </category>
+               <category xml:id="not-identified">
+                  <catDesc>
+            No encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data.
+                  </catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <schemaRef key="v3"
+                    url="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng"/>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore="0050" notAfter="180"/>
+         </creation>
+         <textClass>
+            <keywords scheme="#comphistsem">
+               <term>Gospel</term>
+               <term>Apocrypha</term>
+            </keywords>
+         </textClass>
+         <listPerson>
+            <person xml:id="Bruston">
+               <persName>Charles Bruston</persName>
+            </person>
+            <person xml:id="Foster">
+               <persName>Paul Foster</persName>
+            </person>
+            <person xml:id="Harnack">
+               <persName>Adolf von Harnack</persName>
+            </person>
+            <person xml:id="Hilgenfeld">
+               <persName>Adolf Hilgenfeld</persName>
+            </person>
+            <person xml:id="KrausNicklas">
+               <persName>Thomas J. Kraus and Tobias Nicklas</persName>
+            </person>
+            <person xml:id="Lejay">
+               <persName>Paul Lejay</persName>
+            </person>
+            <person xml:id="Manchot">
+               <persName>Karl Manchot</persName>
+            </person>
+            <person xml:id="Mara">
+               <persName>Maria Grazia Mara</persName>
+            </person>
+            <person xml:id="Robinson">
+               <persName>J. Armitage Robinson</persName>
+            </person>
+            <person xml:id="Vaganay">
+               <persName>Henri Vaganay</persName>
+            </person>
+            <person xml:id="Zahn">
+               <persName>Theodor Zahn</persName>
+            </person>
+         </listPerson>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2025-01-20" who="#MGB">Initial diplomatic edition released</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              xml:lang="grc"
+              n="urn:cts:greekLit:tlg1371.tlg001.src-MsA">
+            <pb n="1r"
+                facs=""/>
+            <head>
+               <note place="top">
+               <hi rend="bold"><g type="cross"/><g type="cross"/></hi>
+               </note>
+            </head>
+            <pb n="1v"
+                facs="http://ipap.csad.ox.ac.uk/GP/300dpi/1-16.jpg"/>
+            <head>
+               <note place="top">
+               <hi rend="bold"><g type="cross"/><g type="cross"/></hi>
+               </note>
+            </head>
+
+         <div type="textpart" subtype="chapter" n="Pass.">
+         <div type="textpart" subtype="verse" n="1"><p>
+
+            <lb "1v1"/>
+
+            τ<unclear reason="adhesion" cert="high"><note>inverted ων partly offset from <ref target="#2r1">above @2r1</ref></note>
+            ων</unclear>  
+
+			   δε Ιουδαιων
+                  
+            ουδειϲ ενιψατο ταϲ χειραϲ ουδε <lb n="1v2"/> ετ
+
+		         <damage type="ink_bleed" subtype="offset"><desc>inverted αι offset from <ref target="#2r1">και @2r1</ref></desc></damage>
+
+			   Η<unclear reason="adhesion" cert="high"><desc>inverted Η partly offset at <ref target="#2r1">@2r1</ref></desc>ρωδηϲ 
+
+               <damage type="ink_bleed" subtype="offset"><desc>inverted ν partly offset final letter from <ref target="#2r2">ενεπτυον @2r2</ref></desc></damage>
+
+               <choice>
+                  <sic resp="#Hilgenfeld #KrausNicklas">
+            ουδε τιϲ <damage type="gap">τ</damage>ων</sic>
+                  <sic resp="#Zahn #Vaganay #Mara">
+               ουδε [ε]ιϲ <damage type="gap">τ</damage>ων</sic>
+                  <sic resp="#Harnack #Robinson #Foster">
+               ουδ ειϲ <damage type="gap">τ</damage>ων</sic>
+                  <sic resp="#Bruston">ουδε ετερων</sic>
+               </choice>
+               
+               <damage type="ink_bleed" subtype="offset"><desc>inverted υτο offset from<ref target="#2r1">αυτου @2r1</ref></desc></damage>
+            
+            κριτων αυτου 
+         
+            κ<gap reason="damage" quantity="1" unit="character"><supplied>α</supplied></gap>ι 
+
+			      <gap reason="damage" quantity="2" unit="character"><supplied>
+            μη</supplied></gap> 
+
+                <choice>
+                  <expan>
+            βουληθεντω<supplied reason="abbreviation">ν</supplied></expan>
+	               <hi rend="overline">ω</hi></choice>
+                  
+            <lb n="1v3"/>
+
+		      νιψαϲθαι 
+         
+            ανεϲ<gap reason="damage" quantity="1" unit="character"/>τ</gap>η 
+
+               <choice>
+                  <sic>
+            Πειλατηϲ</sic>
+                  <corr resp="#Mara #KrausNicklas #Foster">Πειλατοϲ</corr>
+               </choice>
+
+	      </p></div>
+	      <div type="textpart" subtype="verse" n="2"><p>
+
+            και τοτε κελευει Ηρωδηϲ
+            
+             <lb n="1v4"/>
+
+			   ο 
+               <damage type="ink_bleed" subtype="offset"><desc>above ο inverted ω from <ref target="#2r2">καλαμω @2r2</ref></desc></damage>
+            βαϲιλευϲ 
+
+		      παρ<gap reason="damage">
+				    <supplied resp="#Vaganay #KrausNicklas #Foster">
+            αλη</supplied>
+   				 <supplied resp="#Lejay #Manchot #Mara">
+            απη</supplied></gap>
+            μφθηναι 
+            
+            τον 
+ 
+               <choice>
+                  <expan>κυριον</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">    
+            κν</hi></abbr></choice>
+
+			   ειπων αυτοιϲ οτι <lb n="1v5"/>
+
+			      <q who="#Pilate">
+
+               <damage type="ink_bleed" subtype="offset"><desc>above οϲα inverted ντεϲ from <ref target="#2r3">λεγοντεϲ @2r3</ref></desc></damage>
+
+            οϲα εκελευϲα 
+            
+               <choice>
+                  <sic>
+            ϋμιν</sic>
+                  <corr resp="#Mara #KrausNicklas #Foster">ὑμιν</corr>
+               </choice>  
+            
+            ποιηϲαι αυτω ποιηϲατε
+            
+               </q>
+         </p></div>
+	      <div type="textpart" subtype="verse" n="3"><p>
+
+               <choice>
+                  <sic resp="#Mara #Foster">
+            ιϲτηκει</sic>
+                  <corr resp="#KrausNicklas">ειϲτηκει</corr>
+               </choice> 
+            
+            δε <lb n="1v6"/>
+
+            <note place="margin_left" type="ink_bleed" subtype="offset"><desc>in left margin inverted κον from <ref target="#2r4">ηνεγκον @2r4</ref></desc></damage>
+         
+		      εκ<damage type="ink_bleed" subtype="offset"><desc>over εκ in εκει inverted εγ from <ref target="#2r4">ηνεγκον @2r4</ref></desc></damage>ει 
+            
+               <choice>
+                  <sic>
+            Ϊωϲηφ</sic>
+                  <corr resp="#Mara #KrausNicklas #Foster">Ἰωϲηφ</corr>
+               </choice>
+             
+             ο φιλοϲ Πειλατου και του 
+
+               <choice>
+                  <expan>κυριου</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">
+            κυ</hi></abbr></choice>
+
+		      και ειδωϲ οτι <lb n="1v7"/>
+
+		         <note place="margin_left" type="ink_bleed" subtype="offset"><desc>in left margin inverted νκν with overline from <ref target="#2r5">τον κν @2r5</ref></desc></note>
+
+		      ϲτα<damage type="ink_bleed" subtype="offset"><desc>inverted ντο from <ref target="#2r5">αυτων τον @2r5</ref></desc></damage>υριϲκειν 
+            
+            αυτον μελλουϲιν ηλθεν προϲ τον Πειλατον <lb n="1v8"/>
+
+			      <damage type="ink_bleed" subtype="offset"><desc>inverted ρθω from <ref target="#2r6">ωρθωϲαν @2r6</ref></desc></damage>		
+
+		      και 
+		
+			      <damage type="ink_bleed" subtype="offset"><desc>inverted εω from <ref target="#2r6">οτε ωρθωϲαν @2r6</ref></desc></damage>	
+
+		      ητηϲε το ϲωμα του 
+
+               <choice>
+                  <expan>κυριου</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">
+		      κυ</hi></abbr></choice>
+
+		      προϲ ταφην 
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="4"><p>
+  
+            και ο Πειλατοϲ 
+
+            πεμ<lb n="1v9" break="no"/>
+            
+               <damage type="ink_bleed" subtype="offset"><desc>inverted ϲ from <ref target="#2r7">βαϲιλευϲ @2r7</ref></desc></damage>
+		      ψαϲ 
+            
+            π<damage type="ink_bleed" subtype="offset"><desc>inverted β from <ref target="#2r7">βαϲιλευϲ @2r7</ref></desc></damage>ροϲ 
+            
+            Ηρωδην ητηϲεν αυτου το ϲωμα 
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="5"><p>
+
+            και ο 
+            
+            Ηρωδηϲ
+            
+             <lb n="1v10"/>          
+
+            εφη 
+
+               <q who="#HerodAntipas">
+
+            αδελφε Πειλατε ει και μη τιϲ αυτον ητηκει ημειϲ <lb n="1v11"/>
+
+            αυτον εθαπτομεν επει και ϲαββατον επιφωϲκει γεγρα<lb n="1v12" break="no"/>
+
+            πται γαρ εν τω νομω ηλιον μη δυναι επι πεφονευμενω <lb n="1v13"/>
+
+            και παρεδωκεν αυτον τω λαω προ μιαϲ των 
+            
+            αζυμω<hi place="above">ν<g type="dot"/></hi>            
+            
+            <lb n="1v14"/>
+
+            τηϲ εορτηϲ αυτων
+               
+               </q>
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="6"><p>
+
+            οι δε λαβοντεϲ τον 
+            
+               <choice>
+                  <expan>κυριον</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">
+            κν</hi></abbr></choice>
+               
+            ωθουν 
+
+               <choice>
+                  <sic resp="#Foster">
+            αυτων</sic>
+                  <corr resp="#Mara #KrausNicklas">αυτον</corr>
+            </choice>
+
+            <lb n="1v15"/>
+
+            τρεχοντεϲ και ελεγον 
+            
+               <q who="accusers"> 
+            
+            ϲυρωμεν τον 
+            
+               <choice>
+                  <sic>
+            ϋιον</sic>
+                  <corr resp="#Mara #KrausNicklas #Foster">ὑιον</corr>
+               </choice> 
+            
+            του 
+            
+               <choice>
+                  <expan>θεου</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">    
+            θυ</hi></abbr></choice>           
+            
+            εξουϲιαν <lb n="1v16"/>
+
+            αυτου εϲχηκοτεϲ 
+
+               </q>
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="7"><p>
+
+            και πορφυραν αυτον 
+            
+               <choice>
+                  <sic resp="#Foster">
+            περιεβαλλον</sic>
+                  <corr resp="#Mara #KrausNicklas">περιεβαλον</corr>
+               </choice> 
+               
+            και εκα<lb n="1v17" break="no"/>
+
+            θιϲαν αυτον επι καθεδραν κριϲεωϲ λεγοντεϲ 
+            
+               <q who="accusers">
+
+            δικαιωϲ κρινε <lb n="1v18"/>
+
+            βαϲιλευ του Ιϲραηλ 
+
+               </q>
+         
+         </p></div>
+         <div type="textpart" subtype="verse" n="8"><p>
+
+            και τιϲ αυτων ενεγκων ϲτεφανον <lb n="1v19"/>
+
+            ακανθινον εθηκεν επι τηϲ κεφαληϲ του κυριου
+
+         </p></div>
+            <pb n="2r"
+                facs="http://ipap.csad.ox.ac.uk/GP/300dpi/1-16.jpg"/>
+            <head>
+               <note place="top">
+                  <damage type="ink_bleed" subtype="offset">
+                     <hi rend="bold"><g type="cross"/><g type="cross"/></hi>
+                  </damage>
+               </note>
+            </head>
+
+         <div type="textpart" subtype="verse" n="9"><p>
+
+            <damage type="ink_bleed" subtype="offset"><desc>inverted line from <ref target="#1v1">@1v1</ref></desc></damage>
+
+            <lb n="2r1"/>
+
+            και ετεροι εϲτωτεϲ ενεπτυον αυτου 
+            
+               <choice>
+                  <expan>
+            ταιϲ</expan>
+                  <abbr type="suspension">
+                     <hi rend="superscript">ϲ</hi>                      
+                  </abbr>
+               </choice>
+            
+            ο<damage type="ink_bleed" subtype="offset"><desc>above ο inverted ϲ from final letter of <ref target="#1v2">Ηρωδηϲ</ref></desc></damage>ψεϲι
+
+            και <lb n="2r2"/>
+
+            αλλοι ταϲ ϲιαγοναϲ αυτου εραπιϲαν ετεροι καλαμω
+               
+               <damage type="ink_bleed" subtype="offset"><desc>below ω in καλαμω inverted ο from <ref target="#1v4">ο before βαϲιλευϲ</ref></desc></damage>
+               
+            <lb n="2r3"/>
+
+            ενυϲϲον αυτον και τινεϲ αυτον εμαϲτιζον λεγοντεϲ <lb n="2r4"/>
+
+            ταυτη τη τιμη τιμηϲωμεν τον 
+            
+               <choice>
+                  <sic>
+            ϋιον</sic>
+                  <corr resp="#Mara #KrausNicklas #Foster">ὑιον</corr>
+               </choice> 
+
+            του 
+            
+                <choice>
+                  <expan>θεου</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">    
+            θυ</hi></abbr></choice>      
+            
+	      </p></div>
+         <div type="textpart" subtype="verse" n="10"><p>
+
+            και ηνεγκον         
+            	
+               <damage type="ink_bleed" subtype="offset"><desc>εγκον overlapped by inverted εκει from <ref target="#1v6">εκει @1v6</ref></desc></damage> 
+            
+            <lb n="2r5"/>
+
+            δυο κακουργουϲ και εϲταυρωϲαν ανα μεϲον αυτων τον 
+            
+               <choice>
+                  <expan>κυριον</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">
+            κν</hi></abbr></choice> <lb n="2r6"/>
+
+            αυτοϲ δε εϲιωπα ωϲ μηδεν πονον εχων
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="11"><p>
+
+            και 
+            
+               <choice>
+                  <sic resp="#KrausNicklas #Foster"></sic>
+            οτε</sic>   
+                  <corr resp="#Mara">οτι ε</corr>
+                  <note>Mara appends ε to εωρθωϲαν</note>
+               </choice>
+		
+			      <damage type="ink_bleed" subtype="offset"><desc>οτε ω overlapped by inverted και η from <ref target="#1v8">και ητηϲε @1v8</ref></desc></damage>	
+
+            ωρθω<lb n="2r7" break="no"/>
+
+            ϲαν τον 
+
+                <choice>
+                  <sic>
+            ϲταυρων</sic>
+                  <corr resp="#Mara #Foster #KrausNicklas">ϲταυρον</corr>
+               </choice> 
+
+            επεγραψαν οτι ουτοϲ εϲτιν ο 
+            
+               <choice>
+                  <sic resp="#Mara #Foster">
+            βαϲιλευϲ</sic>
+                  <corr resp="#KrausNicklas">βαϲιλε[υ]ϲ</corr>
+               </choice> 
+            
+               <damage type="ink_bleed" subtype="offset"><desc>ο βαϲιλευϲ overlapped by inverted ψαϲ προϲ from <ref target="#1v9">ψαϲ προϲ @1v9</ref></desc></damage>
+
+            <lb n="2r8"/>
+
+            του Ιϲραηλ
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="12"><p>
+
+            και τεθεικοτεϲ τα ενδυματα εμπροϲθεν <lb n="2r9"/>
+
+            αυτου διεμεριϲαντο και λαχμον εβαλον επ αυτοιϲ 
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="13"><p>
+
+            <lb n="2r10"/>
+
+            ειϲ δε τιϲ των κακουργων εκεινων 
+            
+               <choice>
+                  <sic resp="#Foster">
+            ωνειδηϲεν</sic>
+                  <corr resp="#Mara #KrausNicklas">ωνειδιϲεν</corr>
+               </choice>             
+            
+            <lb n="2r11"/>
+
+            αυτουϲ λεγων ημειϲ δια τα κακα α εποιηϲαμεν ουτω <lb n="2r12"/>
+
+            πεπονθαμεν 
+            
+               <choice>
+                  <sic resp="#Foster">
+            ουτωϲ</sic>
+                  <corr resp="#Mara #KrausNicklas">ουτοϲ</corr>
+               </choice>  
+
+            δε ϲωτηρ γενομενοϲ των 
+
+               <choice>
+                  <expan>ανθρωπων</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">
+		      ανων</hi></abbr></choice>
+
+            <lb n="2r13"/>
+
+            τι ηδικηϲεν 
+            
+               <choice>
+                  <sic>
+            ϋμαϲ</sic>
+                  <corr resp="#Foster #Mara #KrausNicklas">ὑμαϲ</corr>
+               </choice>              
+            
+         </p></div>
+         <div type="textpart" subtype="verse" n="14"><p>
+
+            και αγανακτηϲαντεϲ επ αυτω εκε<lb n="2r14" break="no"/>
+
+            λευϲαν ινα μη ϲκελοκοπηθη οπωϲ βαϲανιζομενοϲ <lb n="2r15"/>
+
+               <choice>
+                  <sic resp="#KrausNicklas #Foster">
+            αποθανοι</sic>
+                  <corr resp="#Gebhardt #Harnack #Preuschen #Mara">αποθανη</corr>
+               </choice> 
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="15"><p>
+
+            ην δε μεϲημβρια και ϲκοτοϲ  
+            
+               <choice>
+                  <sic resp="#KrausNicklas #Mara">
+            κατεϲχε</sic>
+                  <corr resp="#Foster">κατεϲχε(ν)</corr>
+               </choice> 
+
+            <lb n="2r16"/>
+
+            παϲαν την Ιουδαιαν και εθορυβουντο και ηγωνιων <lb n="2r17"/>
+
+            μηποτε ο ηλιοϲ εδυ επειδη ετι εζη γεγραπται αυτοιϲ <lb n="2r18"/>
+
+            ηλιον μη δυναι επι πεφωνευμενω
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="16"><p>
+
+            και τιϲ αυτων
+
+            <pb n="2v"
+                facs="http://ipap.csad.ox.ac.uk/GP/300dpi/16-25.jpg"/>
+            <head>
+               <note place="top">
+                  <damage type="ink_bleed" subtype="offset">
+                     <hi rend="bold"><g type="cross"/><g type="cross"/></hi>
+                  </damage>
+               </note>
+            </head> 
+
+            <lb n="2v1"/>
+
+            ειπεν ποτιϲατε αυτον χολην μετα οξουϲ και κερα<lb n="2v2" break="no"/>
+
+            ϲαντεϲ εποτιϲαν
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="17"><p>
+
+            και επληρωϲαν παντα και ετε<lb n="2v3" break="no"/>
+
+               <note place="margin_left" type="ink_bleed" subtype="offset"><desc>in left margin inverted τω with overline from <ref target="#3r3">των @3r3</ref></desc></note>
+
+            λειωϲαν
+           
+            κατα τηϲ κεφαληϲ αυτων τα αμαρτημα<lb n="2v4" break="no"/>
+
+               <note place="margin_left" type="ink_bleed" subtype="offset"><desc>in left margin inverted δια from <ref target="#3r4">κατα δια @3r4</ref></desc></note>
+
+            τα<damage type="ink_bleed" subtype="offset"><desc>under τα inverted ατα from <ref target="#3r4">κατα @3r4</ref></desc></note>
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="18"><p>
+
+            περιηρχοντο δε πολλοι μετα λυχνων νομιζον<lb n="2v5" break="no"/>
+
+            τεϲ οτι νυξ εϲτιν 
+            
+               <choice>
+                  <sic resp="#Mara #Foster">
+            επεϲαντο</sic>
+                  <corr resp="#KrausNicklas">επεϲαν τε</corr>
+               </choice> 
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="19"><p>
+
+            και ο 
+            
+               <choice>
+                  <expan>κυριοϲ</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">
+		      κϲ</hi></abbr></choice>
+            
+            ανεβοηϲε <lb n="2v6"/> 
+
+               <note place="margin_left" type="ink_bleed" subtype="offset"><desc>in left margin and between lines 5 and 6 inverted αυτων from <ref target="#3r5">αυτων @3r5</ref></desc></note>
+                        
+            λεγων η δυναμιϲ μου η δυναμιϲ κατελειψαϲ με <lb n="2v7"/>
+            
+               <note place="margin_left" type="ink_bleed" subtype="offset"><desc>in left margin and between lines 5 and 6 inverted ηϲαι from <ref target="#3r6">εμπρηϲαι @3r6</ref></desc></note>
+            
+            κ<damage type="ink_bleed" subtype="offset"><desc>around κ inverted πρ from <ref target="#3r6">εμπρηϲαι @3r6</ref></desc></note></note>αι 
+
+            ειπων ανεληφθη
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="20"><p>
+
+            και 
+            
+                <choice>
+                  <sic resp="#Foster">
+            αυτοϲ ωραϲ</sic>
+                  <corr resp="#Mara #KrausNicklas">αυτηϲ ωραϲ</corr>
+               </choice>            
+            
+            διεραγη το <lb n="2v8"/>
+
+              <note place="margin_left" type="ink_bleed" subtype="offset"><desc>in left margin inverted μεθα from <ref target="#3r7">εκαθεζομεθα @3r7</ref></desc></note>
+
+            καταπεταϲμα του ναου τηϲ Ιερουϲαλημ ειϲ δυο 
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="21"><p>
+
+            <lb n="2v9"/>
+
+            και τοτε απεϲπαϲαν τουϲ ηλουϲ απο των  
+                       
+                <choice>
+                  <expan>
+            χειρω<supplied reason="abbreviation">ν</supplied></expan>
+	               <hi rend="overline">ω</hi></choice> 
+
+            <lb n="2v10"/>
+
+            του  
+            
+               <choice>
+                  <expan>κυριου</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">
+		      κυ</hi></abbr></choice>
+            
+            και εθηκαν αυτον επι τηϲ γηϲ και η γη πα<lb n="2v11" break="no"/>
+
+            ϲα εϲειϲθη και φοβοϲ μεγαϲ 
+            
+               <choice>
+                  <sic reason="unclear">εγενετε</sic>
+                  <corr>
+            εγενετο</corr></choice>
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="22"><p>
+
+            τοτε ηλιοϲ <lb n="2v12"/>
+            
+            ελαμψε και ευρεθη ωρα ενατη
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="23"><p>
+
+            εχαρηϲαν δε <lb n="2v13"/>
+            
+            οι Ιουδαιοι και δεδωκαϲιν τω Ιωϲηφ το ϲωμα <lb n="2v14"/>
+            
+            αυτου 
+             
+                <choice>
+                  <sic>
+            ινι</sic>
+                  <corr resp="#Foster #Mara #KrausNicklas">ινα</corr>
+               </choice>              
+            
+            αυτο θαψη επειδη θεαϲαμενοϲ ην οϲ<lb n="2v15" break="no"/>
+            
+            α αγαθα εποιηϲεν
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="24"><p>
+
+            λαβων δε τον κυριον ελουϲε <lb n="2v16"/>
+
+            και ειληϲε 
+            
+                <choice>
+                  <sic resp="#Foster">
+            ϲινδονιν</sic>
+                  <corr resp="#Mara #KrausNicklas">ϲινδονι</corr>
+               </choice>  
+
+            και ειϲηγαγεν ειϲ ιδιον <lb n="2v17"/>
+            
+            ταφον καλουμενον 
+            
+            <hi place="above">κ<g type="dot"/></hi>ηπον 
+            
+            Ιωϲηφ
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="25"><p>
+
+            τοτε οι Ιουδαιοι <lb n="2v18"/>
+            
+            και οι πρεϲβυτεροι και οι ιερειϲ γνοντεϲ οιον 
+
+            <pb n="3r"
+                facs="http://ipap.csad.ox.ac.uk/GP/300dpi/25-30.jpg"/>
+
+            <lb n="3v1"/>
+            
+            κακον εαυτοιϲ εποιηϲαν ηρξαντο κοπτεϲθαι <lb n="3r2"/>
+             
+            και λεγειν ουαι ταιϲ αμαρτιαιϲ ημων ηγγιϲεν <lb n="3r3"/>
+
+            η κριϲιϲ και το τελοϲ Ιερουϲαλημ
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="26"><p>
+
+            εγω δε μετα 
+
+                <choice>
+                  <expan>
+            τω<supplied reason="abbreviation">ν</supplied></expan>
+	               <hi rend="overline">ω</hi></choice>            
+            
+            <lb n="3r4"/>
+
+            εταιρων μου ελυπουμεν και τετρωμενοι κατα δια<lb n="3r5" break="no"/>
+
+            νοιαν εκρυβομεθα εζητουμεθα γαρ 
+            
+               <choice>
+                  <sic>
+            ϋπ</sic>
+                  <corr resp="#Foster #Mara #KrausNicklas">υπ</corr>
+               </choice>
+            
+            αυτων <lb n="3r6"/>
+            
+            ωϲ κακουργοι και ωϲ τον ναον θελοντεϲ εμπρηϲαι
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="27"><p>
+
+            <lb n="3r7"/>
+
+            επι δε τουτοιϲ παϲιν ενηϲτευομεν και εκαθεζομεθα <lb n="3r8"/>
+                        
+            πενθουντεϲ και κλαιοντεϲ νυκτοϲ και ημεραϲ <lb n="3r9"/>
+            
+            εωϲ του ϲαββατου
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="28"><p>
+
+            ϲυναχθεντεϲ δε οι γραμματειϲ <lb n="3r10"/>
+
+            και φαριϲαιοι και πρεϲβυτεροι προϲ αλληλουϲ ακου<lb n="3r11" break="no"/>
+
+            ϲαντεϲ οτι ο λαοϲ απαϲ γογγυζει και κοπτεται <lb n="3r12"/>
+            
+            τα ϲτηθη λεγοντεϲ οτι ει τω θανατω αυτου ταυτα τα <lb n="3r13"/>
+            
+            μεγιϲτα ϲημεια γεγονεν ιδετε οτι ποϲον δικαιοϲ <lb n="3r14"/>
+            
+            εϲτιν
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="29"><p>
+
+            εφοβηθηϲαν οι πρεϲβυτεροι και ηλθον <lb n="3r15"/>
+
+               <note place="margin_left" type="ink_bleed" subtype="offset"><desc>in left margin inverted α with ν overline from <ref target="#3v15">φρουραν @3v15</ref></desc></note>
+            
+            προϲ<damage type="ink_bleed" subtype="offset"><desc>inverted φρουρ from<ref target="#3v15">φρουραν @3v15</ref></desc></damage>         
+            
+            Πειλατον δεομενοι αυτου και λεγοντεϲ 
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="30"><p>
+
+            <lb n="3r16"/>
+            
+            παραδοϲ ημιν ϲτρατιωταϲ ινα 
+
+               <choice>
+                  <sic resp="#Foster">
+            φυλαξω</sic>
+                  <corr resp="#Mara #KrausNicklas">φυλαξωμεν</corr>
+               </choice>
+            
+            το μνημα <lb n="3r17"/>
+            
+            αυτου επι τρειϲ 
+            
+               <choice>
+                  <sic>
+            ημ<gap reason="damage" unit="character" extent="3"/>ϲ</sic>
+                  <corr resp="#Foster #Mara">
+                     <supplied reason="damage">εραϲ</supplied>
+                  </corr>
+                  <corr resp="#KrausNicklas">
+                     <supplied reason="damage">
+            ερα</supplied>ϲ
+                  </corr>
+               </choice>
+            
+            μηποτε ελθοντεϲ 
+            
+         </p><pb n="3v"
+               facs="http://ipap.csad.ox.ac.uk/GP/300dpi/30-36.jpg"/>
+         <p>            
+
+            <lb n="3v1"/>
+
+            οι μαθηται αυτου κλεψωϲιν αυτον και υπολαβη <lb n="3v2"/>
+
+            ο λαοϲ οτι εκ νεκρων ανεϲτη και ποιηϲωϲιν <lb n="3v3"/>
+
+            ημιν κακα
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="31"><p>
+
+            ο δε Πειλατοϲ παραδεδωκεν αυτοιϲ <lb n="3v4"/>
+
+            πετρωνιον τον κεντυριωνα μετα 
+            
+               <choice>
+                  <sic>
+            ϲτρατιωτον</sic>
+                  <corr resp="#Mara #KrausNicklas #Foster">ϲτρατιωτων</corr>
+               </choice>
+            
+            <lb n="3v5"/>
+            
+            φυλαϲϲειν τον ταφον και ϲυν αυτοιϲ ηλθον <lb n="3v6"/>
+            
+            πρεϲβυτεροι και γραμματειϲ επι το μνημα
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="32"><p>
+
+            και <lb n="3v7"/>
+            
+            κυλιϲαντεϲ λιθον μεγαν κατα του κεντυριωνοϲ <lb n="3v8"/>
+            
+            και των ϲτρατιωτων ομου παντεϲ οι οντεϲ εκει <lb n="3v9"/>
+            
+            εθηκαν επι τη θυρα του μνηματοϲ
+
+        </p></div>
+         <div type="textpart" subtype="verse" n="33"><p>
+
+            και            
+            
+               <choice>
+                  <sic resp="#Foster">
+            επεχρειϲαν</sic>
+                  <corr resp="#Mara #KrausNicklas">επεχριϲαν</corr>
+               </choice>
+
+            <lb n="3v10"/>
+            
+            επτα ϲφραγιδαϲ και ϲκηνην εκει πηξαντεϲ <lb n="3v11"/>
+            
+            εφυλαξαν
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="34"><p>
+
+            πρωιαϲ δε επιφωϲκοντοϲ του ϲαβ<lb n="3v12" break="no"/>
+            
+            βατου ηλθεν οχλοϲ απο Ιερουϲαλημ και τηϲ περι<lb n="3v13" break="no"/>
+            
+            χωρου ινα ιδωϲι το μνημειον 
+            
+               <choice>
+                  <expan>
+            εϲφραγιϲμενο<supplied reason="abbreviation">ν</supplied></expan>
+	               <hi rend="overline">ο</hi></choice>
+
+        </p></div>
+         <div type="textpart" subtype="verse" n="35"><p>
+
+            <lb n="3v14"/>
+
+            τη δε νυκτι 
+            
+              <choice>
+                  <sic>
+            ηι</sic>
+                  <corr resp="#Foster #Mara #KrausNicklas">ᾖ</corr>
+               </choice>
+            
+            επεφωϲκεν η κυριακη φυλαϲϲον<lb n="3v15" break="no"/>
+            
+            των των ϲτρατιωτων ανα δυο δυο κατα 
+             
+               <choice>
+                  <expan>
+            φρουρα<supplied reason="abbreviation">ν</supplied></expan>
+	               <hi rend="overline">α</hi></choice>            
+            
+            <lb n="3v16"/>
+
+            μεγαλη φωνη εγενετο εν τω ουρανω
+
+        </p></div>
+         <div type="textpart" subtype="verse" n="36"><p>
+
+            και 
+            
+               <choice>
+                  <expan>
+            ειδο<supplied reason="abbreviation">ν</supplied></expan>
+	               <hi rend="overline">ο</hi></choice>             
+            
+            <lb n="3v17"/>
+            
+              <choice>
+                  <sic resp="#Mara">
+            ανοιχθενταϲ</sic>
+                  <corr resp="#Foster #KrausNicklas">ανοιχθεντεϲ</corr>
+               </choice>
+
+            τουϲ 
+            
+            ουρα<gap type="damage" quantity="1" unit="character">ν</gap>ουϲ 
+            
+            και δυο ανδραϲ 
+
+         </p><pb n="4r"
+               facs="http://ipap.csad.ox.ac.uk/GP/300dpi/36-43.jpg"/>
+         <p>  
+            
+            <lb n="4r1"/>
+            
+            κατελθονταϲ εκειθε πολυ φεγγοϲ εχονταϲ <lb n="4r2"/>
+
+            και εγγιϲανταϲ τω ταφω
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="37"><p>
+
+            ο δε 
+             
+               <choice>
+                  <sic resp="#Foster">
+            λειθοϲ</sic>
+                  <corr resp="#Mara #KrausNicklas">λιθοϲ</corr>
+               </choice>            
+            
+            εκεινοϲ <lb n="4r3"/>
+
+            ο βεβλημενοϲ επι τη θυρα αφ εαυτου κυλιϲθειϲ <lb n="4r4"/>
+
+            επεχωρηϲε παρα μεροϲ και ο ταφοϲ 
+
+               <choice>
+                  <sic resp="#Foster">
+            ενοιγη</sic>
+                  <corr resp="#Mara #KrausNicklas">ηνοιγη</corr>
+               </choice> 
+            
+            <lb n="4r5"/>
+
+            και αμφοτεροι οι νεανιϲκοι ειϲηλθον
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="38"><p>
+
+            ιδοντεϲ <lb n="4r6"/>
+
+            ουν οι ϲτρατιωται εκεινοι εξυπνιϲαν τον κεντυ<lb n="4r7" break="no"/>
+
+            ριωνα και τουϲ πρεϲβυτερουϲ παρηϲαν γαρ και αυτοι 
+            
+            <lb n="4r8"/>
+            
+            φυλαϲϲοντεϲ
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="39"><p>
+
+            και εξηγουμενων αυτων α ειδον <lb n="4r9"/>
+            
+            παλιν 
+
+                <choice>
+                  <sic resp="#Foster">
+            οραϲιν</sic>
+                  <corr resp="#Mara #KrausNicklas">ορωϲιν</corr>
+               </choice>
+
+            εξελθοντοϲ απο του ταφου τρειϲ <lb n="4r10"/>
+            
+                 <choice>
+                  <sic resp="#Foster">
+            ανδρεϲ</sic>
+                  <corr resp="#Mara #KrausNicklas">ανδραϲ</corr>
+               </choice>           
+            
+            και τουϲ δυο τον ενα υπορθουνταϲ και <lb n="4r11"/>
+            
+            ϲταυρον ακολουθουντα αυτοιϲ
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="40"><p>
+
+            και των μεν δυο <lb n="4r12"/>
+            
+            την κεφαλην χωρουϲαν μεχρι του ουρανου <lb n="4r13"/>
+            
+            του δε 
+   
+                 <choice>
+                  <sic resp="#Foster">
+            χειρατωτουμενου</sic>
+                  <corr resp="#Mara #KrausNicklas">χειραγωγουμενου</corr>
+               </choice>    
+
+            υπ αυτων υπερβαινου<lb n="4r14" break="no"/>
+
+            ϲαν τουϲ ουρανουϲ
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="41"><p>
+
+            και 
+            
+                 <choice>
+                  <sic>
+            φωνη</sic>
+                  <corr resp="#Foster">φωνη[ϲ]</corr>
+                  <corr resp="#Mara #KrausNicklas">φωνηϲ</corr>
+               </choice>
+            
+            ηκουον εκ των <lb n="4r15"/>
+            
+            ουρανων λεγουϲηϲ εκηρυξαϲ τοιϲ 
+
+                 <choice>
+                  <sic>
+            κοινωμενοιϲ</sic>
+                  <corr resp="#Mara #KrausNicklas #Foster">κοιμωμενοιϲ</corr>
+               </choice>  
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="42"><p>
+
+           <lb n="4r16"/>
+            
+            και υπακοη ηκουετο απο του ϲταυρου 
+
+                 <choice>
+                  <sic>
+            τι ναι</sic>
+                  <corr resp="#Foster">[ο]τι ναι</corr>
+                  <corr resp="#Mara #KrausNicklas">οτι ναι</corr>
+               </choice>           
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="43"><p>
+
+            ϲυνε<lb n="4r17" break="no"/>
+
+            ϲκεπτοντο ουν αλληλοιϲ εκεινοι απελθειν 
+            
+         </p><pb n="4v"
+               facs="http://ipap.csad.ox.ac.uk/GP/300dpi/43-50.jpg"/>
+         <p> 
+
+            <lb n="4v1"/>
+
+            και ενφανιϲαι ταυτα τω Πειλατω.
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="44"><p>
+
+            και ετι διανοουμεν<lb n="4v2" break="no"/>
+
+            ων αυτων φαινονται παλιν ανοιχθεντεϲ οι ουρανοι <lb n="4v3"/>
+            
+            και 
+
+               <choice>
+                  <expan>ανθρωποϲ</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">
+		      ανοϲ</hi></abbr></choice>
+           
+            τιϲ κατελθον και ειϲελθων ειϲ το μνημα 
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="45"><p>
+
+            <lb n="4v4"/>
+            
+            ταυτα ιδοντεϲ οι περι τον κεντυριωνα νυκτοϲ εϲπευϲαν <lb n="4v5"/>
+            
+            προϲ Πειλατον αφεντεϲ τον ταφον ον εφυλαϲϲον και <lb n="4v6"/>
+            
+            εξηγηϲαντο παντα απερ ειδον αγωνιωντεϲ μεγαλωϲ <lb n="4v7"/>
+            
+            και λεγοντεϲ αληθωϲ υιοϲ ην 
+            
+                <choice>
+                  <expan>θεου</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">    
+            θυ
+                  </hi>
+               </abbr></choice>  
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="46"><p>
+
+            αποκριθειϲ ο Πειλατοϲ <lb n="4v8"/>
+            
+            εφη εγω καθαρευω του αιματοϲ του υιου του 
+            
+                <choice>
+                  <expan>θεου</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">    
+            θυ
+                  </hi>
+               </abbr></choice>  
+            
+               <choice>
+                  <sic resp="Foster">
+            ημιν</sic>
+                  <corr resp="#Foster #Mara #KrausNicklas">ὑμιν</corr>
+               </choice> 
+
+            δε <lb n="4v9"/>
+
+            τουτο εδοξεν 
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="47"><p>
+
+            ειτα προϲελθοντεϲ παντεϲ εδεοντο αυτου <lb n="4v10"/>
+            
+            και περεκαλουν κελευϲαι τω κεντυριωνι και τοιϲ ϲτρατιω<lb n="4v11" break="no"/>
+
+            ταιϲ μηδεν ειπειν α ειδον 
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="48"><p>
+
+            ϲυμφερει γαρ φαϲιν ημιν <lb n="4v12"/>
+            
+            οφληϲαι μεγιϲτην αμαρτιαν εμπροϲθεν του θεου <lb n="4v13"/>
+            
+            και μη εμπεϲειν ειϲ χειραϲ του λαου των Ιουδαιων <lb n="4v14"/>
+
+            και λιθαϲθηναι 
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="49"><p>
+
+            εκελευϲεν ουν ο Πειλατοϲ των κεν<lb n="4v15" break="no"/>
+
+            τυριων και τοιϲ ϲτρατιωταιϲ μηδεν ειπειν
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="50"><p>
+
+               <choice>
+                  <sic resp="#Foster">
+            ορθου</sic>
+                  <corr resp="#Mara #KrausNicklas">ορθρου</corr>
+               </choice>              
+            
+            δε τηϲ κυριακηϲ Μαριαμ η Μαγδαλινη μαθητρια του 
+            
+               <choice>
+                  <expan>κυριου</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">
+		      κυ</hi></abbr></choice> 
+            
+            <lb n="4v16"/>
+
+            φοβουμενη δια τουϲ Ιουδαιουϲ επειδη εφλεγοντο 
+            
+         </p><pb n="5r"
+               facs="http://ipap.csad.ox.ac.uk/GP/300dpi/50-55.jpg"/>
+         <p> 
+
+            <lb n="5r1"/>
+
+            υπο τηϲ οργηϲ ουκ εποιηϲεν επι τω μνηματι του 
+            
+               <choice>
+                  <expan>κυριου</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">
+		      κυ</hi></abbr></choice> 
+            
+            <lb n="5r2"/>
+            
+            α ειωθεϲαν ποιειν αι γυναικεϲ επι τοιϲ αποθνηϲκουϲι <lb n="5r3"/>
+            
+            και τοιϲ αγαπωμενοιϲ αυταιϲ
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="51"><p>
+
+            λαβουϲα μεθ εαυτηϲ ταϲ φιλαϲ <lb n="5r4"/>
+            
+            ηλθε επι το μνημειον οπου ην τεθειϲ 
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="52"><p>
+
+            και εφοβουντο <lb n="5r5"/>
+
+            μη ιδωϲιν αυταϲ οι Ιουδαιοι και ελεγον ει και μη εν ε<lb n="5r6" break="no"/>
+
+            κεινη τη ημερα η εϲταυρωθη εδυνηθημεν κλαυϲαι <lb n="5r7"/>
+
+            και κοψεϲθαι και νυν επι του μνηματοϲ αυτου ποιηϲωμεν <lb n="5r8"/>
+
+            ταυτα
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="53"><p>
+
+            τιϲ δε αποκυλιϲει ημιν και τον λιθον τον τεθεντα <lb n="5r9"/>
+
+            επι τηϲ θυραϲ του μνημειου ινα ειϲελθουϲαι παρακαθεϲ<lb n="5r10" break="no"/>
+
+            θωμεν αυτω και ποιηϲωμεν τα οφιλομενα  
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="54"><p>
+
+            μεγαϲ γαρ <lb n="5r11"/>          
+            
+            ην ο λιθοϲ και φοβουμεθα μη τιϲ ημαϲ ιδη και ει μη δυ<lb n="5r12" break="no"/>
+
+            ναμεθα καν επι τηϲ θυραϲ βαλωμεν α φερομεν ειϲ <lb n="5r13"/>
+
+            μνημοϲυνην αυτου κλαυϲομεν και κοψομεθα εωϲ <lb n="5r14"/>
+
+            ελθωμεν ειϲ τον οικον ημων.
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="55"><p>
+
+            και απελθουϲαι ευρον <lb n="5r15"/>
+
+            τον ταφον ηνεωγμενον και προϲελθουϲαι παρεκυ<lb n="5r16" break="no"/>
+
+            ψαν εκει και ορωϲιν εκει τινα νεανιϲκον καθεζο<lb n="5r17" break="no"/>
+
+            μενον μεϲω του ταφου ωραιον και περιβεβλημενον 
+
+         </p><pb n="5v"
+               facs="http://ipap.csad.ox.ac.uk/GP/300dpi/55-59.jpg"/>
+         <p> 
+
+            <lb n="5v1"/>
+
+            ϲτολην λαμπροτατην οϲτιϲ εφη αυταιϲ
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="56"><p>
+
+            τι ηλθα<lb n="2" break="no"/>
+            
+            τε τινα ζητειτε μη τον ϲταυρωθεντα εκεινον <lb n="5v3"/>
+
+            ανεϲτη και απηλθεν ει δε μη πιϲτευετε παρακυ<lb n="5v4" break="no"/>
+
+            ψατε και ιδατε τον τοπον ενθα εκειτο οτι ουκ εϲτιν <lb n="5v5"/>
+
+            ανεϲτη γαρ και απηλθεν εκει οθεν απεϲταλη 
+ 
+         </p></div>
+         <div type="textpart" subtype="verse" n="57"><p>
+
+            <lb n="5v6"/>
+
+            τοτε αι γυναικεϲ φοβηθειϲαι εφυγον
+
+	      </p></div>
+         <div type="textpart" subtype="verse" n="58"><p>
+
+            ην δε τελευταια <lb n="5v7"/>
+
+            ημερα των αζυμων και πολλοι τινεϲ εξηρχοντο <lb n="5v8"/>
+
+            υποϲτρεφοντεϲ ειϲ τουϲ οικουϲ αυτων τηϲ εορτηϲ <lb n="5v9"/>
+
+            παυϲαμινηϲ
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="59"><p>
+
+            ημειϲ δε οι δωδεκα μαθηται του 
+            
+               <choice>
+                  <expan>κυριου</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">
+		      κυ</hi></abbr></choice> <lb n="5v10"/>
+
+            εκλαιομεν και ελυπουμεθα και εκαϲτοϲ λυπουμενοϲ <lb n="5v11"/>
+
+            δια το ϲυμβαν απηλλαγη ειϲ τον οικον αυτου
+
+         </p></div>
+         <div type="textpart" subtype="verse" n="60"><p>
+
+            εγω δε <lb n="5v12"/>
+
+            Ϲιμων Πετροϲ και Ανδρεαϲ ο αδελφοϲ μου λα<lb n="5v13" break="no"/>
+
+            βοντεϲ ημων τα λινα απηλθαμεν ειϲ την θαλ<lb n="5v14" break="no"/>
+
+            λαϲϲαν και ην ϲυν ημιν Λευειϲ ο του Αλφαιου ον 
+
+               <choice>
+                  <expan>κυριοϲ</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">
+		      κϲ</hi></abbr></choice>
+
+      <tail>
+         <note place="bottom">
+            <g type="cross"/><g type="space"/><hi rend="bold"><g type="cross"/></hi><g type="space"/><g type="cross"/>
+         </note>
+         <fw type="decoration" subtype="braid" place="bottom">
+            <desc>Decorative interwoven braid divides Evangelium Petri from First Enoch</desc>
+         </fw>
+</tail>
+         </div></div></div>
+      </body>
+   </text>
+</TEI>
