@@ -19,5 +19,5 @@ All datasets use UTF-8 encoding and decomposed Unicode characters.
 
 If you make use of any of this data in publications, code, or other projects, please cite as follows.
 
-> Bilby, Mark G. "TEI-XML Diplomatic Transcription of BAAM 0522." Kansas City, KS: Clavis Consulting, LLC, 2025.
+> Bilby, Mark G. "TEI-XML Diplomatic Transcription of the Evangelium Petri in BAAM 0522." Kansas City, KS: Clavis Consulting, LLC, 2025.
 
