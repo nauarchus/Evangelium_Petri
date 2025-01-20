@@ -235,8 +235,7 @@
          <div type="edition"
               xml:lang="grc"
               n="urn:cts:greekLit:tlg1371.tlg001.src-MsA">
-            <pb n="1r"
-                facs=""/>
+            <pb n="1r"/>
             <head>
                <note place="top">
                <hi rend="bold"><g type="cross"/><g type="cross"/></hi>
@@ -307,8 +306,7 @@
             
              <lb n="1v4"/>
 
-			   ο 
-               <damage type="ink_bleed" subtype="offset"><desc>above ο inverted ω from <ref target="#2r2">καλαμω @2r2</ref></desc></damage>
+			   ο<damage type="ink_bleed" subtype="offset"><desc>above ο inverted ω from <ref target="#2r2">καλαμω @2r2</ref></desc></damage>
             βαϲιλευϲ 
 
 		      παρ<gap reason="damage">
