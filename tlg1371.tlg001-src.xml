@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="la">Evangelium Petri</title>
+            <author>
+               <persName key="tlg1371">Pseudo-Peter</persName>
+            </author>
+            <respStmt>
+               <resp>collated by</resp>
+               <persName xml:id="MGB">Mark G. Bilby</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Critical edition</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Clavis Consulting, LLC (Kansas)</publisher>
+            <distributor>@nauarchus account on GitHub</distributor>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Available under a Creative Commons Attribution Non-Commercial ShareAlike 4.0 International License</licence>
+               <p>© 2025 Clavis Consulting, LLC (Kansas)</p>
+            </availability>
+            <date when="2025-01-29"></date>
+            <idno type="TLG">tlg1371.tlg001</idno>
+            <idno type="CANT">13</idno>
+            <idno type="BHG">1486x</idno>
+            <idno type="Pinakes-Oeuvre">16616</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+                <msIdentifier xml:id="A" corresp="SRCMS00001">
+                  <settlement ref="https://pleiades.stoa.org/places/727070">Alexandria</settlement>
+                  <repository ref="https://www.bibalex.org/antiquities/">Bibliotheca Alexandria Antiquities Museum (BAAM)</repository>
+                  <idno source="https://antiquities.bibalex.org/Collection/Detail.aspx?lang=en&amp;a=522">0522</idno>
+                </msIdentifier>
+            </msDesc>
+            <msDesc>
+                <msIdentifier xml:id="B" corresp="SRCMS00002">
+                  <settlement>Oxford</settlement>
+                  <repository ref="https://portal.sds.ox.ac.uk/articles/online_resource/P_Oxy_XLI_2949_frgments_of_an_Apocryphal_Gospel_/21166660">Sackler Library</repository>
+                  <idno source="https://www.trismegistos.org/text/63897">P.Oxy. 41 2949</idno>
+               </msIdentifier>
+            </msDesc>
+            <listPerson>
+                <person xml:id="Bilby">
+                  <persName>Mark G. Bilby</persName>
+               </person>
+               <person xml:id="Bruston">
+                  <persName>Charles Bruston</persName>
+               </person>
+               <person xml:id="Coles">
+                  <persName>Robert A. Coles</persName>
+               </person>
+               <person xml:id="EhrmanPleše">
+                  <persName>Bart D. Ehrman and Zlatko Pleše</persName>
+               </person>
+               <person xml:id="Foster">
+                  <persName>Paul Foster</persName>
+               </person>
+               <person xml:id="Harnack">
+                  <persName>Adolf von Harnack</persName>
+               </person>
+               <person xml:id="Hilgenfeld">
+                  <persName>Adolf Hilgenfeld</persName>
+               </person>
+               <person xml:id="KrausNicklas">
+                  <persName>Thomas J. Kraus and Tobias Nicklas</persName>
+               </person>
+               <person xml:id="Lejay">
+                  <persName>Paul Lejay</persName>
+               </person>
+                <person xml:id="Lührmann">
+                  <persName>Dieter Lührmann</persName>
+               </person>           
+               <person xml:id="Manchot">
+                  <persName>Karl Manchot</persName>
+               </person>
+               <person xml:id="Mara">
+                  <persName>Maria Grazia Mara</persName>
+               </person>
+               <person xml:id="Robinson">
+                  <persName>J. Armitage Robinson</persName>
+               </person>
+               <person xml:id="Vaganay">
+                  <persName>Henri Vaganay</persName>
+               </person>
+               <person xml:id="vonGebhardt">
+                  <persName>Otto von Gebhardt</persName>
+               </person>
+               <person xml:id="Wayment">
+                  <persName>Thomas A. Wayment</persName>
+               </person>
+               <person xml:id="Zahn">
+                  <persName>Theodor Zahn</persName>
+               </person>
+         </listPerson>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <editorialDecl>
+            <interpretation>
+               <p>
+                  This file is encoded according to the guidelines of the Patristic Text Archive (PTA). See <ref target="https://pta.bbaw.de/project/encoding-guidelines">https://pta.bbaw.de/project/encoding-guidelines</ref> and <ref target="https://doi.org/10.5281/zenodo.3737666">https://doi.org/10.5281/zenodo.3737666</ref>.
+               </p>
+               <p xml:id="biblical-quotations"
+                  ana="not-annotated not-identified">
+                  Biblical quotations are not annotated and not referenced. References follow the scheme declared <ref target="#biblical">above</ref>.
+               </p>
+               <p xml:id="other-references"
+                  ana="not-annotated not-identified">
+                  Other references are not annotated and not referenced. References to texts in the PTA follow the scheme declared <ref target="#pta">above (pta)</ref>, references to texts available in the <ref target="https://scaife.perseus.org/">Perseus Digital Library</ref> follow the scheme declared <ref target="#perseus">above (perseus)</ref>. If the referenced text is not available in either repository, the reference for the referenced text is given in the attribute @source in the form “Authorabbrev_Workabbrev_Location”; ancient Greek authors should be referenced according to the lists of H. G. Liddell/R. Scott/H. S. Jones, A Greek - English Lexicon, Oxford 1968 (9th edition) and G. W. H. Lampe, A Patristic Greek Lexicon, Oxford 1987 (3d edition), for Latin ones the abbreviations of the Thesaurus Linguae Latinae (cf. Index librorum scriptorum inscriptionum ex quibus exempla afferuntur) should be used, with dots in the abbreviations deleted without replacement.
+               </p>
+               <p xml:id="persons"
+                  ana="not-annotated not-identified">
+                  Persons are not annotated and not referenced with IDs according to the <ref target="https://github.com/PatristicTextArchive/tipnr_data">TIPNR - Tyndale Individualised Proper Names with all References</ref> list for biblical persons and IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_persons.json">PTA persons index</ref> for all other persons.
+               </p>
+               <p xml:id="groups"
+                  ana="not-annotated not-identified">
+                  Groups of persons and organisations are not annotated and not referenced with IDs according to the IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_groups.json">PTA groups index</ref> for all other groups.
+               </p>
+               <p xml:id="places"
+                  ana="not-annotated not-identified">
+                  Places are not annotated and not referenced with <ref target="https://pleiades.stoa.org/">Pleiades Gazetteer</ref> IDs.
+               </p>
+            </interpretation>
+            <normalization>
+               <p>Diplomatic transcript without normalisation.</p>
+            </normalization>
+            <punctuation>
+               <p>Punctuation as in manuscript (as discerned by the transcriber).</p>
+            </punctuation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="comphistsem">
+               <bibl>
+                  Text Type Classification by <ref target="https://www.comphistsem.org/46.html">"Computational Historical Semantics</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="editionstatus">
+               <bibl>
+                  Scripture Restoration Collective Status of edition
+               </bibl>
+               <category xml:id="critical-edition">
+                  <catDesc>
+                     Critical edition in which the text-critical variants have been encoded.
+                  </catDesc>
+               </category>
+               <category xml:id="critical-edition-no-app">
+                  <catDesc>
+                     Critical edition in which the text-critical variants have not been encoded, e.g. because it is a retro-digitisation of a printed critical edition and for copyright reasons the apparatus cannot be included in the retro-digitisation.
+                  </catDesc>
+               </category>
+               <category xml:id="critical-edition-outdated">
+                  <catDesc>
+                     Edition which notes text-critical variants, but does not, for example, comprehensively include the manuscripts.
+                  </catDesc>
+               </category>
+               <category xml:id="pre-critical-edition">
+                  <catDesc>
+                     Pre-modern editions (e.g. editions in the Patrologia Graeca or Latina)
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="annotationstatus">
+               <bibl>
+                  Scripture Restoration Collective Status of annotation
+               </bibl>
+               <category xml:id="fully-annotated">
+                  <catDesc>
+                     All instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+                  </catDesc>
+               </category>
+               <category xml:id="partially-annotated">
+                  <catDesc>
+                     Some instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+                  </catDesc>
+               </category>
+               <category xml:id="not-annotated">
+                  <catDesc>
+                     No instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+                  </catDesc>
+               </category>
+               <category xml:id="fully-identified">
+                  <catDesc>
+                     All encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data.
+                  </catDesc>
+               </category>
+               <category xml:id="partially-identified">
+                  <catDesc>
+                     Some encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data
+                  </catDesc>
+               </category>
+               <category xml:id="not-identified">
+                  <catDesc>
+                     No encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data.
+                  </catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <schemaRef key="v3"
+                    url="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng"/>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore="0050" notAfter="0180"/>
+         </creation>
+         <textClass>
+            <keywords scheme="#comphistsem">
+               <term>Gospel</term>
+               <term>Apocrypha</term>
+            </keywords>
+         </textClass>
+
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2025-01-29" who="#MGB">Initial critical edition released based on collation of BAAM 0522 and P.Oxy. 2949</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              xml:lang="grc"
+              n="urn:cts:greekLit:tlg1371.tlg001.src">
+
+         <div type="textpart" subtype="chapter" n="Passio">
+         <div type="textpart" subtype="verse" n="1">
+
+            <p>τῶν δὲ Ἰουδαίων οὐδείς ἐνίψατο τὰς χεῖρας, 
+            οὐδὲ Ἡρῴδης οὐδὲ τις τῶν
+            
+            <app type="variant">
+                <lem>οὐδὲ τις τῶν</lem>
+                <rdg wit="#A #Hilgenfeld #KrausNicklas">οὐδὲ τις τῶν</rdg>
+                <rdg wit="#Zahn #Vaganay #Mara #EhrmanPleše">οὐδὲ εἷς τῶν</rdg>
+                <rdg wit="#Harnack #Robinson #Foster">οὐδ᾽ εἷς τῶν</rdg>
+                <rdg wit="#Bruston">οὐδὲ ἐτέρων</rdg>
+            </app>
+
+            κριτῶν αὐτοῦ. 
+            καὶ μὴ βουληθέντων νίψασθαι, 
+            ἀνέστη Πειλᾶτος.</p>
+
+	      </div>
+	      <div type="textpart" subtype="verse" n="2">
+
+            <p>καὶ τότε κελεύει Ἡρῴδης ὁ βασιλεὺς παραπεμφθῆναι
+            
+            <app type="variant">
+                <lem>παραπεμφθῆναι</lem>
+                <rdg wit="#Bouriant #vonGebhardt #Vaganay #KrausNicklas #Foster">παραλημφθῆναι</rdg>
+                <rdg wit="#Mara">παραπημφθῆναι</rdg>
+                <rdg wit="#EhrmanPleše">παραπεμφθῆναι</rdg>
+            </app>             
+            
+            τὸν κύριον, 
+            εἰπὼν αὐτοῖς ὅτι ὅσα ἐκέλευσα ὑμῖν ποιῆσαι αὐτῷ, 
+            ποιήσατε. </p>
+
+         </div>
+	      <div type="textpart" subtype="verse" n="3">
+
+            <p>ἱστήκει 
+               <app type="variant">
+                  <lem>ἱστήκει</lem>
+                  <rdg wit="#A #Mara #Foster">ἱστήκει</rdg>
+                  <rdg wit="#KrausNicklas">ἑἱστήκει</rdg>
+               </app> 
+
+            δὲ ἐκεῖ Ἰωσὴφ 
+               <app type="variant">
+                  <lem>Ἰωσὴφ</lem>
+                  <rdg wit="#A #B #Mara #KrausNicklas #Lührmann #Foster">Ἰωσὴφ</rdg>
+               </app>,             
+            
+            ὁ 
+               <app type="variant">
+                  <lem>ὁ</lem>
+                  <rdg wit="#A #B #Coles #Mara #KrausNicklas #Lührmann #Foster">ὁ</rdg>
+               </app> 
+
+            φίλος 
+               <app type="variant">
+                  <lem>φίλος</lem>
+                  <rdg wit="#A #B #Coles #Mara #KrausNicklas #Lührmann #Foster">φίλος</rdg>
+               </app>  
+
+            Πειλάτου 
+               <app type="variant">
+                  <lem>Πειλάτου</lem>
+                  <rdg wit="#A #B #Coles #Lührmann #Mara #KrausNicklas #Foster">Πειλάτου</rdg>
+                  <rdg wit="#B #Coles #Lührmann #KrausNicklas #Bilby" type="conjecture">Πειλάτου</rdg>
+               </app>            
+            
+            καὶ τοῦ κυρίου
+               <app type="variant">
+                  <lem></lem>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster">καὶ τοῦ κυρίου</rdg>
+               </app>,
+
+            καὶ εἰδὼς 
+               <app type="variant">
+                  <lem>εἰδὼς</lem>
+                  <rdg wit="#A #Coles #Mara #KrausNicklas #Foster">Πειλάτου</rdg>
+                  <rdg wit="#B" type="conjecture" resp="#Lührmann">εἰδὼς</rdg>
+               </app>
+
+            ὅτι ἐκέλευσεν
+               <app type="variant">
+                  <lem>ἐκέλευσεν</lem>
+                  <rdg wit="#B #Lührmann">ἐκέλευσεν</rdg>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster" type="omission"></rdg>
+                  </app>
+            
+            Ἡρῴδης
+               <app type="variant">
+                  <lem>Ἡρῴδης</lem>
+                  <rdg wit="#B #Lührmann #Bilby" type="conjecture">Ἡρῴδης</rdg>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster" type="omission"></rdg>
+                  </app>            
+
+            σταυρίσκειν αὐτὸν 
+            
+               <app type="variant">
+                  <lem>μέλλουσιν</lem>
+                  <rdg wit="#Bilby" type="omission"></rdg>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster">μέλλουσιν</rdg>
+               </app>, 
+
+            ἐλθών 
+               <app type="variant">
+                  <lem>ἐλθών</lem>
+                  <rdg wit="#B #Coles #Lührmann #Bilby">ἐλθών</rdg>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster">ἦλθεν</rdg>
+               </app> 
+
+            πρὸς  
+               <app type="variant">
+                  <lem>τὸν</lem>
+                  <rdg wit="#B #Lührmann #Bilby" type="omission"></rdg>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster">τὸν</rdg>
+               </app>            
+            
+            Πειλάτον
+               <app type="variant">
+                  <lem>Πειλάτον</lem>
+                  <rdg wit="#A #B #Mara #KrausNicklas #Foster #Coles #Lührmann #Bilby">Πειλάτον</rdg>
+               </app>, 
+            
+            καὶ ἤτησε τὸ 
+               <app type="variant">
+                  <lem>τὸ</lem>
+                  <rdg wit="#A #Coles #Mara #KrausNicklas #Foster">τὸ</rdg>
+                  <rdg wit="#B" type="conjecture" resp="#Lührmann">τὸ</rdg>
+               </app>
+
+            σῶμα 
+               <app type="variant">
+                  <lem>σῶμα</lem>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster">σῶμα</rdg>
+                  <rdg wit="#B" type="conjecture" resp="#Coles #Lührmann #Bilby">σῶμα</rdg>
+               </app>             
+            
+               <app type="variant">
+                  <lem>τοῦ κυρίου</lem>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster">τοῦ κυρίου</rdg>
+                  <rdg wit="#B #Coles #Lührmann" type="omission"></rdg>
+                  </app>
+
+            εἰς 
+               <app type="variant">
+                  <lem>εἰς</lem>
+                  <rdg wit="#B #Coles #Lührmann">εἰς</rdg>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster">πρὸς</rdg>
+                  </app>            
+            
+            ταφήν
+               <app type="variant">
+                  <lem>ταφήν</lem>
+                  <rdg wit="#A #B #Mara #KrausNicklas #Foster #Coles #Lührmann">ταφήν</rdg>
+               </app>.</p> 
+
+	         </div>
+         <div type="textpart" subtype="verse" n="4">
+
+            <p>καὶ 
+                <app type="variant">
+                  <lem>ὁ</lem>
+                  <rdg wit="#Bilby" type="omission"></rdg>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster">ὁ</rdg>
+                  </app> 
+
+            Πειλᾶτος ἔφη 
+                <app type="variant">
+                  <lem>ἔφη</lem>
+                  <rdg wit="#Lührmann #Bilby" type="conjecture">ἔφη·</rdg>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster">πέμψας</rdg>
+                  </app> 
+
+             πρὸς Ἡρῴδην
+                <app type="variant">
+                  <lem>Ἡρῴδην</lem>
+                  <rdg wit="#B #Bilby" type="conjecture">Ἡρῴδην</rdg>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster">Ἡρῴδην</rdg>
+                </app>· 
+             
+               <quote xml:id="Pilate">
+             ἤτησα 
+                <app type="variant">
+                  <lem>ἤτησα</lem>
+                  <rdg wit="#B #Lührmann #Bilby">ἤτησα</rdg>
+                  <rdg wit="#B #Coles" type="conjecture">ἡτήσαμεν</rdg>
+                  <rdg wit="#A #Mara #KrausNicklas #Foster">ἤτησε</rdg>
+                </app>           
+             αὐτοῦ τὸ σῶμα.</quote> </p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="5">
+
+            <p>καὶ ὁ Ἡρῴδης ἔφη·
+                <quote xml:id="HerodAntipas"> 
+                    ἀδελφέ Πειλάτε, 
+                    εἰ καὶ μή τις αὐτὸν ᾔτηκει, 
+                    ἡμεῖς αὐτὸν ἐθάπτομεν, 
+                    ἐπεὶ καὶ σάββατον ἐπιφώσκει· 
+                    γέγραπται γὰρ ἐν τῷ νόμῳ
+                    <quote xml:id="scripture">
+                    ἥλιον μὴ δῦναι ἐπὶ πεφονευμένῳ. </quote></quote>
+                καὶ παρέδωκεν αὐτὸν τῷ λαῷ πρὸ μιᾶς τῶν ἀζύμων τῆς ἑορτῆς αὐτῶν.</p>
+
+	      </div>
+         <div type="textpart" subtype="verse" n="6">
+
+            <p>οἱ δὲ λαβόντες τὸν κύριον ὤθουν αὐτῶν
+            
+            <app type="variant">
+                <lem>αὐτῶν</lem>
+                <rdg wit="#A #Foster">αὐτῶν</rdg>
+                <rdg wit="#Mara #KrausNicklas">αὐτὸν</rdg>
+            </app> 
+            
+            τρέχοντες καὶ ἔλεγον· 
+                <quote xml:id="executioners">
+            σύρωμεν τὸν υἱὸν τοῦ θεοῦ, 
+            ἐξουσίαν αὐτοῦ ἐσχηκότες.</quote></p>
+
+         </div>
+         <div type="textpart" subtype="verse" n="7">
+
+            <p>καὶ πορφύραν αὐτὸν περιέβαλλον 
+            
+            <app type="variant">
+                <lem>περιέβαλλον</lem>
+                <rdg wit="#A #Foster">περιέβαλλον</rdg>
+                <rdg wit="#Mara #KrausNicklas">περιέβαλον</rdg>
+            </app>, 
+
+            καὶ ἐκάθισαν αὐτὸν ἐπὶ καθέδραν κρίσεως, 
+            λέγοντες· 
+                <quote xml:id="mockers">
+            δικαίως κρῖνε, 
+            βασιλεῦ τοῦ Ἰσραήλ.</quote></p>
+
+         </div>
+         <div type="textpart" subtype="verse" n="8">
+         
+         <p>καὶ τις αὐτῶν ἐνεγκὼν στέφανον ἀκάνθινον, 
+         ἔθηκεν ἐπὶ τῆς κεφαλῆς τοῦ κυρίου.</p>
+
+         </div>
+         <div type="textpart" subtype="verse" n="9">
+
+            <p>καὶ ἕτεροι ἑστῶτες ἐνέπτυον αὐτοῦ ταῖς ὀψέσι, 
+            καὶ ἄλλοι τὰς σιαγόνας αὐτοῦ ἐράπισαν, 
+            ἕτεροι καλάμῳ ἐνύσσον αὐτόν, 
+            καί τινες αὐτὸν ἐμάστιζον λέγοντες· 
+                <quote xml:id="mockers">            
+            ταύτῃ τῇ τιμῇ τιμήσωμεν τὸν υἱὸν τοῦ θεοῦ. </quote></p>
+    
+	      </div>
+         <div type="textpart" subtype="verse" n="10">
+
+            <p>καὶ ἤνεγκαν
+            
+            <app type="variant">
+                <lem>ἤνεγκαν</lem>
+                <rdg wit="#A #Bilby">ἤνεγκαν</rdg>
+                <rdg wit="#KrausNicklas #Foster">ἤνεγκον</rdg>
+                <rdg wit="#Mara #EhrmanPleše">ἔνεγκον</rdg>
+            </app>
+
+            δύο κακούργους 
+            καὶ ἐσταύρωσαν ἀνὰ μέσον αὐτῶν τὸν κύριον. 
+            αὐτὸς δὲ ἐσιώπα ὡς μηδένα
+
+            <app type="variant">
+                <lem>μηδένα</lem>
+                <rdg wit="#A">μηδεν</rdg>
+                <rdg wit="#Mara">μηδὲν</rdg>
+                <rdg wit="#Foster">μηδέν</rdg>
+                <rdg wit="#KrausNicklas">μηδένα</rdg>
+            </app>
+
+            πόνον ἔχων.</p>
+
+          </div>
+         <div type="textpart" subtype="verse" n="11">
+         
+            <p>καὶ ὅτε ὤρθωσαν τὸν σταῦρον, 
+            ἐπέγραψαν ὅτι οὗτός ἐστιν ὁ βασιλεὺς τοῦ Ἰσραήλ. </p>
+
+         </div>
+         <div type="textpart" subtype="verse" n="12">
+
+            <p>καὶ τεθεικότες τὰ ἐνδύματα ἔμπροσθεν αὐτοῦ 
+            διεμερίσαντο καὶ λαχμὸν ἔβαλον ἐπ᾿ αὐτοῖς. </p>
+
+         </div>
+         <div type="textpart" subtype="verse" n="13">
+
+            <p>εἱς δέ τις τῶν κακούργων ἐκείνων ὠνείδησεν
+
+            <app type="variant">
+                <lem>ὠνείδησεν</lem>
+                <rdg wit="#A #Foster">ὠνείδησεν</rdg>
+                <rdg wit="#Mara #KrausNicklas">ὠνείδισεν</rdg>
+            </app>            
+            
+            αὐτοὺς λέγων· 
+
+                <quote xml:id="malefactor">
+            ἡμεῖς διὰ τὰ κακὰ ἁ ἐποιήσαμεν οὕτω πεπόνθαμεν· 
+            οὕτως 
+
+            <app type="variant">
+                <lem>οὕτως</lem>
+                <rdg wit="#A #Foster">οὕτως</rdg>
+                <rdg wit="#Mara #KrausNicklas">οὕτος</rdg>
+            </app> 
+
+            οὕτως δὲ σωτὴρ γενόμενος τῶν ἀνθρώπων τί ἠδίκησεν ὑμᾶς; </quote></p>
+            
+          </div>
+         <div type="textpart" subtype="verse" n="14">
+         
+         <p>καὶ ἀγανακτήσαντες ἐπ᾿ αὐτῷ ἐκέλευσαν ἵνα μὴ σκελοκοπηθῇ, 
+         ὅπως βασανιζόμενος ἀποθάνοι
+
+            <app type="variant">
+                <lem>ἀποθάνοι</lem>
+                <rdg wit="#A #Foster #KrausNicklas">ἀποθάνοι</rdg>
+                <rdg wit="#Gebhardt #Harnack #Preuschen #Mara">ἀποθάνῃ</rdg>
+            </app>. </p> 
+
+	      </div>
+         <div type="textpart" subtype="verse" n="15">
+         
+            <p>ἦν δὲ μεσημβρία, 
+            καὶ σκότος κατέσχεν πᾶσαν τὴν Ἰουδαίαν· 
+            καὶ ἐθορυβοῦντο καὶ ἠγωνίων μήποτε ὁ ἥλιος ἔδυ, 
+            ἐπειδὴ ἔτι ἔζη· 
+            γέγραπται αὐτοῖς 
+                <quote xml:id="scripture">ἥλιον μὴ δῦναι ἐπὶ πεφονευμένῳ.</quote> </p>
+
+          </div>
+         <div type="textpart" subtype="verse" n="16">
+         
+            <p>καί τις αὐτῶν εἰπεν· 
+                <quote xml:id="bystander">
+            ποτίσατε αὐτὸν χολὴν μετὰ ὄξους· </quote>
+            καὶ κεράσαντες ἐπότισαν.</p>
+
+          </div>
+         <div type="textpart" subtype="verse" n="17">
+
+            <p>καὶ ἐπλήρωσαν πάντα, 
+            καὶ ἐτελείωσαν κατὰ τῆς κεφαλῆς αὐτῶν τὰ ἁμαρτήματα. </p>
+
+          </div>
+         <div type="textpart" subtype="verse" n="18">
+
+            <p>περιήρχοντο δὲ πολλοὶ μετὰ λύχνων, 
+            νομίζοντες ὅτι νύξ ἐστιν ἐπέσαντο
+
+            <app type="variant">
+                <lem>ἐπέσαντο</lem>
+                <rdg wit="#A #Foster">ἐπέσαντο</rdg>
+                  <rdg wit="#Mara #EhrmanPlese">και επεϲαντο</rdg>
+                  <rdg wit="#KrausNicklas">επεϲαν τε</rdg>
+            </app>. </p> 
+
+           </div>
+         <div type="textpart" subtype="verse" n="19">
+            
+            <p>καὶ ὁ κύριος ἀνεβόησε λέγων· 
+                <quote xml:id="Jesus">
+            ἡ δύναμίς μου, ἡ δύναμις, κατελειψάς με· </quote>
+            καὶ εἰπὼν ἀνελήφθη. </p>
+
+           </div>
+         <div type="textpart" subtype="verse" n="20">
+         
+            <p>καὶ ἀὑτῆς
+
+            <app type="variant">
+                <lem>ἀὑτῆς</lem>
+                <rdg wit="#A #Foster">αὐτὸς</rdg>
+                  <rdg wit="#Mara #KrausNicklas">ἀὑτῆς</rdg>
+            </app>
+            
+            ὥρας διεράγη τὸ καταπέτασμα τοῦ ναοῦ τῆς Ἱερουσαλὴμ εἰς δύο.</p>
+
+	      </div>
+         <div type="textpart" subtype="verse" n="21">
+
+            <p>καὶ τότε ἀπέσπασαν τοὺς ἥλους ἀπὸ τῶν χειρῶν τοῦ κυρίου, 
+            καὶ ἔθηκαν αὐτὸν ἐπὶ τῆς γῆς, 
+            καὶ ἡ γῆ πᾶσα ἐσείσθη, 
+            καὶ φόβος μέγας ἐγένετο.</p>
+
+          </div>
+         <div type="textpart" subtype="verse" n="22">
+         
+            <p>τότε ἥλιος ἔλαμψε, 
+            καὶ εὑρέθη ὥρα ἐνάτη. </p>
+
+          </div>
+         <div type="textpart" subtype="verse" n="23">
+         
+            <p>ἐχάρησαν δὲ οἱ Ἰουδαῖοι, 
+            καὶ δεδόκασιν τῷ Ἰωσὴφ τὸ σῶμα αὐτοῦ, 
+            ἵνα αὐτὸ θάψῃ, 
+            ἐπειδὴ θεασάμενος ἦν ὅσα ἀγαθὰ ἐποίησεν. </p>
+
+           </div>
+         <div type="textpart" subtype="verse" n="24">
+         
+            <p>λαβὼν δὲ τὸν κύριον ἔλουσε, 
+            καὶ εἵλησε σινδόνιν
+
+            <app type="variant">
+                <lem>σινδόνιν</lem>
+                <rdg wit="#A #Foster">σινδόνιν</rdg>
+                <rdg wit="#Mara #KrausNicklas">σινδόνι</rdg>
+            </app>, 
+
+            καὶ εἰσήγαγεν εἰς ἴδιον τάφον καλούμενον κῆπον Ἰωσήφ. </p>
+
+	       </div>
+         <div type="textpart" subtype="verse" n="25">
+
+            <p>τότε οἱ Ἰουδαῖοι καὶ οἱ πρεσβύτεροι καὶ οἱ ἱερεῖς, 
+            γνόντες οἷον κακὸν ἑαυτοῖς ἐποίησαν, 
+            ἤρξαντο κόπτεσθαι καὶ λέγειν· 
+                <quote xml:id="leaders">οὐαὶ ταῖς ἁμαρτίαις ἡμῶν· 
+                    ἤγγισεν ἡ κρίσις καὶ τὸ τέλος Ἱερουσαλήμ. </quote></p>
+
+           </div>
+         <div type="textpart" subtype="verse" n="26">
+
+            <p>ἐγὼ δὲ μετὰ τῶν ἑταίρων μου ἐλυπούμην, 
+            καὶ τετρωμένοι κατὰ διάνοιαν ἐκρυβόμεθα. 
+            ἐζητούμεθα γὰρ ὑπ᾿ αὐτῶν ὡς κακοῦργοι, 
+            καὶ ὡς τὸν ναὸν θέλοντες ἐμπρῆσαι. </p>
+
+           </div>
+         <div type="textpart" subtype="verse" n="27">
+
+            <p>ἐπὶ δὲ τούτοις πᾶσιν ἐνηστεύομεν, 
+            καὶ ἐκαθεζόμεθα πενθοῦντες καὶ κλαίοντες νυκτὸς καὶ ἡμέρας ἕως τοῦ σαββάτου.</p>
+
+	      </div>
+         <div type="textpart" subtype="verse" n="28">
+
+            <p>συναχθέντες δὲ οἱ γραμματεῖς καὶ Φαρισαῖοι καὶ πρεσβύτεροι πρὸς ἀλλήλους, 
+            ἀκούσαντες ὅτι ὁ λαὸς ἅπας γογγύζει καὶ κόπτεται τὰ στήθη, 
+            λέγοντες ὅτι· 
+                <quote xml:id="people">εἰ τῷ θανάτῳ αὐτοῦ ταῦτα τὰ μέγιστα σημεῖα γέγονεν, 
+                ἴδετε ὅτι πόσον δίκαιός ἐστιν.</quote> </p>
+
+           </div>
+         <div type="textpart" subtype="verse" n="29">
+         
+            <p>ἐφοβήθησαν οἱ πρεσβύτεροι, 
+            καὶ ἦλθον πρὸς Πειλᾶτον, 
+            δεόμενοι αὐτοῦ καὶ λέγοντες· </p>
+
+         </div>
+         <div type="textpart" subtype="verse" n="30">
+
+            <p><quote xml:id="elders">
+                παράδος ἡμῖν στρατιώτας, 
+                ἵνα φυλάξω 
+                
+             <app type="variant">
+                <lem>φυλάξω</lem>
+                  <rdg wit="#A #Foster">φυλάξω</rdg>
+                  <rdg wit="#Mara #KrausNicklas">φυλάξωμεν</rdg>
+                  <rdg wit="EhrmanPlese">φυλάξωϲιν</rdg>
+               </app>               
+                
+                τὸ μνῆμα αὐτοῦ ἐπὶ τρεῖς ἡμέρας, 
+                μήποτε ἐλθόντες οἱ μαθηταὶ αὐτοῦ κλέψωσιν αὐτὸν, 
+                καὶ ὑπολάβη ὁ λαὸς ὅτι ἐκ νεκρῶν ἀνέστη, 
+                καὶ ποιήσωσιν ἡμῖν κακά.</quote> </p>
+
+           </div>
+         <div type="textpart" subtype="verse" n="31">
+
+            <p>ὁ δὲ Πειλᾶτος παραδέδωκεν αὐτοῖς Πετρώνιον τὸν κεντυρίωνα μετὰ στρατιωτῶν φυλάσσειν τὸν τάφον. 
+            καὶ σὺν αὐτοῖς ἦλθον πρεσβύτεροι καὶ γραμματεῖς ἐπὶ τὸ μνῆμα.</p>
+
+           </div>
+         <div type="textpart" subtype="verse" n="32">
+         
+            <p>καὶ κυλίσαντες λίθον μέγαν κατὰ τοῦ κεντυρίωνος καὶ τῶν στρατιωτῶν, 
+            ὁμοῦ πάντες οἱ ὄντες ἐκεῖ, 
+            ἔθηκαν ἐπὶ τῇ θύρᾳ τοῦ μνήματος. </p>
+
+          </div>
+         <div type="textpart" subtype="verse" n="33">
+         
+            <p>καὶ ἐπέχρισαν
+            
+                <app type="variant">
+                  <lem>ἐπέχρισαν</lem>
+                  <rdg wit="#Mara #KrausNicklas">ἐπέχρισαν</rdg>
+                  <rdg wit="#A #Foster">ἐπέχρεισαν</rdg>
+               </app>
+
+            ἑπτὰ σφραγίδας, 
+            καὶ σκηνὴν ἐκεῖ πήξαντες, 
+            ἐφύλαξαν. </p>
+
+	       </div>
+         <div type="textpart" subtype="verse" n="34">
+         
+            <p>πρωΐας δὲ ἐπιφώσκοντος τοῦ σαββάτου, 
+            ἦλθεν ὄχλος ἀπὸ Ἱερουσαλήμ καὶ τῆς περιχώρου, 
+            ἵνα ἴδωσι τὸ μνημεῖον ἐσφραγισμένον. </p>
+
+        </div>
+         <div type="textpart" subtype="verse" n="35">
+
+            <p>τῇ δὲ νυκτὶ ᾖ ἐπέφωσκεν ἡ κυριακή, 
+            φυλασσόντων τῶν στρατιωτῶν ἀνὰ δύο δύο κατὰ φρουράν, 
+            μεγάλη φωνὴ ἐγένετο ἐν τῷ οὐρανῷ. </p>
+
+          </div>
+         <div type="textpart" subtype="verse" n="36">
+         
+         <p>καὶ εἶδον ἀνοιχθέντας 
+               <app type="variant">
+                  <lem>ἀνοιχθέντας</lem>
+                  <rdg wit="#A #Mara">ἀνοιχθέντας</rdg>
+                  <rdg wit="#Foster #KrausNicklas">ἀνοιχθέντες</rdg>
+               </app> τοὺς οὐρανοὺς, 
+         καὶ δύο ἄνδρας κατελθόντας ἐκεῖθεν, 
+         πολὺ φέγγος ἔχοντας καὶ ἐγγίσαντας τῷ τάφῳ. </p>
+
+           </div>
+         <div type="textpart" subtype="verse" n="37">
+         
+            <p>ὁ δὲ λίθος
+
+               <app type="variant">
+                <lem>λίθος</lem>
+                <rdg wit="#Mara #KrausNicklas">λίθος</rdg>
+                <rdg wit="#A #Foster">λείθος</rdg>
+               </app>              
+            
+            ἐκεῖνος ὁ βεβλημένος ἐπὶ τῇ θύρᾳ ἀφ᾿ ἑαυτοῦ κυλισθεὶς, 
+            ἐπεχώρησε παρὰ μέρος, 
+            καὶ ὁ τάφος ἡνοίγη
+            
+               <app type="variant">
+                <lem>ἡνοίγη</lem>
+                <rdg wit="#Mara #KrausNicklas">ἡνοίγη</rdg>
+                <rdg wit="#A #Foster">ἐνοίγη</rdg>
+               </app>,  
+            καὶ ἀμφότεροι οἱ νεανίσκοι εἰσῆλθον. </p>
+
+	      </div>
+         <div type="textpart" subtype="verse" n="38">
+         
+            <p>ἰδόντες οὖν οἱ στρατιῶται ἐκεῖνοι, 
+            ἐξύπνισαν τὸν κεντυρίωνα καὶ τοὺς πρεσβυτέρους· 
+            παρῆσαν γὰρ καὶ αὐτοὶ φυλάσσοντες. </p>
+
+           </div>
+         <div type="textpart" subtype="verse" n="39">
+
+            <p>καὶ ἐξηγουμένων αὐτῶν ἁ εἶδον, 
+            πάλιν ὅρασιν
+            
+                <app type="variant">
+                    <lem>ὅρασιν</lem>
+                  <rdg wit="#A #Foster">ὅρασιν</rdg>
+                  <rdg wit="#Mara #KrausNicklas">ὁρῶσιν</rdg>
+               </app>
+            
+            ἐξελθόντος ἀπὸ τοῦ τάφου τρεῖς ἄνδρας
+
+              <app type="variant">
+                  <lem>ἄνδρας</lem>
+                  <rdg wit="#A #Mara #KrausNicklas">ἄνδρας</rdg>
+                  <rdg wit="#Foster">ἄνδρεϲ</rdg>
+               </app>,    
+
+            καὶ τοὺς δύο τὸν ἕνα ὑπορθοῦντας, 
+            καὶ σταυρὸν ἀκολουθοῦντα αὐτοῖς. </p>
+
+           </div>
+         <div type="textpart" subtype="verse" n="40">
+         
+            <p>καὶ τῶν μὲν δύο τὴν κεφαλὴν χωροῦσαν μέχρι τοῦ οὐρανοῦ, 
+            τοῦ δὲ χειραγωγουμένου
+            
+                 <app type="variant">
+                    <lem>χειραγωγουμένου</lem>
+                  <rdg wit="#Mara #KrausNicklas">χειραγωγουμένου</rdg>
+                  <rdg wit="#A #Foster">χειρατωτουμένου</rdg>
+               </app>   
+
+            ὑπ᾿ αὐτῶν ὑπερβαίνουσαν τοὺς οὐρανούς. </p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="41">
+         
+            <p>καὶ φωνῆς ἤκουον ἐκ τῶν οὐρανῶν λεγούσης· 
+                <quote xml:id="batkol">
+            ἐκήρυξας τοῖς κοιμωμένοις
+
+                 <app type="variant">
+                  <lem>κοιμωμένοις</lem>
+                  <rdg wit="#Mara #KrausNicklas #Foster">κοιμωμένοις</rdg>
+                  <rdg wit="#A">κοινωμένοις</rdg>
+               </app>; </quote></p>
+               
+            </div>
+         <div type="textpart" subtype="verse" n="42">
+
+           <p>καὶ ὑπακοὴ ἠκούετο ἀπὸ τοῦ σταυροῦ ὅτι 
+            <quote xml:id="cross">ναί</quote>. </p>         
+
+	        </div>
+         <div type="textpart" subtype="verse" n="43">
+
+            <p>συνεσκέπτοντο οὖν ἀλλήλοις ἐκεῖνοι ἀπελθεῖν καὶ ἐνφανίσαι ταῦτα τῷ Πειλάτῳ.</p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="44">
+         
+            <p>καὶ ἔτι διανοουμένων αὐτῶν φαίνονται πάλιν ἀνοιχθέντες οἱ οὐρανοὶ, 
+            καὶ ἀνθρωπός τις κατελθὼν
+            
+               <app type="variant">
+                <lem>κατελθὼν</lem>
+                    <rdg wit="#Mara #KrausNicklas">κατελθὼν</rdg>
+                    <rdg wit="#A #Foster">κατελθόν</rdg>
+               </app>,  
+
+            καὶ εἰσελθὼν εἰς τὸ μνῆμα. </p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="45">
+         
+            <p>ταῦτα ἰδόντες οἱ περὶ τὸν κεντυρίωνα          
+                <app type="variant">
+                    <lem>κεντυρίωνα</lem>
+                    <rdg wit="#Mara #KrausNicklas">κεντυρίωνα</rdg>
+                    <rdg wit="#A #Foster">κεντύρωνα</rdg>
+                </app> 
+            
+            νυκτὸς ἔσπευσαν πρὸς Πειλάτον, 
+            ἀφέντες τὸν τάφον ὃν ἐφύλασσον, 
+            καὶ ἐξηγήσαντο πάντα ἅπερ εἶδον, 
+            ἀγωνιῶντες
+            
+               <app type="variant">
+                    <lem>ἀγωνιῶντες</lem>
+                  <rdg wit="#Mara #KrausNicklas">αγωνιωντεϲ</rdg>
+                  <rdg wit="#A #Foster">ἀπωνιῶντες</rdg>
+               </app> μεγαλῶς, 
+            καὶ λέγοντες· 
+                <quote>ἀληθῶς υἱὸς ἦν θεοῦ.</quote> </p>
+            
+            </div>
+         <div type="textpart" subtype="verse" n="46">
+         
+            <p>ἀποκριθεὶς ὁ Πειλάτος ἔφη· 
+                <quote>ἐγὼ καθαρεύω τοῦ αἵματος τοῦ υἱοῦ τοῦ θεοῦ· 
+               ἡμῖν
+                    <app type="variant">
+                        <lem>ἡμῖν</lem>
+                        <rdg wit="#A #Foster">ἡμῖν</rdg>
+                        <rdg wit="#Mara #KrausNicklas">ὑμῖν</rdg>
+                    </app> δὲ τοῦτο ἔδοξεν.</quote> </p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="47">
+
+            <p>εἰτα προσελθόντες πάντες ἐδέοντο αὐτοῦ, 
+            καὶ παρεκάλουν κελεῦσαι τῷ κεντυρίωνι
+
+                <app type="variant">
+                    <lem>κεντυρίωνι</lem>
+                    <rdg wit="#Mara #KrausNicklas">κεντυρίωνι</rdg>
+                    <rdg wit="#A #Foster">κεντύριων</rdg>
+                </app>, 
+
+            καὶ τοῖς στρατιώταις μηδὲν
+
+                <app type="variant">
+                    <lem>μηδὲν</lem>
+                    <rdg wit="#A #Foster #KrausNicklas">μηδὲν</rdg>
+                    <rdg wit="#Mara">μηδενὶ</rdg>
+                </app>,              
+            εἰπεῖν ἁ εἶδον. </p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="48">
+
+            <p><quote xml:id="all">συμφέρει γάρ</quote>, 
+            φασίν, 
+            <quote xml:id="all">
+            ἡμῖν ὀφλῆσαι μεγίστην ἁμαρτίαν ἔμπροσθεν τοῦ θεοῦ, 
+            καὶ μὴ ἐμπεσεῖν εἰς χεῖρας τοῦ λαοῦ τῶν Ἰουδαίων καὶ λιθασθῆναι.</quote> </p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="49">
+
+            <p>ἐκέλευσεν οὖν ὁ Πειλάτος τῷ 
+            
+               <app type="variant">
+                  <lem>τῷ</lem>
+                  <rdg wit="#Mara">τῷ</rdg>
+                  <rdg wit="#KrausNicklas">τωι</rdg>
+                  <rdg wit="#A #Foster">τῶν</rdg>
+               </app> 
+
+            κεντυρίωνι
+               <app type="variant">
+                  <lem>κεντυρίωνι</lem>
+                  <rdg wit="#Mara #KrausNicklas">κεντυρίωνι</rdg>
+                  <rdg wit="#A #Foster">κεντυρίων</rdg>
+               </app>,  
+            καὶ τοῖς στρατιώταις μηδὲν εἰπεῖν. </p>
+
+	         </div>
+         <div type="textpart" subtype="verse" n="50">
+
+            <p>ὀρθροῦ 
+
+               <app type="variant">
+                  <lem>ὀρθροῦ</lem>
+                  <rdg wit="#Mara #KrausNicklas">ορθρου</rdg>                  
+                  <rdg wit="#Foster">ὀρθοῦ</rdg>
+               </app>  
+
+            δὲ τῆς κυριακῆς Μαριάμνη
+
+               <app type="variant">
+                  <lem>Μαριάμνη</lem>
+                  <rdg wit="#Bilby">Μαριάμνη</rdg>
+                  <rdg wit="#A">Μαριαμ᾽</rdg>
+                  <rdg wit="#Mara #KrausNicklas #Foster">Μαριὰμ</rdg>                  
+               </app>  
+
+            ἡ Μαγδαλινὴ μαθήτρια τοῦ κυρίου φοβουμένη διὰ τοὺς Ἰουδαίους, 
+            ἐπειδὴ ἐφλέγοντο ὑπὸ τῆς ὀργῆς, 
+            οὐκ ἐποίησεν ἐπὶ τῷ μνήματι τοῦ κυρίου, 
+            ἁ ἐιώθεσαν ποιεῖν αἱ γυναῖκες ἐπὶ τοῖς ἀποθνήσκουσι καὶ τοῖς ἀγαπωμένοις αὐταῖς. </p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="51">
+
+            <p>λαβοῦσα μεθ᾿ ἑαυτῆς τὰς φίλας, 
+            ἦλθε ἐπὶ τὸ μνημεῖον ὅπου ἦν τεθείς. </p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="52">
+
+            <p>καὶ ἐφοβοῦντο μὴ ἴδωσιν αὐτὰς οἱ Ἰουδαῖοι, 
+            καὶ ἔλεγον· 
+               <quote xml:id="women">εἰ καὶ μὴ ἐν ἐκείνῃ τῇ ἡμέρᾳ ᾑ ἐσταυρώθη, 
+               ἐδυναθήμεν κλαῦσαι καὶ κόψασθαι
+               
+                 <app type="variant">
+                  <lem>κόψασθαι</lem>
+                  <rdg wit="#Mara #KrausNicklas">κόψασθαι</rdg>
+                  <rdg wit="#A #Foster">κόψεσθαι</rdg>
+               </app>,  
+               καὶ νῦν ἐπὶ τοῦ μνήματος αὐτοῦ ποιήσωμεν ταῦτα.</quote> </p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="53">
+
+            <p><quote>τίς δὲ ἀποκυλίσει ἡμῖν καὶ τὸν λίθον τὸν τεθέντα ἐπὶ τῆς θύρᾳς τοῦ μνημείου, 
+            ἵνα εἰσελθοῦσαι παρακαθεσθῶμεν αὐτῷ καὶ ποιήσωμεν τὰ ὀφειλόμενα
+            
+                <app type="variant">
+                  <lem>ὀφειλόμενα</lem>
+                  <rdg wit="#Mara #KrausNicklas">ὀφειλόμενα</rdg>
+                  <rdg wit="#A #Foster">ὀφιλόμενα</rdg>
+               </app>; </quote></p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="54">
+
+            <p><quote xml:id="women">μέγας γὰρ ἦν ὁ λίθος, 
+            καὶ φοβούμεθα μή τις ἡμᾶς ἴδῃ. 
+            καὶ εἰ μὴ δυνάμεθα, 
+            κἂν ἐπὶ τῆς θύρας βάλωμεν ἁ φέρομεν εἰς μνημοσύνην αὐτοῦ, 
+            κλαύσομεν 
+            
+               <app type="variant">
+                  <lem>κλαύσομεν</lem>
+                  <rdg wit="#A #KrausNicklas #Foster">κλαύσομεν</rdg>
+                  <rdg wit="#Mara">κλαύσωμεν</rdg>
+               </app>
+               
+               καὶ 
+               
+            κοψόμεθα 
+            
+               <app type="variant">
+                  <lem>κοψόμεθα</lem>
+                  <rdg wit="#A #KrausNicklas #Foster">κοψόμεθα</rdg>
+                  <rdg wit="#Mara">κοψώμεθα</rdg>
+               </app>
+
+            ἕως ἔλθωμεν εἰς τὸν οἶκον ἡμῶν.</quote> </p>
+
+	         </div>
+         <div type="textpart" subtype="verse" n="55">
+
+            <p>καὶ ἀπελθοῦσαι εὗρον τὸν τάφον ἠνεωιγμένον
+
+                <app type="variant">
+                  <lem>ἠνεῳγμένον</lem>
+                 <rdg wit="#Foster">ἠνεῳγμένον</rdg>
+                  <rdg wit="#Mara">ἠνεωγμένον</rdg>
+                 <rdg wit="#KrausNicklas">ἠνεωιγμένον</rdg>
+               </app>, 
+
+            καὶ προσελθοῦσαι παρέκυψαν ἐκεῖ, 
+            καὶ ὁρῶσιν ἐκεῖ τινα νεανίσκον καθεζόμενον 
+            
+                <app type="variant">
+                  <lem>ἐν</lem>
+                  <rdg wit="#Mara" type="addition">ἐν</rdg>
+                 <rdg wit="#Foster #KrausNicklas" type="omission"></rdg>
+               </app>
+
+            μέσῳ τοῦ τάφου, 
+            ὡραῖον καὶ περιβεβλημένον στολὴν λαμπροτάτην, 
+            ὅστις ἔφη 
+            
+               <app type="variant">
+                  <lem>αὐταῖς</lem>
+                  <rdg wit="#Foster #Mara #KrausNicklas">αὐταῖς</rdg>
+                  <rdg wit="#A">αυται</rdg>
+               </app>· </p> 
+
+            </div>
+         <div type="textpart" subtype="verse" n="56">
+
+            <p><quote xml:id="youngman">
+               τί 
+                  <app type="variant">
+                     <lem>τί</lem>
+                     <rdg wit="#Mara #KrausNicklas">τί</rdg>
+                     <rdg wit="#A #Foster">ὅτι</rdg>
+                  </app> ἤλθατε; 
+               τίνα ζητεῖτε; 
+               μὴ τὸν σταυρωθέντα ἐκεῖνον; 
+               ἀνέστη καὶ ἀπῆλθεν. 
+               εἰ δὲ μὴ πιστεύεται 
+               
+                  <app type="variant">
+                     <lem>πιστεύεται</lem>
+                     <rdg wit="#A">πιστεύεται</rdg>
+                     <rdg wit="#Foster #Mara #KrausNicklas">πιστεύετε</rdg>
+                  </app>, 
+ 
+               παρακύψατε καὶ ἴδατε τὸν τόπον ἐνθὰ ἔκειτο
+                
+                  <app type="variant">
+                     <lem>ἐνθὰ ἔκειτο</lem>
+                     <rdg wit="#A">
+                        <del rend="strikethrough">ἐνθὰ</del>
+                        ἔκειτο</rdg>
+                     <rdg wit="#Mara">ἐνθὰ ἔκειτο</rdg>
+                     <rdg wit="#Foster">ἔκει<hi rend="superscript">το</hi></rdg>
+                     <rdg wit="#KrausNicklas">ἐνθὰ ἔκει<hi rend="superscript">το</hi></rdg>                  
+                  </app>
+               
+               ὅτι οὐκ ἔστιν. 
+               ἀνέστη γὰρ, 
+               καὶ ἀπῆλθεν ἐκεῖ ὅθεν ἀπεστάλη.</quote> </p>
+ 
+            </div>
+         <div type="textpart" subtype="verse" n="57">
+         
+            <p>τότε αἱ γυναῖκες φοβηθεῖσαι 
+            
+                 <app type="variant">
+                  <lem>φοβηθεῖσαι</lem>
+                  <rdg wit="#Mara #Foster #KrausNicklas">φοβηθεῖσαι</rdg>
+                  <rdg wit="#A">φοβηθειϲ</rdg>
+               </app>
+
+            ἔφυγον. </p>
+
+	         </div>
+         <div type="textpart" subtype="verse" n="58">
+         
+            <p>ἦν δὲ τελευταία ἡμέρα τῶν ἀζύμων, 
+            καὶ πολλοὶ τινες ἐξήρχοντο, 
+            ὑποστρέφοντες εἰς τοὺς οἴκους αὐτῶν τῆς ἑορτῆς παυσαμένης
+
+                <app type="variant">
+                  <lem>παυσαμένης</lem>
+                  <rdg wit="#Mara #Foster #KrausNicklas">παυσαμένης</rdg>
+                  <rdg wit="#A">παυσαμινης</rdg>
+               </app>. </p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="59">
+         
+            <p>ἡμεῖς δὲ οἱ δώδεκα μαθηταὶ τοῦ κυρίου ἐκλαίομεν καὶ ἐλυπούμεθα, 
+            καὶ ἕκαστος, 
+            λυπούμενος διὰ τὸ συμβὰν, 
+            ἀπηλλάγη εἰς τὸν οἶκον αὐτοῦ. </p>
+
+            </div>
+         <div type="textpart" subtype="verse" n="60">
+         
+            <p>ἐγὼ δὲ Σίμων Πέτρος καὶ Ἀνδρέας ὁ ἀδελφός μου, 
+            λαβόντες ἡμῶν τὰ λίνα ἀπηλθάμεν εἰς τὴν θάλασσαν
+            
+                <app type="variant">
+                  <lem>θάλασσαν</lem>
+                  <rdg wit="#Mara #Foster #KrausNicklas">θάλασσαν</rdg>
+                  <rdg wit="#A">θάλλασσαν</rdg>
+               </app>, 
+
+            καὶ ἦν σὺν ἡμῖν Λευεὶς ὁ τοῦ Ἀλφαίου, 
+            ὃν κύριος </p>
+
+         </div></div></div>
+      </body>
+   </text>
+</TEI>

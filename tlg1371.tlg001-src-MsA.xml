@@ -39,7 +39,7 @@
                      <idno source="http://ipap.csad.ox.ac.uk/GP/GP.html">P.Cair. 10579</idno>
                   </altIdentifier>
                   <altIdentifier type="LDAB">
-                     <idno>1088</idno>
+                     <idno source="https://www.trismegistos.org/text/59976">1088</idno>
                   </altIdentifier>
                   <altIdentifier type="trismegistos">
                      <idno source="https://www.trismegistos.org/text/59976">59976</idno>
@@ -48,12 +48,11 @@
                      <idno source="https://papyri.info/dclp/59976">59976</idno>
                   </altIdentifier>
                   <altIdentifier type="APIS">
-                     <idno>xford-ipap.apis.2174</idno>
+                     <idno source="https://papyri.info/dclp/59976">xford-ipap.apis.2174</idno>
                   </altIdentifier>
                </msIdentifier>
                <history>
                   <origin>
-                     <settlement ref="https://pleiades.stoa.org/places/746894">Panopolis (Akhmim)</settlement>
                      <date notBefore="0500" notAfter="0699"/>
                   </origin>
                   <provenance>
@@ -94,6 +93,9 @@
             <listPerson>
                <person xml:id="Bruston">
                   <persName>Charles Bruston</persName>
+               </person>
+               <person xml:id="EhrmanPleše">
+                  <persName>Bart D. Ehrman and Zlatko Pleše</persName>
                </person>
                <person xml:id="Foster">
                   <persName>Paul Foster</persName>
@@ -252,6 +254,7 @@
       <revisionDesc status="draft">
          <change when="2025-01-20" who="#MGB">Initial diplomatic edition released</change>
          <change when="2025-01-21" who="#MGB">Corrections made to conform to PTA TEI-XML schema</change>
+         <change when="2025-01-29" who="#MGB">Additional corrections made while compiling critical edition</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -275,35 +278,35 @@
                </note>
 
          <div type="textpart" subtype="chapter" n="Passio">
-         <div type="textpart" subtype="verse" n="1"><p>
+         <div type="textpart" subtype="verse" n="1">
 
-            <lb n="1v1"/>
+            <lb n="1v1"/><p>
 
-            τ<unclear reason="damage" unit="character" quantity="2" cert="high"><note>page adhesion inverted ων partly offset from <ref target="#2r1">above @2r1</ref></note>
+            τ<unclear reason="damage" ana="adhesion" unit="character" quantity="2" cert="high"><note>inverted ων partly offset from <ref target="#2r1">above @2r1</ref></note>
             ων</unclear>  
 
 			   δε Ιουδαιων ουδειϲ ενιψατο ταϲ χειραϲ ουδε <lb n="1v2"/>
 
-		         <note place="margin_outer" type="ink_bleed" subtype="offset"><desc>in outer left margin inverted αι offset from <ref target="#2r1">και @2r1</ref></desc></note>
+		         <note place="margin_outer" type="ink_bleed" subtype="adhesion"><desc>in outer left margin inverted αι offset from <ref target="#2r1">και @2r1</ref></desc></note>
 
-			   Η<unclear reason="damage" cert="high"><desc>inverted Η partly offset at <ref target="#2r1">@2r1</ref></desc>ρωδηϲ</unclear>
+			   Η<unclear reason="damage" ana="adhesion" cert="high"><desc>inverted Η partly offset at <ref target="#2r1">@2r1</ref></desc>ρωδηϲ</unclear>
 
-               <note type="ink_bleed" subtype="offset"><desc>inverted ν partly offset final letter from <ref target="#2r2">ενεπτυον @2r2</ref></desc></note>
+               <note type="ink_bleed" subtype="adhesion"><desc>inverted ν partly offset final letter from <ref target="#2r2">ενεπτυον @2r2</ref></desc></note>
 
                <choice>
                   <orig resp="#Hilgenfeld #KrausNicklas">
             ουδε τιϲ <damage type="gap">τ</damage>ων</orig>
-                  <corr resp="#Zahn #Vaganay #Mara">ουδε [ε]ιϲ <damage type="gap">τ</damage>ων</corr>
+                  <corr resp="#Zahn #Vaganay #Mara #EhrmanPleše">ουδε [ε]ιϲ <damage type="gap">τ</damage>ων</corr>
                   <corr resp="#Harnack #Robinson #Foster">ουδ ειϲ <damage type="gap">τ</damage>ων</corr>
-                  <corr resp="#Bruston">ουδε ετερων </corr>
-                  <unclear reason="damage" cert="high" ana="ink_bleed" source="offset"><desc>over ε τιϲ inverted αυτο offset from<ref target="#2r1">αυτου @2r1</ref></desc></unclear>
+                  <corr resp="#Bruston">ουδε ετε<damage type="gap">ρ</damage>ων </corr>
+                  <unclear reason="damage" cert="high" ana="ink_bleed" source="offset"><desc>contaminating ε τιϲ inverted αυτο offset from<ref target="#2r1">αυτου @2r1</ref></desc></unclear>
                </choice>
             
             κριτων αυτου 
          
-            κ<choice><unclear reason="damage" quantity="1" unit="character"></unclear><supplied>α</supplied></choice>ι 
+            κ<choice><unclear reason="damage" ana="gap" quantity="1" unit="character"></unclear><supplied>α</supplied></choice>ι 
 
-			      <choice><unclear reason="damage" quantity="2" unit="character"></unclear><supplied>
+			      <choice><unclear reason="damage" ana="gap" quantity="2" unit="character"></unclear><supplied>
             μη</supplied></choice>
 
                 <choice>
@@ -316,7 +319,7 @@
 
 		      νιψαϲθαι 
          
-            ανεϲ<choice><unclear reason="damage" quantity="1" unit="character"></unclear><supplied>τ</supplied></choice>η 
+            ανεϲ<choice><unclear reason="damage" ana="gap" quantity="1" unit="character"></unclear><supplied>τ</supplied></choice>η 
 
                <choice>
                   <orig>
@@ -331,14 +334,16 @@
             
              <lb n="1v4"/>
 
-			   ο<note place="margin_outer" type="ink_bleed" subtype="offset"><desc>above ο inverted ω from <ref target="#2r2">καλαμω @2r2</ref></desc></note>
+			   ο<note place="margin_outer" type="ink_bleed" subtype="adhesion"><desc>above ο inverted ω from <ref target="#2r2">καλαμω @2r2</ref></desc></note>
             βαϲιλευϲ 
 
-		      παρ<choice><unclear reason="damage" unit="characters" extent="3"></unclear>
-				    <supplied resp="#Vaganay #KrausNicklas #Foster">
+		      παρ<choice><unclear reason="damage" ana="gap" unit="characters" extent="3"></unclear>
+				    <supplied resp="#Bouriant #vonGebhardt #Vaganay #KrausNicklas #Foster">
             αλη</supplied>
    				 <supplied resp="#Lejay #Manchot #Mara">
-            απη</supplied></choice>
+            απη</supplied>
+                <supplied resp="#EhrmanPleše">
+            απε</supplied></choice>
             μφθηναι 
             
             τον 
@@ -351,7 +356,7 @@
 
 			   ειπων αυτοιϲ οτι <lb n="1v5"/>
 
-               <note place="margin_outer" type="ink_bleed" subtype="offset"><desc>in above οϲα inverted ντεϲ from <ref target="#2r3">λεγοντεϲ @2r3</ref></desc></note>
+               <note place="margin_outer" type="ink_bleed" subtype="offset"><desc>above οϲα inverted ντεϲ from <ref target="#2r3">λεγοντεϲ @2r3</ref></desc></note>
 
             οϲα εκελευϲα 
             
@@ -435,7 +440,7 @@
             
             Ηρωδηϲ
             
-             <lb n="1v10"/>          
+            <lb n="1v10"/>          
 
             εφη αδελφε Πειλατε ει και μη τιϲ αυτον ητηκει ημειϲ <lb n="1v11"/>
 
@@ -526,11 +531,11 @@
                      <g type="cross" rend="bold"/>
                </note>
 
-         <div type="textpart" subtype="verse" n="9"><p>
-
             <note place="top" type="ink_bleed" subtype="offset"><desc>above line 1 inverted text of most of <ref target="#1v1">@1v1</ref></desc></note>
 
-            <lb n="2r1"/>
+         <div type="textpart" subtype="verse" n="9">
+
+            <lb n="2r1"/><p>
 
             και ετεροι εϲτωτεϲ ενεπτυον αυτου 
             
@@ -576,15 +581,15 @@
             και 
 
                <choice>
+                  <unclear reason="damage" ana="adhesion">
+                     <note>inverted αν partly offset in outer left margin left of 
+                        <ref target="#1v6">εκει @1v6</ref>
+                     </note>
+                  </unclear>
                   <orig>
             ηνεγκαν</orig>
                   <unclear reason="damage" ana="adhesion">
                      <note>γκ contaminated with inverted εκ offset from εκει 
-                        <ref target="#1v6">εκει @1v6</ref>
-                     </note>
-                  </unclear>
-                  <unclear reason="damage" ana="adhesion" cert="high">
-                     <note>inverted αν partly offset in outer left margin left of 
                         <ref target="#1v6">εκει @1v6</ref>
                      </note>
                   </unclear>
@@ -602,7 +607,15 @@
                         <hi rend="overline">
             κν</hi></abbr></choice> <lb n="2r6"/>
 
-            αυτοϲ δε εϲιωπα ωϲ μηδεν πονον εχων
+            αυτοϲ δε εϲιωπα ωϲ 
+            
+               <choice>
+                  <orig resp="#Mara #Foster #EhrmanPleše">
+            μηδεν</orig>   
+                  <corr resp="#KrausNicklas">μηδενα</corr>
+               </choice>            
+            
+            πονον εχων
 
          </p></div>
          <div type="textpart" subtype="verse" n="11"><p>
@@ -650,9 +663,9 @@
             αυτου διεμεριϲαντο και λαχμον εβαλον επ αυτοιϲ 
 
          </p></div>
-         <div type="textpart" subtype="verse" n="13"><p>
+         <div type="textpart" subtype="verse" n="13">
 
-            <lb n="2r10"/>
+            <lb n="2r10"/><p>
 
             ειϲ δε τιϲ των κακουργων εκεινων 
             
@@ -764,8 +777,9 @@
             τεϲ οτι νυξ εϲτιν 
             
                <choice>
-                  <orig resp="#Mara #Foster">
+                  <orig resp="#Foster">
             επεϲαντο</orig>
+                  <corr resp="#Mara #EhrmanPlese">[και] επεϲαντο</corr>
                   <corr resp="#KrausNicklas">επεϲαν τε</corr>
                </choice> 
 
@@ -810,9 +824,9 @@
             καταπεταϲμα του ναου τηϲ Ιερουϲαλημ ειϲ δυο 
 
 	      </p></div>
-         <div type="textpart" subtype="verse" n="21"><p>
+         <div type="textpart" subtype="verse" n="21">
 
-            <lb n="2v9"/>
+            <lb n="2v9"/><p>
 
             και τοτε απεϲπαϲαν τουϲ ηλουϲ απο των  
                        
@@ -940,9 +954,9 @@
             ωϲ κακουργοι και ωϲ τον ναον θελοντεϲ εμπρηϲαι
 
          </p></div>
-         <div type="textpart" subtype="verse" n="27"><p>
+         <div type="textpart" subtype="verse" n="27">
 
-            <lb n="3r7"/>
+            <lb n="3r7"/><p>
 
             επι δε τουτοιϲ παϲιν ενηϲτευομεν και εκαθεζομεθα <lb n="3r8"/>
                         
@@ -977,9 +991,9 @@
             Πειλατον δεομενοι αυτου και λεγοντεϲ 
 
          </p></div>
-         <div type="textpart" subtype="verse" n="30"><p>
+         <div type="textpart" subtype="verse" n="30">
 
-            <lb n="3r16"/>
+            <lb n="3r16"/><p>
             
             παραδοϲ ημιν ϲτρατιωταϲ ινα 
 
@@ -987,6 +1001,7 @@
                   <orig resp="#Foster">
             φυλαξω</orig>
                   <corr resp="#Mara #KrausNicklas">φυλαξωμεν</corr>
+                  <corr resp="EhrmanPlese">φυλαξωϲιν</corr>
                </choice>
             
             το μνημα <lb n="3r17"/>
@@ -1008,9 +1023,8 @@
             
          </p><pb n="3v"
                facs="http://ipap.csad.ox.ac.uk/GP/300dpi/30-36.jpg"/>
-         <p>            
-
-            <lb n="3v1"/>
+                   
+            <lb n="3v1"/><p>
 
             οι μαθηται αυτου κλεψωϲιν αυτον και υπολαβη <lb n="3v2"/>
 
@@ -1023,7 +1037,7 @@
 
             ο δε Πειλατοϲ παραδεδωκεν αυτοιϲ <lb n="3v4"/>
 
-            πετρωνιον τον κεντυριωνα μετα 
+            Πετρωνιον τον κεντυριωνα μετα 
             
                <choice>
                   <orig>
@@ -1081,9 +1095,9 @@
                      <hi rend="overline">ο</hi></abbr></choice>
 
         </p></div>
-         <div type="textpart" subtype="verse" n="35"><p>
+         <div type="textpart" subtype="verse" n="35">
 
-            <lb n="3v14"/>
+            <lb n="3v14"/><p>
 
             τη δε νυκτι 
             
@@ -1134,9 +1148,8 @@
 
          </p><pb n="4r"
                facs="http://ipap.csad.ox.ac.uk/GP/300dpi/36-43.jpg"/>
-         <p>  
-            
-            <lb n="4r1"/>
+           
+            <lb n="4r1"/><p>
             
             κατελθονταϲ εκειθε πολυ φεγγοϲ εχονταϲ <lb n="4r2"/>
 
@@ -1249,9 +1262,9 @@
                </choice>  
 
          </p></div>
-         <div type="textpart" subtype="verse" n="42"><p>
+         <div type="textpart" subtype="verse" n="42">
 
-           <lb n="4r16"/>
+           <lb n="4r16"/><p>
             
             και υπακοη ηκουετο απο του ϲταυρου 
 
@@ -1271,9 +1284,8 @@
             
          </p><pb n="4v"
                facs="http://ipap.csad.ox.ac.uk/GP/300dpi/43-50.jpg"/>
-         <p> 
-
-            <lb n="4v1"/>
+          
+            <lb n="4v1"/><p>
 
             και ενφανιϲαι ταυτα τω Πειλατω
 
@@ -1468,9 +1480,8 @@
             
          </p><pb n="5r"
                facs="http://ipap.csad.ox.ac.uk/GP/300dpi/50-55.jpg"/>
-         <p> 
-
-            <lb n="5r1"/>
+          
+            <lb n="5r1"/><p>
 
             υπο τηϲ οργηϲ ουκ εποιηϲεν επι τω μνηματι του 
             
@@ -1546,7 +1557,23 @@
 
             ναμεθα καν επι τηϲ θυραϲ βαλωμεν α φερομεν ειϲ <lb n="5r13"/>
 
-            μνημοϲυνην αυτου κλαυϲομεν και κοψομεθα εωϲ <lb n="5r14"/>
+            μνημοϲυνην αυτου  
+
+                <choice>
+                  <orig resp="#KrausNicklas #Foster">
+            κλαυϲομεν</orig>
+                  <corr resp="#Mara">κλαυϲωμεν</corr>
+               </choice>  
+
+            και 
+
+                <choice>
+                  <orig resp="#KrausNicklas #Foster">
+            κοψομεθα</orig>
+                  <corr resp="#Mara">κοψωμεθα</corr>
+               </choice>  
+
+            εωϲ <lb n="5r14"/>
 
             ελθωμεν ειϲ τον οικον ημων
 
@@ -1575,7 +1602,6 @@
 
             ϲτολην λαμπροτατην οϲτιϲ εφη 
             
-            
                 <choice>
                   <orig>
             αυται</orig>
@@ -1584,7 +1610,6 @@
 
          </p></div>
          <div type="textpart" subtype="verse" n="56"><p>
-
              
                 <choice>
                   <orig resp="#Foster">
@@ -1685,14 +1710,7 @@
                   <corr resp="#Mara #KrausNicklas">θα</corr>
                </choice><lb n="5v14" break="no"/>
 
-            λαϲϲαν 
-                <choice>
-                  <orig>
-            φοβηθειϲ</orig>
-                  <corr resp="#Mara #Foster #KrausNicklas">φοβηθειϲαι</corr>
-               </choice>
-
-            και ην ϲυν ημιν Λευειϲ ο του Αλφαιου ον 
+            λαϲϲαν και ην ϲυν ημιν Λευειϲ ο του Αλφαιου ον 
 
                <choice>
                   <expan>κυριοϲ</expan>
