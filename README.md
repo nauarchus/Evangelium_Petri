@@ -21,7 +21,7 @@ All datasets use UTF-8 encoding and decomposed Unicode characters.
 
 If you make use of any of this data in publications, code, or other projects, please cite as follows. Include an ISO 8061 date-time stamp to ensure version accuracy. 
 
-> Bilby, Mark G. "TEI-XML Critical Edition of the Evangelium Petri." Kansas City, KS: Clavis Consulting, LLC, ISO 8061 datetime}.
-> Bilby, Mark G. "TEI-XML Diplomatic Edition of the Evangelium Petri in BAAM 0522." Kansas City, KS: Clavis Consulting, LLC, ISO 8061 datetime}.
-> Bilby, Mark G. "TEI-XML Diplomatic Edition of the Evangelium Petri in P.Oxy. 2949." Kansas City, KS: Clavis Consulting, LLC, {ISO 8061 datetime}.
+* Bilby, Mark G. "TEI-XML Critical Edition of the Evangelium Petri." Kansas City, KS: Clavis Consulting, LLC, ISO 8061 datetime}.
+* Bilby, Mark G. "TEI-XML Diplomatic Edition of the Evangelium Petri in BAAM 0522." Kansas City, KS: Clavis Consulting, LLC, ISO 8061 datetime}.
+* Bilby, Mark G. "TEI-XML Diplomatic Edition of the Evangelium Petri in P.Oxy. 2949." Kansas City, KS: Clavis Consulting, LLC, {ISO 8061 datetime}.
 
