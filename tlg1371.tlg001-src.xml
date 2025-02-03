@@ -172,6 +172,20 @@
                   <biblScope unit="page">47–48, 252</biblScope>
                </bibl>
             </listBibl>
+            <listPerson type="scholars">
+               <person xml:id="Gebhardt">
+                  <persName>Otto von Gebhardt</persName>
+               </person>
+                <person xml:id="Lührmann">
+                  <persName>Dieter Lührmann</persName>
+               </person>           
+               <person xml:id="Manchot">
+                  <persName>Karl Manchot</persName>
+               </person>
+               <person xml:id="Zahn">
+                  <persName>Theodor Zahn</persName>
+               </person>
+            </listPerson>
             <listPerson type="characters">
                <person xml:id="all">
                   <persName>all present characters</persName>
@@ -222,23 +236,6 @@
                   <persName>young man and/or angel</persName>
                </person>
             </listPerson>
-               <listPerson type="scholars">
-               <person xml:id="Coles">
-                  <persName>Robert A. Coles</persName>
-               </person>
-               <person xml:id="Gebhardt">
-                  <persName>Otto von Gebhardt</persName>
-               </person>
-                <person xml:id="Lührmann">
-                  <persName>Dieter Lührmann</persName>
-               </person>           
-               <person xml:id="Manchot">
-                  <persName>Karl Manchot</persName>
-               </person>
-               <person xml:id="Zahn">
-                  <persName>Theodor Zahn</persName>
-               </person>
-         </listPerson>
         </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -468,7 +465,7 @@
             σταυρίσκειν αὐτὸν 
             
                <app type="variants">
-                  <rdg type="omission" resp="Bilby"/>
+                  <rdg type="omission" resp="#MGB"/>
                   <rdg wit="#A" source="#Mara #KrausNicklas #Foster">μέλλουσιν</rdg>
                </app>, 
 
@@ -715,7 +712,7 @@
 
             <app type="variants">
                <lem wit="#A" source="#Foster" resp="#MGB">ἐπέσαντο</lem>
-               <rdg type="correction" source="#Mara #EhrmanPlese">και επεϲαντο</rdg>
+               <rdg type="correction" source="#Mara #EhrmanPleše">και επεϲαντο</rdg>
                <rdg type="correction" source="#KrausNicklas">επεϲαν τε</rdg>
             </app>. </p> 
 
@@ -823,7 +820,7 @@
              <app type="variants">
                   <lem wit="#A" source="#Foster" resp="#MGB">φυλάξω</lem>
                   <rdg type="correction" source="#Mara #KrausNicklas">φυλάξωμεν</rdg>
-                  <rdg type="correction" source="EhrmanPlese">φυλάξωϲιν</rdg>
+                  <rdg type="correction" source="#EhrmanPleše">φυλάξωϲιν</rdg>
                </app>
                 
                 τὸ μνῆμα αὐτοῦ ἐπὶ τρεῖς ἡμέρας, 
@@ -1047,7 +1044,7 @@
             <p> ἐκέλευσεν οὖν ὁ Πειλάτος τῷ 
             
                <app type="variants">
-                  <lem type="correction" source="#Mara" resp="Bilby">τῷ</lem>
+                  <lem type="correction" source="#Mara" resp="#MGB">τῷ</lem>
                   <rdg type="correction" source="#KrausNicklas">τωι</rdg>
                   <rdg wit="#A" source="#Foster">τῶν</rdg>
                </app> 
@@ -1072,7 +1069,7 @@
             δὲ τῆς κυριακῆς Μαριάμνη
 
                <app type="variants">
-                  <lem type="correction" resp="Bilby">Μαριάμνη</lem>
+                  <lem type="correction" resp="#MGB">Μαριάμνη</lem>
                   <rdg wit="#A">Μαριαμ᾽</rdg>
                   <rdg type="correction" source="#Mara #KrausNicklas #Foster">Μαριὰμ</rdg>                  
                </app>  
@@ -1204,7 +1201,7 @@
             <p> τότε αἱ γυναῖκες φοβηθεῖσαι 
             
                  <app type="variants">
-                  <lem type="correction" source="#Mara #Foster #KrausNicklas" resp="Bilby">φοβηθεῖσαι</lem>
+                  <lem type="correction" source="#Mara #Foster #KrausNicklas" resp="#MGB">φοβηθεῖσαι</lem>
                   <rdg wit="#A">φοβηθειϲ</rdg>
                </app>
 
