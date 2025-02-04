@@ -362,6 +362,7 @@
       <revisionDesc status="draft">
          <change when="2025-01-29" who="#MGB">Initial critical edition released based on collation of BAAM 0522 and P.Oxy. 2949</change>
          <change when="2025-02-01" who="#MGB">added listBibl entries; updated listPerson; changed resp to source for print editions; supplemented apparatus; applied PTA TEI-XML guidance received from AVS</change>
+         <change when="2025-02-04" who="#MGB">for direct speech, changed "quote" tags to "said" tags according to PTA documentation 3.4.9.6; adjusted scripture paraphrases to confirm to PTA documentation 3.4.9.4</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -541,7 +542,7 @@
                   <rdg type="conjecture" resp="#MGB">Ἡρῴδην</rdg>
                 </app>· 
              
-               <said xml:id="Pilate">
+               <said who="Pilate">
              ἤτησα 
                 <app type="variants">
                   <lem wit="#B" source="#Lührmann" resp="#MGB">ἤτησα</lem>
@@ -554,14 +555,14 @@
          <div type="textpart" subtype="verse" n="5">
 
             <p> καὶ ὁ Ἡρῴδης ἔφη·
-                <said xml:id="HerodAntipas"> 
+                <said who="HerodAntipas"> 
                     ἀδελφέ Πειλάτε, 
                     εἰ καὶ μή τις αὐτὸν ᾔτηκει, 
                     ἡμεῖς αὐτὸν ἐθάπτομεν, 
                     ἐπεὶ καὶ σάββατον ἐπιφώσκει· 
                     γέγραπται γὰρ ἐν τῷ νόμῳ
-                    <quote xml:id="scripture">
-                    ἥλιον μὴ δῦναι ἐπὶ πεφονευμένῳ. </quote></said>
+                    <quote type="paraphrasis">
+                    ἥλιον μὴ δῦναι ἐπὶ πεφονευμένῳ. <ref decls="#biblical" cRef="LXX:Dt:21:23"/></quote></said>
                 καὶ παρέδωκεν αὐτὸν τῷ λαῷ πρὸ μιᾶς τῶν ἀζύμων τῆς ἑορτῆς αὐτῶν.</p>
 
 	      </div>
@@ -575,7 +576,7 @@
             </app> 
             
             τρέχοντες καὶ ἔλεγον· 
-                <said xml:id="executioners">
+                <said who="executioners">
             σύρωμεν τὸν υἱὸν τοῦ θεοῦ, 
             ἐξουσίαν αὐτοῦ ἐσχηκότες.</said></p>
 
@@ -591,7 +592,7 @@
 
             καὶ ἐκάθισαν αὐτὸν ἐπὶ καθέδραν κρίσεως, 
             λέγοντες· 
-                <said xml:id="mockers">
+                <said who="mockers">
             δικαίως κρῖνε, 
             βασιλεῦ τοῦ Ἰσραήλ.</said></p>
 
@@ -608,7 +609,7 @@
             καὶ ἄλλοι τὰς σιαγόνας αὐτοῦ ἐράπισαν, 
             ἕτεροι καλάμῳ ἐνύσσον αὐτόν, 
             καί τινες αὐτὸν ἐμάστιζον λέγοντες· 
-                <said xml:id="mockers">
+                <said who="mockers">
             ταύτῃ τῇ τιμῇ τιμήσωμεν τὸν υἱὸν τοῦ θεοῦ. </said></p>
 
 	      </div>
@@ -658,7 +659,7 @@
             
             αὐτοὺς λέγων· 
 
-                <said xml:id="malefactor">
+                <said who="malefactor">
             ἡμεῖς διὰ τὰ κακὰ ἁ ἐποιήσαμεν οὕτω πεπόνθαμεν· 
             οὕτως 
 
@@ -688,13 +689,13 @@
             καὶ ἐθορυβοῦντο καὶ ἠγωνίων μήποτε ὁ ἥλιος ἔδυ, 
             ἐπειδὴ ἔτι ἔζη· 
             γέγραπται αὐτοῖς 
-                <quote type="paraphrasis" xml:id="scripture">ἥλιον μὴ δῦναι ἐπὶ πεφονευμένῳ.<ref decls="#biblical" cRef="LXX:Dt:21:23"/></quote> </p>
+                <quote type="paraphrasis">ἥλιον μὴ δῦναι ἐπὶ πεφονευμένῳ.<ref decls="#biblical" cRef="LXX:Dt:21:23"/></quote> </p>
 
           </div>
          <div type="textpart" subtype="verse" n="16">
          
             <p> καί τις αὐτῶν εἰπεν· 
-                <said xml:id="bystander">
+                <said who="bystander">
             ποτίσατε αὐτὸν χολὴν μετὰ ὄξους· </said>
             καὶ κεράσαντες ἐπότισαν.</p>
 
@@ -720,7 +721,7 @@
          <div type="textpart" subtype="verse" n="19">
             
             <p> καὶ ὁ κύριος ἀνεβόησε λέγων· 
-                <said xml:id="Jesus">
+                <said who="Jesus">
             ἡ δύναμίς μου, ἡ δύναμις, κατελειψάς με· </said>
             καὶ εἰπὼν ἀνελήφθη. </p>
 
@@ -777,7 +778,7 @@
             <p> τότε οἱ Ἰουδαῖοι καὶ οἱ πρεσβύτεροι καὶ οἱ ἱερεῖς, 
             γνόντες οἷον κακὸν ἑαυτοῖς ἐποίησαν, 
             ἤρξαντο κόπτεσθαι καὶ λέγειν· 
-                <said xml:id="leaders">οὐαὶ ταῖς ἁμαρτίαις ἡμῶν· 
+                <said who="leaders">οὐαὶ ταῖς ἁμαρτίαις ἡμῶν· 
                   ἤγγισεν ἡ κρίσις καὶ τὸ τέλος Ἱερουσαλήμ. </said></p>
 
            </div>
@@ -800,7 +801,7 @@
             <p> συναχθέντες δὲ οἱ γραμματεῖς καὶ Φαρισαῖοι καὶ πρεσβύτεροι πρὸς ἀλλήλους, 
             ἀκούσαντες ὅτι ὁ λαὸς ἅπας γογγύζει καὶ κόπτεται τὰ στήθη, 
             λέγοντες ὅτι· 
-                <said xml:id="people">εἰ τῷ θανάτῳ αὐτοῦ ταῦτα τὰ μέγιστα σημεῖα γέγονεν, 
+                <said who="people">εἰ τῷ θανάτῳ αὐτοῦ ταῦτα τὰ μέγιστα σημεῖα γέγονεν, 
                 ἴδετε ὅτι πόσον δίκαιός ἐστιν.</said> </p>
 
            </div>
@@ -813,7 +814,7 @@
          </div>
          <div type="textpart" subtype="verse" n="30">
 
-            <p> <said xml:id="elders">
+            <p> <said who="elders">
                 παράδος ἡμῖν στρατιώτας, 
                 ἵνα φυλάξω 
                 
@@ -946,7 +947,7 @@
          <div type="textpart" subtype="verse" n="41">
          
             <p> καὶ φωνῆς ἤκουον ἐκ τῶν οὐρανῶν λεγούσης· 
-                <said xml:id="batkol">
+                <said who="batkol">
             ἐκήρυξας τοῖς κοιμωμένοις
 
                  <app type="variants">
@@ -958,7 +959,7 @@
          <div type="textpart" subtype="verse" n="42">
 
            <p> καὶ ὑπακοὴ ἠκούετο ἀπὸ τοῦ σταυροῦ ὅτι 
-            <said xml:id="cross">ναί</said>. </p>         
+            <said who="cross">ναί</said>. </p>         
 
 	        </div>
          <div type="textpart" subtype="verse" n="43">
@@ -997,13 +998,13 @@
                   <rdg wit="#A" source="#Foster">ἀπωνιῶντες</rdg>
                </app> μεγαλῶς, 
             καὶ λέγοντες· 
-                <said xml:id="soldiers">ἀληθῶς υἱὸς ἦν θεοῦ.</said> </p>
+                <said who="soldiers">ἀληθῶς υἱὸς ἦν θεοῦ.</said> </p>
             
             </div>
          <div type="textpart" subtype="verse" n="46">
          
             <p> ἀποκριθεὶς ὁ Πειλάτος ἔφη· 
-                <said xml:id="Pilate">ἐγὼ καθαρεύω τοῦ αἵματος τοῦ υἱοῦ τοῦ θεοῦ· 
+                <said who="Pilate">ἐγὼ καθαρεύω τοῦ αἵματος τοῦ υἱοῦ τοῦ θεοῦ· 
                ἡμῖν
                     <app type="variants">
                         <lem wit="#A" source="#Foster" resp="#MGB">ἡμῖν</lem>
@@ -1032,9 +1033,9 @@
             </div>
          <div type="textpart" subtype="verse" n="48">
 
-            <p> <said xml:id="all">συμφέρει γάρ</said>, 
+            <p> <said who="all">συμφέρει γάρ</said>, 
             φασίν, 
-            <said xml:id="all">
+            <said who="all">
             ἡμῖν ὀφλῆσαι μεγίστην ἁμαρτίαν ἔμπροσθεν τοῦ θεοῦ, 
             καὶ μὴ ἐμπεσεῖν εἰς χεῖρας τοῦ λαοῦ τῶν Ἰουδαίων καὶ λιθασθῆναι.</said> </p>
 
@@ -1090,7 +1091,7 @@
 
             <p> καὶ ἐφοβοῦντο μὴ ἴδωσιν αὐτὰς οἱ Ἰουδαῖοι, 
             καὶ ἔλεγον· 
-               <said xml:id="women">εἰ καὶ μὴ ἐν ἐκείνῃ τῇ ἡμέρᾳ ᾑ ἐσταυρώθη, 
+               <said who="women">εἰ καὶ μὴ ἐν ἐκείνῃ τῇ ἡμέρᾳ ᾑ ἐσταυρώθη, 
                ἐδυναθήμεν κλαῦσαι καὶ κόψασθαι
                
                  <app type="variants">
@@ -1102,7 +1103,7 @@
             </div>
          <div type="textpart" subtype="verse" n="53">
 
-            <p> <said xml:id="women">τίς δὲ ἀποκυλίσει ἡμῖν καὶ τὸν λίθον τὸν τεθέντα ἐπὶ τῆς θύρᾳς τοῦ μνημείου, 
+            <p> <said who="women">τίς δὲ ἀποκυλίσει ἡμῖν καὶ τὸν λίθον τὸν τεθέντα ἐπὶ τῆς θύρᾳς τοῦ μνημείου, 
             ἵνα εἰσελθοῦσαι παρακαθεσθῶμεν αὐτῷ καὶ ποιήσωμεν τὰ ὀφειλόμενα
             
                 <app type="variants">
@@ -1113,7 +1114,7 @@
             </div>
          <div type="textpart" subtype="verse" n="54">
 
-            <p> <said xml:id="women">μέγας γὰρ ἦν ὁ λίθος, 
+            <p> <said who="women">μέγας γὰρ ἦν ὁ λίθος, 
             καὶ φοβούμεθα μή τις ἡμᾶς ἴδῃ. 
             καὶ εἰ μὴ δυνάμεθα, 
             κἂν ἐπὶ τῆς θύρας βάλωμεν ἁ φέρομεν εἰς μνημοσύνην αὐτοῦ, 
@@ -1166,7 +1167,7 @@
             </div>
          <div type="textpart" subtype="verse" n="56">
 
-            <p> <said xml:id="youngman">
+            <p> <said who="youngman">
                τί 
                   <app type="variants">
                      <lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">τί</lem>
