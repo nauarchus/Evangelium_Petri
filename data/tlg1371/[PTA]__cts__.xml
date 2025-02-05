@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:textgroup
+  xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  xmlns:cpt="http://purl.org/capitains/ns/1.0#"
+  xmlns:gnd="http://d-nb.info/standards/elementset/gnd#" 
+  xmlns:wd="http://www.wikidata.org/ontology#"
+  projid="greekLit:tlg1371"
+  urn="urn:cts:greekLit:tlg1371">
+  <ti:groupname xml:lang="eng">Gospel of Peter</ti:groupname>
+  <ti:groupname xml:lang="deu">Evangelium nach Petrus</ti:groupname>
+  <ti:groupname xml:lang="deu">Petrusevangelium</ti:groupname>
+  <ti:groupname xml:lang="ita">Vangelo di Pietro</ti:groupname>
+  <ti:groupname xml:lang="fra">Évangile de Pierre</ti:groupname>
+  <ti:groupname xml:lang="lat">Evangelium Petri</ti:groupname>
+  <cpt:structured-metadata>
+    <gnd:gndIdentifier>4173966-8</gnd:gndIdentifier>
+    <wd:Item>Q762054</wd:Item>
+  </cpt:structured-metadata>
+</ti:textgroup>
+
