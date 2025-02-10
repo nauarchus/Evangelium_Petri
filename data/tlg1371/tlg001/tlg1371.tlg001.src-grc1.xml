@@ -485,14 +485,15 @@
             
             Πειλάτον
                <app type="variants">
-                  <lem wit="#A #B" source="#Mara #KrausNicklas #Foster #Coles #Lührmann">Πειλάτον</lem>
-                  <rdg  >Πειλάτον</rdg>
+                  <lem wit="#A #B">Πειλάτον</lem>
+                  <rdg wit="#A" source="#Mara #KrausNicklas #Foster">Πειλάτον</rdg>
+		  <rdg wit="#B" source="#Coles #Lührmann">Πειλάτον</rdg>
                </app>, 
             
             καὶ ἤτησε τὸ 
                <app type="variants">
-                  <lem>τὸ</lem>
-                  <rdg wit="#A" source="#Coles #Mara #KrausNicklas #Foster">τὸ</rdg>
+                  <lem wit="#A">τὸ</lem>
+                  <rdg wit="#A" source="#Mara #KrausNicklas #Foster">τὸ</rdg>
                   <rdg type="conjecture" source="#Lührmann">τὸ</rdg>
                </app>
 
