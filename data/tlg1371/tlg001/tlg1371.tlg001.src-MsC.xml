@@ -23,7 +23,7 @@
                <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Available under a Creative Commons Attribution Non-Commercial ShareAlike 4.0 International License</licence>
                <p>© 2025 Clavis Consulting, LLC (Kansas)</p>
             </availability>
-            <date when="2025-01-27"></date>
+            <date when="2025-01-22"></date>
             <idno type="TLG">tlg1371.tlg001</idno>
             <idno type="CANT">13</idno>
             <idno type="BHG">1486x</idno>
@@ -33,7 +33,7 @@
             <msDesc>
                <msIdentifier xml:id="B" corresp="SRCMS00002">
                   <settlement>Oxford</settlement>
-                  <repository ref="https://portal.sds.ox.ac.uk/articles/online_resource/P_Oxy_XLI_2949_frgments_of_an_Apocryphal_Gospel_/21166660">Sackler Library</repository>
+                  <repository ref="https://portal.sds.ox.ac.uk/articles/online_resource/P_Oxy_XLI_2949_Fragments_of_an_Apocryphal_Gospel_/21166660">Sackler Library</repository>
                   <idno source="https://www.trismegistos.org/text/63897">P.Oxy. 41 2949</idno>
                   <altIdentifier type="LDAB">
                      <idno source="https://www.trismegistos.org/text/63897">5111</idno>
@@ -70,8 +70,8 @@
                </item>
                <item>
                   <bibl>
-                     <title>P.Oxy. XLI 2949. frgments of an Apocryphal Gospel (?)</title>
-                     <ptr target="https://portal.sds.ox.ac.uk/articles/online_resource/P_Oxy_XLI_2949_frgments_of_an_Apocryphal_Gospel_/21166660"/>
+                     <title>P.Oxy. XLI 2949. Fragments of an Apocryphal Gospel (?)</title>
+                     <ptr target="https://portal.sds.ox.ac.uk/articles/online_resource/P_Oxy_XLI_2949_Fragments_of_an_Apocryphal_Gospel_/21166660"/>
                      <note>
                         Four images are available, including three color images and one grayscale image. The metadata note a date of "[l]ate second or early third century."
                         The location is the "Papyrology Rooms, Art, Archaeology and Ancient World Library, Oxford."
@@ -80,23 +80,38 @@
                </item>
             </list>
             <listPerson>
-               <person xml:id="Bilby">
-                  <persName>Mark G. Bilby</persName>
-               </person>
-               <person xml:id="Coles">
-                  <persName></persName>
-               </person>
                <person xml:id="Foster">
                   <persName>Paul Foster</persName>
+               </person>
+               <person xml:id="Harnack">
+                  <persName>Adolf von Harnack</persName>
+               </person>
+               <person xml:id="Hilgenfeld">
+                  <persName>Adolf Hilgenfeld</persName>
                </person>
                <person xml:id="KrausNicklas">
                   <persName>Thomas J. Kraus and Tobias Nicklas</persName>
                </person>
-               <person xml:id="Lührmann">
+               <person xml:id="Lejay">
+                  <persName>Paul Lejay</persName>
+               </person>
+               <person xml:id="Luhrmann">
                   <persName>Dieter Lührmann</persName>
                </person>
-               <person xml:id="Wayment">
-                  <persName>Thomas A. Wayment</persName>
+               <person xml:id="Manchot">
+                  <persName>Karl Manchot</persName>
+               </person>
+               <person xml:id="Mara">
+                  <persName>Maria Grazia Mara</persName>
+               </person>
+               <person xml:id="Robinson">
+                  <persName>J. Armitage Robinson</persName>
+               </person>
+               <person xml:id="Vaganay">
+                  <persName>Henri Vaganay</persName>
+               </person>
+               <person xml:id="Zahn">
+                  <persName>Theodor Zahn</persName>
                </person>
          </listPerson>
         </sourceDesc>
@@ -110,7 +125,7 @@
          <editorialDecl>
             <interpretation>
                <p>
-                  This file is encoded according to the guidelines of the Patristic Text Archive (PTA). See <ref target="https://pta.bbaw.de/project/encoding-guidelines">PTA encoding guidelines</ref> and <ref target="https://doi.org/10.5281/zenodo.3737666">https://doi.org/10.5281/zenodo.3737666</ref>.
+                  This file is encoded according to the guidelines of the Patristic Text Archive (PTA). See <ref target="https://pta.bbaw.de/project/encoding-guidelines">https://pta.bbaw.de/project/encoding-guidelines</ref> and <ref target="https://doi.org/10.5281/zenodo.3737666">https://doi.org/10.5281/zenodo.3737666</ref>.
                </p>
                <p xml:id="biblical-quotations"
                   ana="not-annotated not-identified">
@@ -223,7 +238,7 @@
 
       </profileDesc>
       <revisionDesc status="draft">
-         <change when="2025-01-29" who="#MGB">Initial diplomatic edition released together with initial critical edition of EvPet</change>
+         <change when="2025-01-22" who="#MGB">Initial diplomatic edition released</change>
       </revisionDesc>
    </teiHeader>
 <text>
@@ -233,150 +248,45 @@
            n="urn:cts:greekLit:tlg1371.tlg001.src-MsB">
          
          <pb facs="https://portal.sds.ox.ac.uk/ndownloader/files/37536061"/>
+         <lb n="frag1_ln1"/><p>
+            τ</p>
+         <lb n="frag1_ln2"/>
+            <gap reason="damage" unit="line" extent="unknown"/>
+         <lb n="frag1_ln3"/><p>
+            ν</p>
+         <lb n="frag1_ln4"/>
+            <gap reason="damage" unit="line" extent="unknown"/>
+         <lb n="frag1_ln5"/><p>
+            ο φιλοϲ πειλατου </p>
+         <lb n="frag1_ln6"/><p>
+            <lb n="1v5"/>
+            ιϲ οτι εκελευϲεν</p>
+         <lb n="frag1_ln7"/><p>
+            ων προϲ πειλατ</p>
+         
+         <lb n="frag1_ln8"/>
+         <lb n="frag1_ln9"/><p>
+            Ηρωδην ητηϲατο</p>
+         <lb n="frag1_ln10"/><p>
+            ηναι ειπων</p>
 
-         <lb n="frg1_ln1"/><p>
-               <gap reason="damage" unit="character" extent="unknown"/>
-               <unclear reason="damage" ana="gap"><supplied resp="#Coles #Lührmann #KrausNicklas">
-            τ</supplied></unclear>
-               <gap reason="damage" unit="character" extent="unknown"/>
-
-         <lb n="frg1_ln2"/>
-               <gap reason="damage" unit="line" extent="1"/>
-
-         <lb n="frg1_ln3"/>
-               <gap reason="damage" unit="character" extent="unknown"/>
-            ν
-               <gap reason="damage" unit="character" extent="unknown"/>
-
-         <lb n="frg1_ln4"/>
-            <gap reason="damage" unit="line" extent="1"/>
-
-         <lb n="frg1_ln5"/>
-               <gap reason="damage" unit="character" extent="unknown"/>
-               <supplied resp="#Lührmann">
-            Ϊωϲηφ </supplied>
-               <unclear reason="damage" ana="abrasion">
-               <supplied resp="#Coles #Lührmann #KrausNicklas">
-            ο </supplied></unclear>
-            φιλοϲ 
-            π<unclear reason="damage"><supplied resp="#Coles #Lührmann #KrausNicklas">
-            ε</supplied></unclear>
-            ιλα<unclear reason="damage"><supplied resp="#Lührmann #KrausNicklas">
-            τ</supplied></unclear>
-            ου 
-               <unclear reason="damage">
-                  <supplied resp="#Coles #Lührmann">
-            κ</supplied></unclear>
-               <gap reason="damage" unit="character" extent="unknown"/>
-
-         <lb n="frg1_ln6"/>
-               <gap reason="damage" unit="character" extent="unknown"/>
-               <supplied resp="#Lührmann">
-            ειδ</supplied>
-               <unclear reason="damage"><supplied resp="#Lührmann">
-            ω</supplied>
-               <supplied resp="#Coles #KrausNicklas">
-            ι</supplied></unclear>
-            ϲ οτι εκελευϲεν 
-               <gap reason="damage" unit="character" extent="unknown"/>
-               <supplied resp="#Lührmann">
-            Ηρωδηϲ</supplied>
-
-         <lb n="frg1_ln7"/>
-               <gap reason="damage" unit="character" extent="unknown"/>
-               <supplied resp="#Lührmann">
-            ελ</supplied>
-               <supplied resp="#Coles #KrausNicklas #Lührmann">
-            θ</supplied>
-            ων προϲ πειλατ
-               <gap reason="damage" unit="character" extent="1"/>
-               <supplied resp="#Coles #Lührmann">
-            ο</supplied>
-               <supplied resp="#Lührmann #KrausNicklas">
-            ν</supplied>
-               <gap reason="damage" unit="character" extent="unknown"/>
-
-         <lb n="frg1_ln8"/>
-               <gap reason="damage" unit="character" extent="unknown"/>
-               <gap reason="damage" unit="character" extent="1"/>
-               <supplied resp="#Lührmann">
-            το </supplied>
-               <unclear reason="damage"><supplied resp="#Coles #Lührmann">
-            ϲ</supplied></unclear>
-               <unclear reason="damage"><supplied resp="#Coles #Lührmann #KrausNicklas">
-            ω</supplied></unclear>
-            μα ειϲ ταφην           
-               <gap reason="damage" unit="character" extent="unknown"/>    
-
-         <lb n="frg1_ln9"/>
-               <gap reason="damage" unit="character" extent="unknown"/>
-               <supplied resp="#Lührmann">
-            Ηρωδ</supplied>
-               <unclear reason="damage"><supplied resp="#Coles #Lührmann #KrausNicklas">
-            η</supplied></unclear>            
-            ν ητηϲα 
-               <gap reason="damage" unit="character" extent="2"/>  
-               <supplied resp="#Lührmann #KrausNicklas">
-            το</supplied>
-            <gap reason="damage" unit="character" extent="unknown"/>
-
-         <lb n="frg1_ln10"/>
-               <gap reason="damage" unit="character" extent="unknown"/>
-               <gap reason="damage" unit="character" extent="1"/>
-               <supplied resp="#Lührmann">
-            ν </supplied>  
-            ηναι ειπω
-               <gap reason="damage" unit="character" extent="1"/>
-               <supplied resp="#Lührmann #KrausNicklas">
-            ν </supplied>            
-               <gap reason="damage" unit="character" extent="unknown"/>
-
-         <lb n="frg1_ln11"/>
-               <gap reason="damage" unit="character" extent="unknown"/>
-               <unclear><supplied resp="#Lührmann">
-            η</supplied>
-               <supplied resp="#Coles #KrausNicklas">αι</supplied></unclear>
-            τηϲα 
-               <gap reason="damage" unit="character" extent="unknown"/>
-               <supplied resp="#Coles">
-            μεν</supplied>
-               <gap reason="damage" unit="character" extent="unknown"/>
-
-         <lb n="frg1_ln12"/>
-                <gap reason="damage" unit="character" extent="unknown"/>
-            αυτον
-               <gap reason="damage" unit="character" extent="unknown"/>
-
-         <lb n="frg1_ln13"/>
-               <gap reason="damage" unit="character" extent="unknown"/>
-            οτι α
-               <gap reason="damage" unit="character" extent="unknown"/>
-
-         <lb n="frg1_ln14"/>
+         <lb n="frag1_ln11"/><p>
+            αιτηϲα</p>
+         <lb n="frag1_ln12"/><p>
+            αυτον</p>
+         <lb n="frag1_ln13"/><p>
+            οτι α</p>
+         <lb n="frag1_ln14"/>
             <gap reason="damage" unit="line" extent="unknown"/>
 
-         </p><lb n="frg2_ln1"/><p>
-               <gap reason="damage" unit="character" extent="unknown"/>
-            μου
-               <gap reason="damage" unit="character" extent="unknown"/>
-
-         <lb n="frg2_ln2"/>
-               <gap reason="damage" unit="character" extent="unknown"/>
-            πειλ
-               <gap reason="damage" unit="character" extent="unknown"/>
-
-         <lb n="frg2_ln3"/>
-               <gap reason="damage" unit="character" extent="unknown"/>
-            τιϲ α
-               <gap reason="damage" unit="character" extent="unknown"/>
-
-         <lb n="frg2_ln4"/>
-               <gap reason="damage" unit="character" extent="unknown"/>
-            μ
-               <unclear reason="damage"><supplied resp="#Bilby">
-            ελ</supplied></unclear>  
-               <gap reason="damage" unit="character" extent="unknown"/>            
-            </p>
+         <lb n="frag2_ln1"/><p>
+            μου</p>
+         <lb n="frag2_ln2"/><p>
+            πειλ</p>
+         <lb n="frag2_ln3"/><p>
+            τιϲα</p>
+         <lb n="frag2_ln4"/><p>
+            μ</p>
 
       </div>
    </body>

@@ -56,8 +56,8 @@
                <bibl xml:id="Bruston">
                   <abbr type="siglum">Bruston</abbr>
                   <author>Charles Bruston</author>
-                  <title level="a">De quelques textes difficiles de l’Évangile de Pierre</title>
-                  <title level="j">Revue des études grecques</title>
+                  <title level="a">De quelques textes difficiles de l’Évangile de Pierre</title>
+                  <title level="j">Revue des études grecques</title>
                   <date when="1897">1897</date>
                   <biblScope unit="page">58–65</biblScope>
                </bibl>
@@ -92,7 +92,7 @@
                <bibl xml:id="Gebhardt">
                   <abbr type="siglum">Gebh</abbr>
                   <author>Oscar von Gebhardt</author>
-                  <title level="m">Das Evangelium und die Apokalypse des Petrus. Die neuentdeckten Bruchstücke nach einer Photographie der Handschrift zu Gizeh in Lichtdruck herausgegeben</title>
+                  <title level="m">Das Evangelium und die Apokalypse des Petrus. Die neuentdeckten Bruchstücke nach einer Photographie der Handschrift zu Gizeh in Lichtdruck herausgegeben</title>
                   <pubPlace>Leipzig</pubPlace>
                   <date when="1893">1893</date>
                   <biblScope unit="page">42–47</biblScope>
@@ -100,7 +100,7 @@
                <bibl xml:id="Harnack">
                   <abbr type="siglum">Harn</abbr>
                   <author>Adolf von Harnack</author>
-                  <title level="m">Bruchstücke des Evangeliums und der Apokalypse des Petrus</title>
+                  <title level="m">Bruchstücke des Evangeliums und der Apokalypse des Petrus</title>
                   <series>Texte und Untersuchungen</series>
                   <biblScope unit="volume">9.2</biblScope>
                   <pubPlace>Leipzig</pubPlace>
@@ -111,8 +111,8 @@
                <bibl xml:id="Hilgenfeld">
                   <abbr type="siglum">Hilg</abbr>
                   <author>Adolf Hilgenfeld</author>
-                  <title>Das Petrus-Evangelium über Leiden und Auferstehung Jesu</title>
-                  <title level="j">Zeitschrift für wissenschaftliche Theologie</title>
+                  <title>Das Petrus-Evangelium über Leiden und Auferstehung Jesu</title>
+                  <title level="j">Zeitschrift für wissenschaftliche Theologie</title>
                   <biblScope unit="volume">36.1</biblScope>
                   <date when="1893">1893</date>
                   <biblScope unit="page">439–54</biblScope>
@@ -129,8 +129,8 @@
                <bibl xml:id="Lejay">
                   <abbr type="siglum">Lejay</abbr>
                   <author>Paul Lejay</author>
-                  <title>L’Évangile de Pierre</title>
-                  <title level="j">Revue des études grecques</title>
+                  <title>L’Évangile de Pierre</title>
+                  <title level="j">Revue des études grecques</title>
                   <date when="1893">1893</date>
                   <biblScope unit="page">269–270</biblScope>
                   <idno type="ark">ark:/13960/t3fx7dd0z</idno>
@@ -138,10 +138,10 @@
                <bibl xml:id="Mara">
                   <abbr type="siglum">Mara</abbr>
                   <editor>Maria Grazia Mara</editor>
-                  <title>Évangile de Pierre</title>
-                  <series>Sources chrétiennes</series>
+                  <title>Évangile de Pierre</title>
+                  <series>Sources chrétiennes</series>
                   <pubPlace>Paris</pubPlace>
-                  <publisher>Évangile de Pierre</publisher>
+                  <publisher>Évangile de Pierre</publisher>
                   <date when="1973-12-31">1973</date>
                </bibl>
                <bibl xml:id="RobinsonJames">
@@ -155,9 +155,9 @@
                </bibl>
                <bibl xml:id="Vaganay">
                   <abbr type="siglum">Vag</abbr>
-                  <author>Léon Vaganay</author>
-                  <title level="m">L’Évangile de Pierre</title>
-                  <series>Études Biblique</series>
+                  <author>Léon Vaganay</author>
+                  <title level="m">L’Évangile de Pierre</title>
+                  <series>Études Biblique</series>
                   <pubPlace>Paris</pubPlace>
                   <publisher>Gabalda</publisher>
                   <date when="1929">1929</date>
@@ -176,8 +176,8 @@
                <person xml:id="Gebhardt">
                   <persName>Otto von Gebhardt</persName>
                </person>
-                <person xml:id="Lührmann">
-                  <persName>Dieter Lührmann</persName>
+                <person xml:id="Lührmann">
+                  <persName>Dieter Lührmann</persName>
                </person>           
                <person xml:id="Manchot">
                   <persName>Karl Manchot</persName>
@@ -375,13 +375,13 @@
          <div type="textpart" subtype="verse" n="1">
 
             <p> τῶν δὲ Ἰουδαίων οὐδείς ἐνίψατο τὰς χεῖρας, 
-            οὐδὲ Ἡρῴδης οὐδὲ τις τῶν
+            οὐδὲ Ἡρῴδης οὐδὲ τις τῶν
             
             <app type="variants">
-                <lem wit="#A" source="#Hilgenfeld #KrausNicklas" resp="#MGB">οὐδὲ τις τῶν</lem>
-                <rdg source="#Zahn #Vaganay #Mara #EhrmanPleše">οὐδὲ εἷς τῶν</rdg>
-                <rdg source="#Harnack #Robinson #Foster">οὐδ᾽ εἷς τῶν</rdg>
-                <rdg source="#Bruston">οὐδὲ ἐτέρων</rdg>
+                <lem wit="#A" source="#Hilgenfeld #KrausNicklas" resp="#MGB">οὐδὲ τις τῶν</lem>
+                <rdg source="#Zahn #Vaganay #Mara #EhrmanPleše">οὐδὲ εἷς τῶν</rdg>
+                <rdg source="#Harnack #Robinson #Foster">οὐδ᾽ εἷς τῶν</rdg>
+                <rdg source="#Bruston">οὐδὲ ἐτέρων</rdg>
             </app>
 
             κριτῶν αὐτοῦ. 
@@ -391,7 +391,7 @@
 	      </div>
 	      <div type="textpart" subtype="verse" n="2">
 
-            <p> καὶ τότε κελεύει Ἡρῴδης ὁ βασιλεὺς παραπεμφθῆναι
+            <p> καὶ τότε κελεύει Ἡρῴδης ὁ βασιλεὺς παραπεμφθῆναι
                   
             <app type="variants">
                <lem wit="#A">παρα<gap reason="damage" quantity="3" unit="character"/>μφθῆναι</lem>
@@ -431,7 +431,7 @@
             Πειλάτου  
             <app type="variants">
                <lem wit="#A" source="#Mara #KrausNicklas #Foster">Πειλάτου</lem>
-               <rdg type="conjecture" source="#Coles #Lührmann #KrausNicklas">Πειλάτου</rdg>
+               <rdg type="conjecture" source="#Coles #Lührmann #KrausNicklas">Πειλάτου</rdg>
             </app>
 
             καὶ τοῦ κυρίου
@@ -445,21 +445,21 @@
                   <lem wit="#A">εἰδὼς</lem>
                   <rdgGrp>
                      <rdg wit="#A" source="#Coles #Mara #KrausNicklas #Foster">εἰδὼς</rdg>
-                     <rdg type="conjecture" source="#Lührmann" resp="#MGB">εἰδὼς</rdg>
+                     <rdg type="conjecture" source="#Lührmann" resp="#MGB">εἰδὼς</rdg>
                   </rdgGrp>
                </app>
 
             ὅτι ἐκέλευσεν
                <app type="variants">
                   <lem>ἐκέλευσεν</lem>
-                  <rdg wit="#B" source="#Lührmann" resp="#MGB">ἐκέλευσεν</rdg>
+                  <rdg wit="#B" source="#Lührmann" resp="#MGB">ἐκέλευσεν</rdg>
                   <rdg wit="#A" source="#Mara #KrausNicklas #Foster" type="omission"></rdg>
                   </app>
             
-            Ἡρῴδης
+            Ἡρῴδης
                <app type="variants">
-                  <lem>Ἡρῴδης</lem>
-                  <rdg type="conjecture" source="#Lührmann" resp="#MGB">Ἡρῴδης</rdg>
+                  <lem>Ἡρῴδης</lem>
+                  <rdg type="conjecture" source="#Lührmann" resp="#MGB">Ἡρῴδης</rdg>
                   <rdg wit="#A" source="#Mara #KrausNicklas #Foster" type="omission"></rdg>
                   </app>            
 
@@ -472,7 +472,7 @@
 
             ἐλθών 
                <app type="variants">
-                  <lem wit="#B" source="#Coles #Lührmann" resp="#MGB">ἐλθών</lem>
+                  <lem wit="#B" source="#Coles #Lührmann" resp="#MGB">ἐλθών</lem>
                   <rdg wit="#A" source="#Mara #KrausNicklas #Foster">ἦλθεν</rdg>
                </app> 
 
@@ -485,7 +485,7 @@
             
             Πειλάτον
                <app type="variants">
-                  <lem wit="#A #B" source="#Mara #KrausNicklas #Foster #Coles #Lührmann">Πειλάτον</lem>
+                  <lem wit="#A #B" source="#Mara #KrausNicklas #Foster #Coles #Lührmann">Πειλάτον</lem>
                   <rdg  >Πειλάτον</rdg>
                </app>, 
             
@@ -493,31 +493,31 @@
                <app type="variants">
                   <lem>τὸ</lem>
                   <rdg wit="#A" source="#Coles #Mara #KrausNicklas #Foster">τὸ</rdg>
-                  <rdg type="conjecture" source="#Lührmann">τὸ</rdg>
+                  <rdg type="conjecture" source="#Lührmann">τὸ</rdg>
                </app>
 
             σῶμα 
                <app type="variants">
                   <lem>σῶμα</lem>
                   <rdg wit="#A" source="#Mara #KrausNicklas #Foster">σῶμα</rdg>
-                  <rdg type="conjecture" source="#Coles #Lührmann">σῶμα</rdg>
+                  <rdg type="conjecture" source="#Coles #Lührmann">σῶμα</rdg>
                </app>             
             
                <app type="variants">
                   <lem wit="#A">τοῦ κυρίου</lem>
-                  <rdg wit="#B" source="#Coles #Lührmann" type="omission" resp="#MGB"></rdg>
+                  <rdg wit="#B" source="#Coles #Lührmann" type="omission" resp="#MGB"></rdg>
                   <rdg wit="#A" source="#Mara #KrausNicklas #Foster">τοῦ κυρίου</rdg>
                   </app>
 
             εἰς 
                <app type="variants">
-                  <lem wit="#B" source="#Coles #Lührmann" resp="#MGB">εἰς</lem>
+                  <lem wit="#B" source="#Coles #Lührmann" resp="#MGB">εἰς</lem>
                   <rdg wit="#A" source="#Mara #KrausNicklas #Foster">πρὸς</rdg>
                   </app>            
             
             ταφήν
                <app type="variants">
-                  <lem wit="#A #B" source="#Mara #KrausNicklas #Foster #Coles #Lührmann">ταφήν</lem>
+                  <lem wit="#A #B" source="#Mara #KrausNicklas #Foster #Coles #Lührmann">ταφήν</lem>
                </app>.</p> 
 
 	         </div>
@@ -529,23 +529,23 @@
                   <rdg wit="#A" source="#Mara #KrausNicklas #Foster">ὁ</rdg>
                   </app> 
 
-            Πειλᾶτος <supplied reason="conjecture" source="#Lührmann" resp="#MGB">
+            Πειλᾶτος <supplied reason="conjecture" source="#Lührmann" resp="#MGB">
             ἔφη </supplied>
                 <app type="variants">
                   <rdg type="omission" resp="#MGB"/>
                   <rdg wit="#A" source="#Mara #KrausNicklas #Foster">πέμψας</rdg>
                   </app> 
 
-             πρὸς Ἡρῴδην
+             πρὸς Ἡρῴδην
                 <app type="variants">
-                  <lem wit="#A" source="#Mara #KrausNicklas #Foster">Ἡρῴδην</lem>
-                  <rdg type="conjecture" resp="#MGB">Ἡρῴδην</rdg>
+                  <lem wit="#A" source="#Mara #KrausNicklas #Foster">Ἡρῴδην</lem>
+                  <rdg type="conjecture" resp="#MGB">Ἡρῴδην</rdg>
                 </app>· 
              
                <said who="Pilate">
              ἤτησα 
                 <app type="variants">
-                  <lem wit="#B" source="#Lührmann" resp="#MGB">ἤτησα</lem>
+                  <lem wit="#B" source="#Lührmann" resp="#MGB">ἤτησα</lem>
                   <rdg wit="#A" source="#Mara #KrausNicklas #Foster">ἤτησε</rdg>
                   <rdg type="conjecture" source="#Coles">ἡτήσαμεν</rdg>
                 </app>
@@ -554,10 +554,10 @@
             </div>
          <div type="textpart" subtype="verse" n="5">
 
-            <p> καὶ ὁ Ἡρῴδης ἔφη·
+            <p> καὶ ὁ Ἡρῴδης ἔφη·
                 <said who="HerodAntipas"> 
                     ἀδελφέ Πειλάτε, 
-                    εἰ καὶ μή τις αὐτὸν ᾔτηκει, 
+                    εἰ καὶ μή τις αὐτὸν ᾔτηκει, 
                     ἡμεῖς αὐτὸν ἐθάπτομεν, 
                     ἐπεὶ καὶ σάββατον ἐπιφώσκει· 
                     γέγραπται γὰρ ἐν τῷ νόμῳ
@@ -1117,7 +1117,7 @@
             <p> <said who="women">μέγας γὰρ ἦν ὁ λίθος, 
             καὶ φοβούμεθα μή τις ἡμᾶς ἴδῃ. 
             καὶ εἰ μὴ δυνάμεθα, 
-            κἂν ἐπὶ τῆς θύρας βάλωμεν ἁ φέρομεν εἰς μνημοσύνην αὐτοῦ, 
+            κἂν ἐπὶ τῆς θύρας βάλωμεν ἁ φέρομεν εἰς μνημοσύνην αὐτοῦ, 
             κλαύσομεν 
             
                <app type="variants">
