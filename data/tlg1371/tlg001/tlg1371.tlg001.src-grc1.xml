@@ -173,9 +173,6 @@
                </bibl>
             </listBibl>
             <listPerson type="scholars">
-               <person xml:id="Gebhardt">
-                  <persName>Otto von Gebhardt</persName>
-               </person>
                 <person xml:id="Lührmann">
                   <persName>Dieter Lührmann</persName>
                </person>           
@@ -357,12 +354,12 @@
                <term>Apocrypha</term>
             </keywords>
          </textClass>
-
       </profileDesc>
       <revisionDesc status="draft">
          <change when="2025-01-29" who="#MGB">Initial critical edition released based on collation of BAAM 0522 and P.Oxy. 2949</change>
          <change when="2025-02-01" who="#MGB">added listBibl entries; updated listPerson; changed resp to source for print editions; supplemented apparatus; applied PTA TEI-XML guidance received from AVS</change>
          <change when="2025-02-04" who="#MGB">for direct speech, changed "quote" tags to "said" tags according to PTA documentation 3.4.9.6; adjusted scripture paraphrases to confirm to PTA documentation 3.4.9.4</change>
+         <change when="2025-02-24" who="#MGB">removed duplicate declaration of Gebhardt</change>
       </revisionDesc>
    </teiHeader>
    <text>

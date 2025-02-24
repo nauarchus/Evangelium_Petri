@@ -9,7 +9,7 @@
                <persName key="tlg1371">Pseudo-Peter</persName>
             </author>
             <respStmt>
-               <resp>transcribed by</resp>
+               <resp>Transcribed and encoded by</resp>
                <persName xml:id="MGB">Mark G. Bilby</persName>
             </respStmt>
          </titleStmt>
@@ -54,15 +54,6 @@
                     <idno source="https://www.nasscal.com/e-clavis-christian-apocrypha/papyrus-oxyrhynchus-2949/">505</idno>
                   </altIdentifier>
                </msIdentifier>
-               <history>
-                  <origin>
-                     <date notBefore="0175" notAfter="0300"/>
-                  </origin>
-                  <provenance>
-                     <settlement ref="https://pleiades.stoa.org/places/746894">Oxyrynchus</settlement>
-                     <note>Discovered at this location.</note>
-                  </provenance>
-               </history>
             </msDesc>
             <list type="photographs">
                <item>
@@ -80,11 +71,8 @@
                </item>
             </list>
             <listPerson>
-               <person xml:id="Bilby">
-                  <persName>Mark G. Bilby</persName>
-               </person>
                <person xml:id="Coles">
-                  <persName></persName>
+                  <persName>Revel A. Coles</persName>
                </person>
                <person xml:id="Foster">
                   <persName>Paul Foster</persName>
@@ -224,6 +212,7 @@
       </profileDesc>
       <revisionDesc status="draft">
          <change when="2025-01-29" who="#MGB">Initial diplomatic edition released together with initial critical edition of EvPet</change>
+         <change when="2025-02-24" who="#MGB">added Revel Coles persName; PTA schema update required removal of "ana" attributes for unclear text and addition of page numbers for manuscript</change>
       </revisionDesc>
    </teiHeader>
 <text>
@@ -232,11 +221,11 @@
            xml:lang="grc"
            n="urn:cts:greekLit:tlg1371.tlg001.src-MsB">
          
-         <pb facs="https://portal.sds.ox.ac.uk/ndownloader/files/37536061"/>
+         <pb n="1" facs="https://portal.sds.ox.ac.uk/ndownloader/files/37536061"/>
 
          <lb n="frg1_ln1"/><p>
                <gap reason="damage" unit="character" extent="unknown"/>
-               <unclear reason="damage" ana="gap"><supplied resp="#Coles #Lührmann #KrausNicklas">
+               <unclear reason="damage"><supplied resp="#Coles #Lührmann #KrausNicklas">
             τ</supplied></unclear>
                <gap reason="damage" unit="character" extent="unknown"/>
 
@@ -255,7 +244,7 @@
                <gap reason="damage" unit="character" extent="unknown"/>
                <supplied resp="#Lührmann">
             Ϊωϲηφ </supplied>
-               <unclear reason="damage" ana="abrasion">
+               <unclear reason="damage">
                <supplied resp="#Coles #Lührmann #KrausNicklas">
             ο </supplied></unclear>
             φιλοϲ 
