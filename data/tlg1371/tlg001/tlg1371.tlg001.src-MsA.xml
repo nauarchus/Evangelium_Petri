@@ -321,6 +321,9 @@
 			<change when="2025-02-01" who="#MGB">
 				moved listPerson to critical edition; removed text critical notes based on PTA TEI-XML guidance from AVS
 			</change>
+			<change when="2025-02-26" who="#MGB">
+				standardized XML indentation; removed blank rows; corrected note on final glyph
+			</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -334,7 +337,6 @@
 						a large cross centered on the page,
 						<g type="alpha" rend="drawing" />
 						with a constellation line art styled Greek letter alpha in the bottom left,
-						and
 						<g type="omega" rend="drawing" />
 						and a constellation line art styled Greek letter omega in the bottom right.
 					</p>
@@ -394,7 +396,6 @@
 							</note>
 							<gap reason="damage" quantity="1" unit="character" />
 							ων
-							
 							κριτων αυτου
 							<unclear reason="damage" cert="high">
 								και
@@ -417,13 +418,11 @@
 							</choice>
 							<lb n="1v3" />
 							νιψαϲθαι
-							
 							ανεϲ
 							<unclear reason="damage" cert="high" quantity="1" unit="character">
 								τ
 							</unclear>
 							η
-							
 							Πειλατηϲ
 						</p>
 					</div>
@@ -439,11 +438,9 @@
 								</ref>
 							</note>
 							βαϲιλευϲ
-							
 							παρ
 							<gap reason="damage" unit="characters" extent="3" />
 							μφθηναι
-							
 							τον
 							<choice>
 								<expan>
@@ -483,9 +480,7 @@
 								</ref>
 								εκ
 							</unclear>
-							ει
-							
-							Ϊωϲηφ ο φιλοϲ Πειλατου και του
+							ει Ϊωϲηφ ο φιλοϲ Πειλατου και του
 							<choice>
 								<expan>
 									κυριου
@@ -512,7 +507,6 @@
 								ϲτα
 							</unclear>
 							υριϲκειν
-							
 							αυτον μελλουϲιν ηλθεν προϲ τον Πειλατον
 							<lb n="1v8" />
 							<note place="margin_outer">
@@ -545,7 +539,6 @@
 					<div type="textpart" subtype="verse" n="4">
 						<p>
 							και ο Πειλατοϲ
-							
 							πεμ
 							<lb n="1v9" break="no" />
 							<note place="margin_outer">
@@ -555,7 +548,6 @@
 								</ref>
 							</note>
 							ψαϲ
-							
 							προϲ
 							<note>
 								over π inverted β offset from
@@ -576,9 +568,7 @@
 							<lb n="1v12" break="no" />
 							πται γαρ εν τω νομω ηλιον μη δυναι επι πεφονευμενω
 							<lb n="1v13" />
-							και παρεδωκεν αυτον τω λαω προ μιαϲ των
-							
-							αζυμων
+							και παρεδωκεν αυτον τω λαω προ μιαϲ των αζυμων
 							<g type="dot" rend="above" />
 							<lb n="1v14" />
 							τηϲ εορτηϲ αυτων
@@ -617,13 +607,10 @@
 					</div>
 					<div type="textpart" subtype="verse" n="7">
 						<p>
-							και πορφυραν αυτον περιεβαλλον
-							
-							και εκα
+							και πορφυραν αυτον περιεβαλλον και
+							εκα
 							<lb n="1v17" break="no" />
-							θιϲαν αυτον επι καθεδραν κριϲεωϲ λεγοντεϲ
-							
-							δικαιωϲ κρινε
+							θιϲαν αυτον επι καθεδραν κριϲεωϲ λεγοντεϲ δικαιωϲ κρινε
 							<lb n="1v18" />
 							βαϲιλευ του Ιϲραηλ
 						</p>
@@ -828,7 +815,6 @@
 								</ref>
 							</note>
 							λειωϲαν
-							
 							κατα τηϲ κεφαληϲ αυτων τα αμαρτημα
 							<lb n="2v4" break="no" />
 							<note place="margin_outer">
@@ -890,7 +876,6 @@
 								</ref>
 							</unclear>
 							αι
-							
 							ειπων ανεληφθη
 						</p>
 					</div>
@@ -935,8 +920,8 @@
 							</choice>
 							και εθηκαν αυτον επι τηϲ γηϲ και η γη πα
 							<lb n="2v11" break="no" />
-							ϲα εϲειϲθη και φοβοϲ μεγαϲ
-							
+							ϲα
+							εϲειϲθη και φοβοϲ μεγαϲ
 							εγενετ
 							<subst>
 								<del rend="overwrite">
@@ -973,11 +958,9 @@
 							και ειληϲε ϲινδονιν και ειϲηγαγεν ειϲ ιδιον
 							<lb n="2v17" />
 							ταφον καλουμενον
-							
 							κ
 							<g type="dot" rend="above" />
 							ηπον
-							
 							Ιωϲηφ
 						</p>
 					</div>
@@ -1015,7 +998,6 @@
 							εταιρων μου ελυπουμεν και τετρωμενοι κατα δια
 							<lb n="3r5" break="no" />
 							νοιαν εκρυβομεθα εζητουμεθα γαρ ϋπ
-							
 							αυτω
 							<subst>
 								<del rend="overwrite">
@@ -1077,12 +1059,9 @@
 					<div type="textpart" subtype="verse" n="30">
 						<lb n="3r16" />
 						<p>
-							παραδοϲ ημιν ϲτρατιωταϲ ινα φυλαξω
-							
-							το μνημα
+							παραδοϲ ημιν ϲτρατιωταϲ ινα φυλαξω το μνημα
 							<lb n="3r17" />
 							αυτου επι τρειϲ
-							
 							ημ
 							<gap reason="damage" unit="character" extent="3" />
 							<unclear reason="damage">
@@ -1193,16 +1172,13 @@
 								</abbr>
 							</choice>
 							<lb n="3v17" />
-							ανοιχθενταϲ τουϲ
-							
-							ουρα
+							ανοιχθενταϲ τουϲ ουρα
 							<unclear reason="damage" quantity="1" unit="character">
 							</unclear>
 							<supplied>
 								ν
 							</supplied>
 							ουϲ
-							
 							και δυο ανδραϲ
 						</p>
 						<pb n="4r" facs="http://ipap.csad.ox.ac.uk/GP/300dpi/36-43.jpg" />
@@ -1318,9 +1294,7 @@
 					<div type="textpart" subtype="verse" n="45">
 						<p>
 							<lb n="4v4" />
-							ταυτα ιδοντεϲ οι περι τον κεντυρωνα
-							
-							νυκτοϲ εϲπευϲαν
+							ταυτα ιδοντεϲ οι περι τον κεντυρωνα νυκτοϲ εϲπευϲαν
 							<lb n="4v5" />
 							προϲ Πειλατον αφεντεϲ τον ταφον ον εφυλαϲϲον και
 							<lb n="4v6" />
@@ -1461,9 +1435,7 @@
 							<lb n="5r12" break="no" />
 							ναμεθα καν επι τηϲ θυραϲ βαλωμεν α φερομεν ειϲ
 							<lb n="5r13" />
-							μνημοϲυνην αυτου κλαυϲομεν και κοψομεθα
-							
-							εωϲ
+							μνημοϲυνην αυτου κλαυϲομεν και κοψομεθα εωϲ
 							<lb n="5r14" />
 							ελθωμεν ειϲ τον οικον ημων
 						</p>
@@ -1588,7 +1560,7 @@
 							<g type="cross" />
 							<lb />
 							<g type="braid" />
-							Decorative interwoven braid divides Evangelium Petri from First Enoch
+							Decorative interwoven braid divides Evangelium Petri from Apocalypsis Petri
 						</note>
 					</div>
 				</div>
