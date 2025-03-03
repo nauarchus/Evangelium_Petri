@@ -135,9 +135,9 @@
 							Thomas J. Kraus and Tobias Nicklas
 						</persName>
 					</person>
-					<person xml:id="Lührmann">
+					<person xml:id="Lührmann">
 						<persName>
-							Dieter Lührmann
+							Dieter Lührmann
 						</persName>
 					</person>
 					<person xml:id="Wayment">
@@ -331,7 +331,7 @@
 				<p>
 					<gap reason="damage" unit="character" extent="unknown" />
 					<unclear reason="damage">
-						<supplied resp="#Coles #Lührmann #KrausNicklas">
+						<supplied resp="#Coles #Lührmann #KrausNicklas">
 							τ
 						</supplied>
 					</unclear>
@@ -346,41 +346,41 @@
 					<gap reason="damage" unit="line" extent="1" />
 					<lb n="frg1_ln5" />
 					<gap reason="damage" unit="character" extent="unknown" />
-					<supplied resp="#Lührmann">
-						Ϊωϲηφ
+					<supplied resp="#Lührmann">
+						Ϊωϲηφ
 					</supplied>
 					<unclear reason="damage">
-						<supplied resp="#Coles #Lührmann #KrausNicklas">
+						<supplied resp="#Coles #Lührmann #KrausNicklas">
 							ο
 						</supplied>
 					</unclear>
 					φιλοϲ
 					π
 					<unclear reason="damage">
-						<supplied resp="#Coles #Lührmann #KrausNicklas">
+						<supplied resp="#Coles #Lührmann #KrausNicklas">
 							ε
 						</supplied>
 					</unclear>
 					ιλα
 					<unclear reason="damage">
-						<supplied resp="#Lührmann #KrausNicklas">
+						<supplied resp="#Lührmann #KrausNicklas">
 							τ
 						</supplied>
 					</unclear>
 					ου
 					<unclear reason="damage">
-						<supplied resp="#Coles #Lührmann">
+						<supplied resp="#Coles #Lührmann">
 							κ
 						</supplied>
 					</unclear>
 					<gap reason="damage" unit="character" extent="unknown" />
 					<lb n="frg1_ln6" />
 					<gap reason="damage" unit="character" extent="unknown" />
-					<supplied resp="#Lührmann">
+					<supplied resp="#Lührmann">
 						ειδ
 					</supplied>
 					<unclear reason="damage">
-						<supplied resp="#Lührmann">
+						<supplied resp="#Lührmann">
 							ω
 						</supplied>
 						<supplied resp="#Coles #KrausNicklas">
@@ -389,39 +389,39 @@
 					</unclear>
 					ϲ οτι εκελευϲεν
 					<gap reason="damage" unit="character" extent="unknown" />
-					<supplied resp="#Lührmann">
+					<supplied resp="#Lührmann">
 						Ηρωδηϲ
 					</supplied>
 					<lb n="frg1_ln7" />
 					<gap reason="damage" unit="character" extent="unknown" />
-					<supplied resp="#Lührmann">
+					<supplied resp="#Lührmann">
 						ελ
 					</supplied>
-					<supplied resp="#Coles #KrausNicklas #Lührmann">
+					<supplied resp="#Coles #KrausNicklas #Lührmann">
 						θ
 					</supplied>
 					ων προϲ πειλατ
 					<gap reason="damage" unit="character" extent="1" />
-					<supplied resp="#Coles #Lührmann">
+					<supplied resp="#Coles #Lührmann">
 						ο
 					</supplied>
-					<supplied resp="#Lührmann #KrausNicklas">
+					<supplied resp="#Lührmann #KrausNicklas">
 						ν
 					</supplied>
 					<gap reason="damage" unit="character" extent="unknown" />
 					<lb n="frg1_ln8" />
 					<gap reason="damage" unit="character" extent="unknown" />
 					<gap reason="damage" unit="character" extent="1" />
-					<supplied resp="#Lührmann">
+					<supplied resp="#Lührmann">
 						το
 					</supplied>
 					<unclear reason="damage">
-						<supplied resp="#Coles #Lührmann">
+						<supplied resp="#Coles #Lührmann">
 							ϲ
 						</supplied>
 					</unclear>
 					<unclear reason="damage">
-						<supplied resp="#Coles #Lührmann #KrausNicklas">
+						<supplied resp="#Coles #Lührmann #KrausNicklas">
 							ω
 						</supplied>
 					</unclear>
@@ -429,36 +429,36 @@
 					<gap reason="damage" unit="character" extent="unknown" />
 					<lb n="frg1_ln9" />
 					<gap reason="damage" unit="character" extent="unknown" />
-					<supplied resp="#Lührmann">
+					<supplied resp="#Lührmann">
 						Ηρωδ
 					</supplied>
 					<unclear reason="damage">
-						<supplied resp="#Coles #Lührmann #KrausNicklas">
+						<supplied resp="#Coles #Lührmann #KrausNicklas">
 							η
 						</supplied>
 					</unclear>
 					ν ητηϲα
 					<gap reason="damage" unit="character" extent="2" />
-					<supplied resp="#Lührmann #KrausNicklas">
+					<supplied resp="#Lührmann #KrausNicklas">
 						το
 					</supplied>
 					<gap reason="damage" unit="character" extent="unknown" />
 					<lb n="frg1_ln10" />
 					<gap reason="damage" unit="character" extent="unknown" />
 					<gap reason="damage" unit="character" extent="1" />
-					<supplied resp="#Lührmann">
+					<supplied resp="#Lührmann">
 						ν
 					</supplied>
 					ηναι ειπω
 					<gap reason="damage" unit="character" extent="1" />
-					<supplied resp="#Lührmann #KrausNicklas">
+					<supplied resp="#Lührmann #KrausNicklas">
 						ν
 					</supplied>
 					<gap reason="damage" unit="character" extent="unknown" />
 					<lb n="frg1_ln11" />
 					<gap reason="damage" unit="character" extent="unknown" />
 					<unclear>
-						<supplied resp="#Lührmann">
+						<supplied resp="#Lührmann">
 							η
 						</supplied>
 						<supplied resp="#Coles #KrausNicklas">

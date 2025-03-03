@@ -116,10 +116,10 @@
 							Charles Bruston
 						</author>
 						<title level="a">
-							De quelques textes difficiles de l’Évangile de Pierre
+							De quelques textes difficiles de l’Évangile de Pierre
 						</title>
 						<title level="j">
-							Revue des études grecques
+							Revue des études grecques
 						</title>
 						<date when="1897">
 							1897
@@ -157,12 +157,12 @@
 							15–16
 						</biblScope>
 					</bibl>
-					<bibl xml:id="EhrmanPleše">
+					<bibl xml:id="EhrmanPleše">
 						<abbr type="siglum">
 							EhPl
 						</abbr>
 						<editor>
-							Bart D. Ehrman and Zlatko Pleše
+							Bart D. Ehrman and Zlatko Pleše
 						</editor>
 						<title level="m">
 							The Apocryphal Gospels
@@ -211,7 +211,7 @@
 							Oscar von Gebhardt
 						</author>
 						<title level="m">
-							Das Evangelium und die Apokalypse des Petrus. Die neuentdeckten Bruchstücke nach einer Photographie der Handschrift zu Gizeh in Lichtdruck herausgegeben
+							Das Evangelium und die Apokalypse des Petrus. Die neuentdeckten Bruchstücke nach einer Photographie der Handschrift zu Gizeh in Lichtdruck herausgegeben
 						</title>
 						<pubPlace>
 							Leipzig
@@ -231,7 +231,7 @@
 							Adolf von Harnack
 						</author>
 						<title level="m">
-							Bruchstücke des Evangeliums und der Apokalypse des Petrus
+							Bruchstücke des Evangeliums und der Apokalypse des Petrus
 						</title>
 						<series>
 							Texte und Untersuchungen
@@ -260,10 +260,10 @@
 							Adolf Hilgenfeld
 						</author>
 						<title level="a">
-							Das Petrus-Evangelium über Leiden und Auferstehung Jesu
+							Das Petrus-Evangelium über Leiden und Auferstehung Jesu
 						</title>
 						<title level="j">
-							Zeitschrift für wissenschaftliche Theologie
+							Zeitschrift für wissenschaftliche Theologie
 						</title>
 						<biblScope unit="volume">
 							36.1
@@ -306,10 +306,10 @@
 							Paul Lejay
 						</author>
 						<title level="a">
-							L’Évangile de Pierre
+							L’Évangile de Pierre
 						</title>
 						<title level="j">
-							Revue des études grecques
+							Revue des études grecques
 						</title>
 						<date when="1893">
 							1893
@@ -329,16 +329,16 @@
 							Maria Grazia Mara
 						</editor>
 						<title level="m">
-							Évangile de Pierre
+							Évangile de Pierre
 						</title>
 						<series>
-							Sources chrétiennes
+							Sources chrétiennes
 						</series>
 						<pubPlace>
 							Paris
 						</pubPlace>
 						<publisher>
-							Évangile de Pierre
+							Évangile de Pierre
 						</publisher>
 						<date when="1973-12-31">
 							1973
@@ -372,13 +372,13 @@
 							Vag
 						</abbr>
 						<author>
-							Léon Vaganay
+							Léon Vaganay
 						</author>
 						<title level="m">
-							L’Évangile de Pierre
+							L’Évangile de Pierre
 						</title>
 						<series>
-							Études Biblique
+							Études Biblique
 						</series>
 						<pubPlace>
 							Paris
@@ -415,9 +415,9 @@
 					</bibl>
 				</listBibl>
 				<listPerson type="scholars">
-					<person xml:id="Lührmann">
+					<person xml:id="Lührmann">
 						<persName>
-							Dieter Lührmann
+							Dieter Lührmann
 						</persName>
 					</person>
 					<person xml:id="Manchot">
@@ -710,220 +710,220 @@
 				<div type="textpart" subtype="chapter" n="Passio">
 					<div type="textpart" subtype="verse" n="1">
 						<p>
-							τῶν δὲ Ἰουδαίων οὐδείς ἐνίψατο τὰς χεῖρας,
-							οὐδὲ Ἡρῴδης οὐδὲ τις τῶν
+							τῶν δὲ Ἰουδαίων οὐδείς ἐνίψατο τὰς χεῖρας,
+							οὐδὲ Ἡρῴδης οὐδὲ τις τῶν
 							<app type="variants">
 								<lem wit="#A" source="#Hilgenfeld #KrausNicklas" resp="#MGB">
-									οὐδὲ τις τῶν
+									οὐδὲ τις τῶν
 								</lem>
-								<rdg source="#Zahn #Vaganay #Mara #EhrmanPleše">
-									οὐδὲ εἷς τῶν
+								<rdg source="#Zahn #Vaganay #Mara #EhrmanPleše">
+									οὐδὲ εἷς τῶν
 								</rdg>
 								<rdg source="#Harnack #Robinson #Foster">
-									οὐδ᾽ εἷς τῶν
+									οὐδ᾽ εἷς τῶν
 								</rdg>
 								<rdg source="#Bruston">
-									οὐδὲ ἐτέρων
+									οὐδὲ ἐτέρων
 								</rdg>
 							</app>
-							κριτῶν αὐτοῦ.
-							καὶ μὴ βουληθέντων νίψασθαι,
-							ἀνέστη Πειλᾶτος.
+							κριτῶν αὐτοῦ.
+							καὶ μὴ βουληθέντων νίψασθαι,
+							ἀνέστη Πειλᾶτος.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="2">
 						<p>
-							καὶ τότε κελεύει Ἡρῴδης ὁ βασιλεὺς παραπεμφθῆναι
+							καὶ τότε κελεύει Ἡρῴδης ὁ βασιλεὺς παραπεμφθῆναι
 							<app type="variants">
 								<lem wit="#A">
 									παρα
 									<gap reason="damage" quantity="3" unit="character" />
-									μφθῆναι
+									μφθῆναι
 								</lem>
-								<rdg source="#EhrmanPleše" resp="#MGB">
-									παραπεμφθῆναι
+								<rdg source="#EhrmanPleše" resp="#MGB">
+									παραπεμφθῆναι
 								</rdg>
 								<rdg source="#Bouriant #Gebhardt #Vaganay #KrausNicklas #Foster">
-									παραλημφθῆναι
+									παραλημφθῆναι
 								</rdg>
 								<rdg source="#Mara">
-									παραπημφθῆναι
+									παραπημφθῆναι
 								</rdg>
 							</app>
-							τὸν κύριον,
-							εἰπὼν αὐτοῖς ὅτι ὅσα ἐκέλευσα ὑμῖν ποιῆσαι αὐτῷ,
-							ποιήσατε.
+							τὸν κύριον,
+							εἰπὼν αὐτοῖς ὅτι ὅσα ἐκέλευσα ὑμῖν ποιῆσαι αὐτῷ,
+							ποιήσατε.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="3">
 						<p>
-							ἱστήκει
+							ἱστήκει
 							<app type="variants">
 								<lem wit="#A" source="#Mara #Foster" resp="#MGB">
-									ἱστήκει
+									ἱστήκει
 								</lem>
 								<rdg type="correction" source="#KrausNicklas">
-									ἑἱστήκει
+									ἑἱστήκει
 								</rdg>
 							</app>
-							δὲ ἐκεῖ Ἰωσὴφ
+							δὲ ἐκεῖ Ἰωσὴφ
 							<app type="variants">
 								<lem wit="#A #B">
-									Ἰωσὴφ
+									Ἰωσὴφ
 								</lem>
 							</app>
 							, 
-							ὁ
+							ὁ
 							<app type="variants">
 								<lem wit="#A #B">
-									ὁ
+									ὁ
 								</lem>
 							</app>
-							φίλος
+							φίλος
 							<app type="variants">
 								<lem wit="#A #B">
-									φίλος
+									φίλος
 								</lem>
 							</app>
-							Πειλάτου
+							Πειλάτου
 							<app type="variants">
 								<lem wit="#A" source="#Mara #KrausNicklas #Foster">
-									Πειλάτου
+									Πειλάτου
 								</lem>
-								<rdg type="conjecture" source="#Coles #Lührmann #KrausNicklas">
-									Πειλάτου
+								<rdg type="conjecture" source="#Coles #Lührmann #KrausNicklas">
+									Πειλάτου
 								</rdg>
 							</app>
-							καὶ τοῦ κυρίου
+							καὶ τοῦ κυρίου
 							<app type="variants">
 								<lem wit="#A">
-									καὶ τοῦ κυρίου
+									καὶ τοῦ κυρίου
 								</lem>
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster">
-									καὶ τοῦ κυρίου
+									καὶ τοῦ κυρίου
 								</rdg>
 							</app>
 							, 
-							καὶ εἰδὼς
+							καὶ εἰδὼς
 							<app type="variants">
 								<lem wit="#A">
-									εἰδὼς
+									εἰδὼς
 								</lem>
 								<rdgGrp>
 									<rdg wit="#A" source="#Coles #Mara #KrausNicklas #Foster">
-										εἰδὼς
+										εἰδὼς
 									</rdg>
-									<rdg type="conjecture" source="#Lührmann" resp="#MGB">
-										εἰδὼς
+									<rdg type="conjecture" source="#Lührmann" resp="#MGB">
+										εἰδὼς
 									</rdg>
 								</rdgGrp>
 							</app>
-							ὅτι ἐκέλευσεν
+							ὅτι ἐκέλευσεν
 							<app type="variants">
 								<lem>
-									ἐκέλευσεν
+									ἐκέλευσεν
 								</lem>
-								<rdg wit="#B" source="#Lührmann" resp="#MGB">
-									ἐκέλευσεν
+								<rdg wit="#B" source="#Lührmann" resp="#MGB">
+									ἐκέλευσεν
 								</rdg>
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster" type="omission">
 								</rdg>
 							</app>
-							Ἡρῴδης
+							Ἡρῴδης
 							<app type="variants">
 								<lem>
-									Ἡρῴδης
+									Ἡρῴδης
 								</lem>
-								<rdg type="conjecture" source="#Lührmann" resp="#MGB">
-									Ἡρῴδης
+								<rdg type="conjecture" source="#Lührmann" resp="#MGB">
+									Ἡρῴδης
 								</rdg>
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster" type="omission">
 								</rdg>
 							</app>
-							σταυρίσκειν αὐτὸν
+							σταυρίσκειν αὐτὸν
 							<app type="variants">
 								<rdg type="omission" resp="#MGB" />
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster">
-									μέλλουσιν
+									μέλλουσιν
 								</rdg>
 							</app>
 							, 
-							ἐλθών
+							ἐλθών
 							<app type="variants">
-								<lem wit="#B" source="#Coles #Lührmann" resp="#MGB">
-									ἐλθών
+								<lem wit="#B" source="#Coles #Lührmann" resp="#MGB">
+									ἐλθών
 								</lem>
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster">
-									ἦλθεν
+									ἦλθεν
 								</rdg>
 							</app>
-							πρὸς
+							πρὸς
 							<app type="variants">
 								<rdg wit="#B" type="omission" resp="#MGB" />
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster">
-									τὸν
+									τὸν
 								</rdg>
 							</app>
-							Πειλάτον
+							Πειλάτον
 							<app type="variants">
 								<lem wit="#A #B">
-									Πειλάτον
+									Πειλάτον
 								</lem>
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster">
-									Πειλάτον
+									Πειλάτον
 								</rdg>
-								<rdg wit="#B" source="#Coles #Lührmann">
-									Πειλάτον
+								<rdg wit="#B" source="#Coles #Lührmann">
+									Πειλάτον
 								</rdg>
 							</app>
 							, 
-							καὶ ἤτησε τὸ
+							καὶ ἤτησε τὸ
 							<app type="variants">
 								<lem wit="#A">
-									τὸ
+									τὸ
 								</lem>
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster">
-									τὸ
+									τὸ
 								</rdg>
-								<rdg type="conjecture" source="#Lührmann">
-									τὸ
+								<rdg type="conjecture" source="#Lührmann">
+									τὸ
 								</rdg>
 							</app>
-							σῶμα
+							σῶμα
 							<app type="variants">
 								<lem>
-									σῶμα
+									σῶμα
 								</lem>
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster">
-									σῶμα
+									σῶμα
 								</rdg>
-								<rdg type="conjecture" source="#Coles #Lührmann">
-									σῶμα
+								<rdg type="conjecture" source="#Coles #Lührmann">
+									σῶμα
 								</rdg>
 							</app>
 							<app type="variants">
 								<lem wit="#A">
-									τοῦ κυρίου
+									τοῦ κυρίου
 								</lem>
-								<rdg wit="#B" source="#Coles #Lührmann" type="omission" resp="#MGB">
+								<rdg wit="#B" source="#Coles #Lührmann" type="omission" resp="#MGB">
 								</rdg>
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster">
-									τοῦ κυρίου
+									τοῦ κυρίου
 								</rdg>
 							</app>
-							εἰς
+							εἰς
 							<app type="variants">
-								<lem wit="#B" source="#Coles #Lührmann" resp="#MGB">
-									εἰς
+								<lem wit="#B" source="#Coles #Lührmann" resp="#MGB">
+									εἰς
 								</lem>
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster">
-									πρὸς
+									πρὸς
 								</rdg>
 							</app>
-							ταφήν
+							ταφήν
 							<app type="variants">
-								<lem wit="#A #B" source="#Mara #KrausNicklas #Foster #Coles #Lührmann">
-									ταφήν
+								<lem wit="#A #B" source="#Mara #KrausNicklas #Foster #Coles #Lührmann">
+									ταφήν
 								</lem>
 							</app>
 							.
@@ -931,202 +931,202 @@
 					</div>
 					<div type="textpart" subtype="verse" n="4">
 						<p>
-							καὶ
+							καὶ
 							<app type="variants">
 								<rdg type="omission" resp="#MGB" />
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster">
-									ὁ
+									ὁ
 								</rdg>
 							</app>
-							Πειλᾶτος
-							<supplied reason="conjecture" source="#Lührmann" resp="#MGB">
-								ἔφη
+							Πειλᾶτος
+							<supplied reason="conjecture" source="#Lührmann" resp="#MGB">
+								ἔφη
 							</supplied>
 							<app type="variants">
 								<rdg type="omission" resp="#MGB" />
 								<rdg wit="#A" source="#Mara #KrausNicklas #Foster">
-									πέμψας
+									πέμψας
 								</rdg>
 							</app>
-							πρὸς Ἡρῴδην
+							πρὸς Ἡρῴδην
 							<app type="variants">
 								<lem wit="#A" source="#Mara #KrausNicklas #Foster">
-									Ἡρῴδην
+									Ἡρῴδην
 								</lem>
 								<rdg type="conjecture" resp="#MGB">
-									Ἡρῴδην
+									Ἡρῴδην
 								</rdg>
 							</app>
 							·
 							<said who="Pilate">
-								ἤτησα
+								ἤτησα
 								<app type="variants">
-									<lem wit="#B" source="#Lührmann" resp="#MGB">
-										ἤτησα
+									<lem wit="#B" source="#Lührmann" resp="#MGB">
+										ἤτησα
 									</lem>
 									<rdg wit="#A" source="#Mara #KrausNicklas #Foster">
-										ἤτησε
+										ἤτησε
 									</rdg>
 									<rdg type="conjecture" source="#Coles">
-										ἡτήσαμεν
+										ἡτήσαμεν
 									</rdg>
 								</app>
-								αὐτοῦ τὸ σῶμα.
+								αὐτοῦ τὸ σῶμα.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="5">
 						<p>
-							καὶ ὁ Ἡρῴδης ἔφη·
+							καὶ ὁ Ἡρῴδης ἔφη·
 							<said who="HerodAntipas">
-								ἀδελφέ Πειλάτε,
-								εἰ καὶ μή τις αὐτὸν ᾔτηκει,
-								ἡμεῖς αὐτὸν ἐθάπτομεν,
-								ἐπεὶ καὶ σάββατον ἐπιφώσκει·
-								γέγραπται γὰρ ἐν τῷ νόμῳ
+								ἀδελφέ Πειλάτε,
+								εἰ καὶ μή τις αὐτὸν ᾔτηκει,
+								ἡμεῖς αὐτὸν ἐθάπτομεν,
+								ἐπεὶ καὶ σάββατον ἐπιφώσκει·
+								γέγραπται γὰρ ἐν τῷ νόμῳ
 								<quote type="paraphrasis">
-									ἥλιον μὴ δῦναι ἐπὶ πεφονευμένῳ.
+									ἥλιον μὴ δῦναι ἐπὶ πεφονευμένῳ.
 									<ref decls="#biblical" cRef="LXX:Dt:21:23" />
 								</quote>
 							</said>
-							καὶ παρέδωκεν αὐτὸν τῷ λαῷ πρὸ μιᾶς τῶν ἀζύμων τῆς ἑορτῆς αὐτῶν.
+							καὶ παρέδωκεν αὐτὸν τῷ λαῷ πρὸ μιᾶς τῶν ἀζύμων τῆς ἑορτῆς αὐτῶν.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="6">
 						<p>
-							οἱ δὲ λαβόντες τὸν κύριον ὤθουν αὐτῶν
+							οἱ δὲ λαβόντες τὸν κύριον ὤθουν αὐτῶν
 							<app type="variants">
 								<lem wit="#A" source="#Foster" resp="#MGB">
-									αὐτῶν
+									αὐτῶν
 								</lem>
 								<rdg type="correction" source="#Mara #KrausNicklas">
-									αὐτὸν
+									αὐτὸν
 								</rdg>
 							</app>
-							τρέχοντες καὶ ἔλεγον·
+							τρέχοντες καὶ ἔλεγον·
 							<said who="executioners">
-								σύρωμεν τὸν υἱὸν τοῦ θεοῦ,
-								ἐξουσίαν αὐτοῦ ἐσχηκότες.
+								σύρωμεν τὸν υἱὸν τοῦ θεοῦ,
+								ἐξουσίαν αὐτοῦ ἐσχηκότες.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="7">
 						<p>
-							καὶ πορφύραν αὐτὸν περιέβαλλον
+							καὶ πορφύραν αὐτὸν περιέβαλλον
 							<app type="variants">
 								<lem wit="#A" source="#Foster" resp="#MGB">
-									περιέβαλλον
+									περιέβαλλον
 								</lem>
 								<rdg type="correction" source="#Mara #KrausNicklas">
-									περιέβαλον
+									περιέβαλον
 								</rdg>
 							</app>
 							, 
-							καὶ ἐκάθισαν αὐτὸν ἐπὶ καθέδραν κρίσεως,
-							λέγοντες·
+							καὶ ἐκάθισαν αὐτὸν ἐπὶ καθέδραν κρίσεως,
+							λέγοντες·
 							<said who="mockers">
-								δικαίως κρῖνε,
-								βασιλεῦ τοῦ Ἰσραήλ.
+								δικαίως κρῖνε,
+								βασιλεῦ τοῦ Ἰσραήλ.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="8">
 						<p>
-							καὶ τις αὐτῶν ἐνεγκὼν στέφανον ἀκάνθινον,
-							ἔθηκεν ἐπὶ τῆς κεφαλῆς τοῦ κυρίου.
+							καὶ τις αὐτῶν ἐνεγκὼν στέφανον ἀκάνθινον,
+							ἔθηκεν ἐπὶ τῆς κεφαλῆς τοῦ κυρίου.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="9">
 						<p>
-							καὶ ἕτεροι ἑστῶτες ἐνέπτυον αὐτοῦ ταῖς ὀψέσι,
-							καὶ ἄλλοι τὰς σιαγόνας αὐτοῦ ἐράπισαν,
-							ἕτεροι καλάμῳ ἐνύσσον αὐτόν,
-							καί τινες αὐτὸν ἐμάστιζον λέγοντες·
+							καὶ ἕτεροι ἑστῶτες ἐνέπτυον αὐτοῦ ταῖς ὀψέσι,
+							καὶ ἄλλοι τὰς σιαγόνας αὐτοῦ ἐράπισαν,
+							ἕτεροι καλάμῳ ἐνύσσον αὐτόν,
+							καί τινες αὐτὸν ἐμάστιζον λέγοντες·
 							<said who="mockers">
-								ταύτῃ τῇ τιμῇ τιμήσωμεν τὸν υἱὸν τοῦ θεοῦ.
+								ταύτῃ τῇ τιμῇ τιμήσωμεν τὸν υἱὸν τοῦ θεοῦ.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="10">
 						<p>
-							καὶ ἤνεγκαν
+							καὶ ἤνεγκαν
 							<app type="variants">
 								<lem wit="#A" resp="#MGB">
-									ἤνεγκαν
+									ἤνεγκαν
 								</lem>
 								<rdg source="#KrausNicklas #Foster">
-									ἤνεγκον
+									ἤνεγκον
 								</rdg>
-								<rdg source="#Mara #EhrmanPleše">
-									ἔνεγκον
+								<rdg source="#Mara #EhrmanPleše">
+									ἔνεγκον
 								</rdg>
 							</app>
-							δύο κακούργους
-							καὶ ἐσταύρωσαν ἀνὰ μέσον αὐτῶν τὸν κύριον.
-							αὐτὸς δὲ ἐσιώπα ὡς μηδένα
+							δύο κακούργους
+							καὶ ἐσταύρωσαν ἀνὰ μέσον αὐτῶν τὸν κύριον.
+							αὐτὸς δὲ ἐσιώπα ὡς μηδένα
 							<app type="variants">
 								<lem type="correction" source="#KrausNicklas" resp="#MGB">
-									μηδένα
+									μηδένα
 								</lem>
 								<rdg wit="#A" resp="Mara">
-									μηδὲν
+									μηδὲν
 								</rdg>
 								<rdg wit="#A" resp="Foster">
-									μηδέν
+									μηδέν
 								</rdg>
 							</app>
-							πόνον ἔχων.
+							πόνον ἔχων.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="11">
 						<p>
-							καὶ ὅτε ὤρθωσαν τὸν σταῦρον,
-							ἐπέγραψαν ὅτι οὗτός ἐστιν ὁ βασιλεὺς τοῦ Ἰσραήλ.
+							καὶ ὅτε ὤρθωσαν τὸν σταῦρον,
+							ἐπέγραψαν ὅτι οὗτός ἐστιν ὁ βασιλεὺς τοῦ Ἰσραήλ.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="12">
 						<p>
-							καὶ τεθεικότες τὰ ἐνδύματα ἔμπροσθεν αὐτοῦ
-							διεμερίσαντο καὶ λαχμὸν ἔβαλον ἐπ᾿ αὐτοῖς.
+							καὶ τεθεικότες τὰ ἐνδύματα ἔμπροσθεν αὐτοῦ
+							διεμερίσαντο καὶ λαχμὸν ἔβαλον ἐπ᾿ αὐτοῖς.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="13">
 						<p>
-							εἱς δέ τις τῶν κακούργων ἐκείνων ὠνείδησεν
+							εἱς δέ τις τῶν κακούργων ἐκείνων ὠνείδησεν
 							<app type="variants">
 								<lem wit="#A" source="#Foster" resp="#MGB">
-									ὠνείδησεν
+									ὠνείδησεν
 								</lem>
 								<rdg type="correction" source="#Mara #KrausNicklas">
-									ὠνείδισεν
+									ὠνείδισεν
 								</rdg>
 							</app>
-							αὐτοὺς λέγων·
+							αὐτοὺς λέγων·
 							<said who="malefactor">
-								ἡμεῖς διὰ τὰ κακὰ ἁ ἐποιήσαμεν οὕτω πεπόνθαμεν·
-								οὕτως
+								ἡμεῖς διὰ τὰ κακὰ ἁ ἐποιήσαμεν οὕτω πεπόνθαμεν·
+								οὕτως
 								<app type="variants">
 									<lem wit="#A" source="#Foster" resp="#MGB">
-										οὕτως
+										οὕτως
 									</lem>
 									<rdg type="correction" source="#Mara #KrausNicklas">
-										οὕτος
+										οὕτος
 									</rdg>
 								</app>
-								οὕτως δὲ σωτὴρ γενόμενος τῶν ἀνθρώπων τί ἠδίκησεν ὑμᾶς;
+								οὕτως δὲ σωτὴρ γενόμενος τῶν ἀνθρώπων τί ἠδίκησεν ὑμᾶς;
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="14">
 						<p>
-							καὶ ἀγανακτήσαντες ἐπ᾿ αὐτῷ ἐκέλευσαν ἵνα μὴ σκελοκοπηθῇ,
-							ὅπως βασανιζόμενος ἀποθάνοι
+							καὶ ἀγανακτήσαντες ἐπ᾿ αὐτῷ ἐκέλευσαν ἵνα μὴ σκελοκοπηθῇ,
+							ὅπως βασανιζόμενος ἀποθάνοι
 							<app type="variants">
 								<lem wit="#A" source="#Foster #KrausNicklas" resp="#MGB">
-									ἀποθάνοι
+									ἀποθάνοι
 								</lem>
 								<rdg type="correction" source="#Gebhardt #Harnack #Preuschen #Mara">
-									ἀποθάνῃ
+									ἀποθάνῃ
 								</rdg>
 							</app>
 							.
@@ -1134,41 +1134,41 @@
 					</div>
 					<div type="textpart" subtype="verse" n="15">
 						<p>
-							ἦν δὲ μεσημβρία,
-							καὶ σκότος κατέσχεν πᾶσαν τὴν Ἰουδαίαν·
-							καὶ ἐθορυβοῦντο καὶ ἠγωνίων μήποτε ὁ ἥλιος ἔδυ,
-							ἐπειδὴ ἔτι ἔζη·
-							γέγραπται αὐτοῖς
+							ἦν δὲ μεσημβρία,
+							καὶ σκότος κατέσχεν πᾶσαν τὴν Ἰουδαίαν·
+							καὶ ἐθορυβοῦντο καὶ ἠγωνίων μήποτε ὁ ἥλιος ἔδυ,
+							ἐπειδὴ ἔτι ἔζη·
+							γέγραπται αὐτοῖς
 							<quote type="paraphrasis">
-								ἥλιον μὴ δῦναι ἐπὶ πεφονευμένῳ.
+								ἥλιον μὴ δῦναι ἐπὶ πεφονευμένῳ.
 								<ref decls="#biblical" cRef="LXX:Dt:21:23" />
 							</quote>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="16">
 						<p>
-							καί τις αὐτῶν εἰπεν·
+							καί τις αὐτῶν εἰπεν·
 							<said who="bystander">
-								ποτίσατε αὐτὸν χολὴν μετὰ ὄξους·
+								ποτίσατε αὐτὸν χολὴν μετὰ ὄξους·
 							</said>
-							καὶ κεράσαντες ἐπότισαν.
+							καὶ κεράσαντες ἐπότισαν.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="17">
 						<p>
-							καὶ ἐπλήρωσαν πάντα,
-							καὶ ἐτελείωσαν κατὰ τῆς κεφαλῆς αὐτῶν τὰ ἁμαρτήματα.
+							καὶ ἐπλήρωσαν πάντα,
+							καὶ ἐτελείωσαν κατὰ τῆς κεφαλῆς αὐτῶν τὰ ἁμαρτήματα.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="18">
 						<p>
-							περιήρχοντο δὲ πολλοὶ μετὰ λύχνων,
-							νομίζοντες ὅτι νύξ ἐστιν ἐπέσαντο
+							περιήρχοντο δὲ πολλοὶ μετὰ λύχνων,
+							νομίζοντες ὅτι νύξ ἐστιν ἐπέσαντο
 							<app type="variants">
 								<lem wit="#A" source="#Foster" resp="#MGB">
-									ἐπέσαντο
+									ἐπέσαντο
 								</lem>
-								<rdg type="correction" source="#Mara #EhrmanPleše">
+								<rdg type="correction" source="#Mara #EhrmanPleše">
 									και επεϲαντο
 								</rdg>
 								<rdg type="correction" source="#KrausNicklas">
@@ -1180,278 +1180,278 @@
 					</div>
 					<div type="textpart" subtype="verse" n="19">
 						<p>
-							καὶ ὁ κύριος ἀνεβόησε λέγων·
+							καὶ ὁ κύριος ἀνεβόησε λέγων·
 							<said who="Jesus">
-								ἡ δύναμίς μου, ἡ δύναμις, κατελειψάς με·
+								ἡ δύναμίς μου, ἡ δύναμις, κατελειψάς με·
 							</said>
-							καὶ εἰπὼν ἀνελήφθη.
+							καὶ εἰπὼν ἀνελήφθη.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="20">
 						<p>
-							καὶ ἀὑτῆς
+							καὶ ἀὑτῆς
 							<app type="variants">
 								<lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-									ἀὑτῆς
+									ἀὑτῆς
 								</lem>
 								<rdg wit="#A" source="#Foster">
-									αὐτὸς
+									αὐτὸς
 								</rdg>
 							</app>
-							ὥρας διεράγη τὸ καταπέτασμα τοῦ ναοῦ τῆς Ἱερουσαλὴμ εἰς δύο.
+							ὥρας διεράγη τὸ καταπέτασμα τοῦ ναοῦ τῆς Ἱερουσαλὴμ εἰς δύο.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="21">
 						<p>
-							καὶ τότε ἀπέσπασαν τοὺς ἥλους ἀπὸ τῶν χειρῶν τοῦ κυρίου,
-							καὶ ἔθηκαν αὐτὸν ἐπὶ τῆς γῆς,
-							καὶ ἡ γῆ πᾶσα ἐσείσθη,
-							καὶ φόβος μέγας ἐγένετο.
+							καὶ τότε ἀπέσπασαν τοὺς ἥλους ἀπὸ τῶν χειρῶν τοῦ κυρίου,
+							καὶ ἔθηκαν αὐτὸν ἐπὶ τῆς γῆς,
+							καὶ ἡ γῆ πᾶσα ἐσείσθη,
+							καὶ φόβος μέγας ἐγένετο.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="22">
 						<p>
-							τότε ἥλιος ἔλαμψε,
-							καὶ εὑρέθη ὥρα ἐνάτη.
+							τότε ἥλιος ἔλαμψε,
+							καὶ εὑρέθη ὥρα ἐνάτη.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="23">
 						<p>
-							ἐχάρησαν δὲ οἱ Ἰουδαῖοι,
-							καὶ δεδόκασιν τῷ Ἰωσὴφ τὸ σῶμα αὐτοῦ,
-							ἵνα αὐτὸ θάψῃ,
-							ἐπειδὴ θεασάμενος ἦν ὅσα ἀγαθὰ ἐποίησεν.
+							ἐχάρησαν δὲ οἱ Ἰουδαῖοι,
+							καὶ δεδόκασιν τῷ Ἰωσὴφ τὸ σῶμα αὐτοῦ,
+							ἵνα αὐτὸ θάψῃ,
+							ἐπειδὴ θεασάμενος ἦν ὅσα ἀγαθὰ ἐποίησεν.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="24">
 						<p>
-							λαβὼν δὲ τὸν κύριον ἔλουσε,
-							καὶ εἵλησε σινδόνιν
+							λαβὼν δὲ τὸν κύριον ἔλουσε,
+							καὶ εἵλησε σινδόνιν
 							<app type="variants">
 								<lem wit="#A" source="#Foster" resp="#MGB">
-									σινδόνιν
+									σινδόνιν
 								</lem>
 								<rdg type="correction" source="#Mara #KrausNicklas">
-									σινδόνι
+									σινδόνι
 								</rdg>
 							</app>
 							, 
-							καὶ εἰσήγαγεν εἰς ἴδιον τάφον καλούμενον κῆπον Ἰωσήφ.
+							καὶ εἰσήγαγεν εἰς ἴδιον τάφον καλούμενον κῆπον Ἰωσήφ.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="25">
 						<p>
-							τότε οἱ Ἰουδαῖοι καὶ οἱ πρεσβύτεροι καὶ οἱ ἱερεῖς,
-							γνόντες οἷον κακὸν ἑαυτοῖς ἐποίησαν,
-							ἤρξαντο κόπτεσθαι καὶ λέγειν·
+							τότε οἱ Ἰουδαῖοι καὶ οἱ πρεσβύτεροι καὶ οἱ ἱερεῖς,
+							γνόντες οἷον κακὸν ἑαυτοῖς ἐποίησαν,
+							ἤρξαντο κόπτεσθαι καὶ λέγειν·
 							<said who="leaders">
-								οὐαὶ ταῖς ἁμαρτίαις ἡμῶν·
-								ἤγγισεν ἡ κρίσις καὶ τὸ τέλος Ἱερουσαλήμ.
+								οὐαὶ ταῖς ἁμαρτίαις ἡμῶν·
+								ἤγγισεν ἡ κρίσις καὶ τὸ τέλος Ἱερουσαλήμ.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="26">
 						<p>
-							ἐγὼ δὲ μετὰ τῶν ἑταίρων μου ἐλυπούμην,
-							καὶ τετρωμένοι κατὰ διάνοιαν ἐκρυβόμεθα.
-							ἐζητούμεθα γὰρ ὑπ᾿ αὐτῶν ὡς κακοῦργοι,
-							καὶ ὡς τὸν ναὸν θέλοντες ἐμπρῆσαι.
+							ἐγὼ δὲ μετὰ τῶν ἑταίρων μου ἐλυπούμην,
+							καὶ τετρωμένοι κατὰ διάνοιαν ἐκρυβόμεθα.
+							ἐζητούμεθα γὰρ ὑπ᾿ αὐτῶν ὡς κακοῦργοι,
+							καὶ ὡς τὸν ναὸν θέλοντες ἐμπρῆσαι.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="27">
 						<p>
-							ἐπὶ δὲ τούτοις πᾶσιν ἐνηστεύομεν,
-							καὶ ἐκαθεζόμεθα πενθοῦντες καὶ κλαίοντες νυκτὸς καὶ ἡμέρας ἕως τοῦ σαββάτου.
+							ἐπὶ δὲ τούτοις πᾶσιν ἐνηστεύομεν,
+							καὶ ἐκαθεζόμεθα πενθοῦντες καὶ κλαίοντες νυκτὸς καὶ ἡμέρας ἕως τοῦ σαββάτου.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="28">
 						<p>
-							συναχθέντες δὲ οἱ γραμματεῖς καὶ Φαρισαῖοι καὶ πρεσβύτεροι πρὸς ἀλλήλους,
-							ἀκούσαντες ὅτι ὁ λαὸς ἅπας γογγύζει καὶ κόπτεται τὰ στήθη,
-							λέγοντες ὅτι·
+							συναχθέντες δὲ οἱ γραμματεῖς καὶ Φαρισαῖοι καὶ πρεσβύτεροι πρὸς ἀλλήλους,
+							ἀκούσαντες ὅτι ὁ λαὸς ἅπας γογγύζει καὶ κόπτεται τὰ στήθη,
+							λέγοντες ὅτι·
 							<said who="people">
-								εἰ τῷ θανάτῳ αὐτοῦ ταῦτα τὰ μέγιστα σημεῖα γέγονεν,
-								ἴδετε ὅτι πόσον δίκαιός ἐστιν.
+								εἰ τῷ θανάτῳ αὐτοῦ ταῦτα τὰ μέγιστα σημεῖα γέγονεν,
+								ἴδετε ὅτι πόσον δίκαιός ἐστιν.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="29">
 						<p>
-							ἐφοβήθησαν οἱ πρεσβύτεροι,
-							καὶ ἦλθον πρὸς Πειλᾶτον,
-							δεόμενοι αὐτοῦ καὶ λέγοντες·
+							ἐφοβήθησαν οἱ πρεσβύτεροι,
+							καὶ ἦλθον πρὸς Πειλᾶτον,
+							δεόμενοι αὐτοῦ καὶ λέγοντες·
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="30">
 						<p>
 							<said who="elders">
-								παράδος ἡμῖν στρατιώτας,
-								ἵνα φυλάξω
+								παράδος ἡμῖν στρατιώτας,
+								ἵνα φυλάξω
 								<app type="variants">
 									<lem wit="#A" source="#Foster" resp="#MGB">
-										φυλάξω
+										φυλάξω
 									</lem>
 									<rdg type="correction" source="#Mara #KrausNicklas">
-										φυλάξωμεν
+										φυλάξωμεν
 									</rdg>
-									<rdg type="correction" source="#EhrmanPleše">
-										φυλάξωϲιν
+									<rdg type="correction" source="#EhrmanPleše">
+										φυλάξωϲιν
 									</rdg>
 								</app>
-								τὸ μνῆμα αὐτοῦ ἐπὶ τρεῖς ἡμέρας,
-								μήποτε ἐλθόντες οἱ μαθηταὶ αὐτοῦ κλέψωσιν αὐτὸν,
-								καὶ ὑπολάβη ὁ λαὸς ὅτι ἐκ νεκρῶν ἀνέστη,
-								καὶ ποιήσωσιν ἡμῖν κακά.
+								τὸ μνῆμα αὐτοῦ ἐπὶ τρεῖς ἡμέρας,
+								μήποτε ἐλθόντες οἱ μαθηταὶ αὐτοῦ κλέψωσιν αὐτὸν,
+								καὶ ὑπολάβη ὁ λαὸς ὅτι ἐκ νεκρῶν ἀνέστη,
+								καὶ ποιήσωσιν ἡμῖν κακά.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="31">
 						<p>
-							ὁ δὲ Πειλᾶτος παραδέδωκεν αὐτοῖς Πετρώνιον τὸν κεντυρίωνα μετὰ στρατιωτῶν φυλάσσειν τὸν τάφον.
-							καὶ σὺν αὐτοῖς ἦλθον πρεσβύτεροι καὶ γραμματεῖς ἐπὶ τὸ μνῆμα.
+							ὁ δὲ Πειλᾶτος παραδέδωκεν αὐτοῖς Πετρώνιον τὸν κεντυρίωνα μετὰ στρατιωτῶν φυλάσσειν τὸν τάφον.
+							καὶ σὺν αὐτοῖς ἦλθον πρεσβύτεροι καὶ γραμματεῖς ἐπὶ τὸ μνῆμα.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="32">
 						<p>
-							καὶ κυλίσαντες λίθον μέγαν κατὰ τοῦ κεντυρίωνος καὶ τῶν στρατιωτῶν,
-							ὁμοῦ πάντες οἱ ὄντες ἐκεῖ,
-							ἔθηκαν ἐπὶ τῇ θύρᾳ τοῦ μνήματος.
+							καὶ κυλίσαντες λίθον μέγαν κατὰ τοῦ κεντυρίωνος καὶ τῶν στρατιωτῶν,
+							ὁμοῦ πάντες οἱ ὄντες ἐκεῖ,
+							ἔθηκαν ἐπὶ τῇ θύρᾳ τοῦ μνήματος.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="33">
 						<p>
-							καὶ ἐπέχρισαν
+							καὶ ἐπέχρισαν
 							<app type="variants">
 								<lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-									ἐπέχρισαν
+									ἐπέχρισαν
 								</lem>
 								<rdg wit="#A" source="#Foster">
-									ἐπέχρεισαν
+									ἐπέχρεισαν
 								</rdg>
 							</app>
-							ἑπτὰ σφραγίδας,
-							καὶ σκηνὴν ἐκεῖ πήξαντες,
-							ἐφύλαξαν.
+							ἑπτὰ σφραγίδας,
+							καὶ σκηνὴν ἐκεῖ πήξαντες,
+							ἐφύλαξαν.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="34">
 						<p>
-							πρωΐας δὲ ἐπιφώσκοντος τοῦ σαββάτου,
-							ἦλθεν ὄχλος ἀπὸ Ἱερουσαλήμ καὶ τῆς περιχώρου,
-							ἵνα ἴδωσι τὸ μνημεῖον ἐσφραγισμένον.
+							πρωΐας δὲ ἐπιφώσκοντος τοῦ σαββάτου,
+							ἦλθεν ὄχλος ἀπὸ Ἱερουσαλήμ καὶ τῆς περιχώρου,
+							ἵνα ἴδωσι τὸ μνημεῖον ἐσφραγισμένον.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="35">
 						<p>
-							τῇ δὲ νυκτὶ ᾖ ἐπέφωσκεν ἡ κυριακή,
-							φυλασσόντων τῶν στρατιωτῶν ἀνὰ δύο δύο κατὰ φρουράν,
-							μεγάλη φωνὴ ἐγένετο ἐν τῷ οὐρανῷ.
+							τῇ δὲ νυκτὶ ᾖ ἐπέφωσκεν ἡ κυριακή,
+							φυλασσόντων τῶν στρατιωτῶν ἀνὰ δύο δύο κατὰ φρουράν,
+							μεγάλη φωνὴ ἐγένετο ἐν τῷ οὐρανῷ.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="36">
 						<p>
-							καὶ εἶδον ἀνοιχθέντας
+							καὶ εἶδον ἀνοιχθέντας
 							<app type="variants">
 								<lem wit="#A" source="#Mara" resp="#MGB">
-									ἀνοιχθέντας
+									ἀνοιχθέντας
 								</lem>
 								<rdg type="correction" source="#Foster #KrausNicklas">
-									ἀνοιχθέντες
+									ἀνοιχθέντες
 								</rdg>
 							</app>
-							τοὺς οὐρανοὺς,
-							καὶ δύο ἄνδρας κατελθόντας ἐκεῖθεν,
-							πολὺ φέγγος ἔχοντας καὶ ἐγγίσαντας τῷ τάφῳ.
+							τοὺς οὐρανοὺς,
+							καὶ δύο ἄνδρας κατελθόντας ἐκεῖθεν,
+							πολὺ φέγγος ἔχοντας καὶ ἐγγίσαντας τῷ τάφῳ.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="37">
 						<p>
-							ὁ δὲ λίθος
+							ὁ δὲ λίθος
 							<app type="variants">
 								<lem>
-									λίθος
+									λίθος
 								</lem>
 								<rdg type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-									λίθος
+									λίθος
 								</rdg>
 								<rdg wit="#A" source="#Foster">
-									λείθος
+									λείθος
 								</rdg>
 							</app>
-							ἐκεῖνος ὁ βεβλημένος ἐπὶ τῇ θύρᾳ ἀφ᾿ ἑαυτοῦ κυλισθεὶς,
-							ἐπεχώρησε παρὰ μέρος,
-							καὶ ὁ τάφος ἡνοίγη
+							ἐκεῖνος ὁ βεβλημένος ἐπὶ τῇ θύρᾳ ἀφ᾿ ἑαυτοῦ κυλισθεὶς,
+							ἐπεχώρησε παρὰ μέρος,
+							καὶ ὁ τάφος ἡνοίγη
 							<app type="variants">
 								<rdg type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-									ἡνοίγη
+									ἡνοίγη
 								</rdg>
 								<rdg wit="#A" source="#Foster">
-									ἐνοίγη
+									ἐνοίγη
 								</rdg>
 							</app>
 							, 
-							καὶ ἀμφότεροι οἱ νεανίσκοι εἰσῆλθον.
+							καὶ ἀμφότεροι οἱ νεανίσκοι εἰσῆλθον.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="38">
 						<p>
-							ἰδόντες οὖν οἱ στρατιῶται ἐκεῖνοι,
-							ἐξύπνισαν τὸν κεντυρίωνα καὶ τοὺς πρεσβυτέρους·
-							παρῆσαν γὰρ καὶ αὐτοὶ φυλάσσοντες.
+							ἰδόντες οὖν οἱ στρατιῶται ἐκεῖνοι,
+							ἐξύπνισαν τὸν κεντυρίωνα καὶ τοὺς πρεσβυτέρους·
+							παρῆσαν γὰρ καὶ αὐτοὶ φυλάσσοντες.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="39">
 						<p>
-							καὶ ἐξηγουμένων αὐτῶν ἁ εἶδον,
-							πάλιν ὅρασιν
+							καὶ ἐξηγουμένων αὐτῶν ἁ εἶδον,
+							πάλιν ὅρασιν
 							<app type="variants">
 								<lem wit="#A" source="#Foster" resp="#MGB">
-									ὅρασιν
+									ὅρασιν
 								</lem>
 								<rdg type="correction" source="#Mara #KrausNicklas">
-									ὁρῶσιν
+									ὁρῶσιν
 								</rdg>
 							</app>
-							ἐξελθόντος ἀπὸ τοῦ τάφου τρεῖς ἄνδρας
+							ἐξελθόντος ἀπὸ τοῦ τάφου τρεῖς ἄνδρας
 							<app type="variants">
 								<lem wit="#A" source="#Mara #KrausNicklas" resp="#MGB">
-									ἄνδρας
+									ἄνδρας
 								</lem>
 								<rdg type="correction" source="#Foster">
-									ἄνδρεϲ
+									ἄνδρεϲ
 								</rdg>
 							</app>
 							, 
-							καὶ τοὺς δύο τὸν ἕνα ὑπορθοῦντας,
-							καὶ σταυρὸν ἀκολουθοῦντα αὐτοῖς.
+							καὶ τοὺς δύο τὸν ἕνα ὑπορθοῦντας,
+							καὶ σταυρὸν ἀκολουθοῦντα αὐτοῖς.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="40">
 						<p>
-							καὶ τῶν μὲν δύο τὴν κεφαλὴν χωροῦσαν μέχρι τοῦ οὐρανοῦ,
-							τοῦ δὲ χειραγωγουμένου
+							καὶ τῶν μὲν δύο τὴν κεφαλὴν χωροῦσαν μέχρι τοῦ οὐρανοῦ,
+							τοῦ δὲ χειραγωγουμένου
 							<app type="variants">
 								<lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-									χειραγωγουμένου
+									χειραγωγουμένου
 								</lem>
 								<rdg wit="#A" source="#Foster">
-									χειρατωτουμένου
+									χειρατωτουμένου
 								</rdg>
 							</app>
-							ὑπ᾿ αὐτῶν ὑπερβαίνουσαν τοὺς οὐρανούς.
+							ὑπ᾿ αὐτῶν ὑπερβαίνουσαν τοὺς οὐρανούς.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="41">
 						<p>
-							καὶ φωνῆς ἤκουον ἐκ τῶν οὐρανῶν λεγούσης·
+							καὶ φωνῆς ἤκουον ἐκ τῶν οὐρανῶν λεγούσης·
 							<said who="batkol">
-								ἐκήρυξας τοῖς κοιμωμένοις
+								ἐκήρυξας τοῖς κοιμωμένοις
 								<app type="variants">
 									<lem type="correction" source="#Mara #KrausNicklas #Foster" resp="#MGB">
-										κοιμωμένοις
+										κοιμωμένοις
 									</lem>
 									<rdg wit="#A">
-										κοινωμένοις
+										κοινωμένοις
 									</rdg>
 								</app>
 								;
@@ -1460,214 +1460,214 @@
 					</div>
 					<div type="textpart" subtype="verse" n="42">
 						<p>
-							καὶ ὑπακοὴ ἠκούετο ἀπὸ τοῦ σταυροῦ ὅτι
+							καὶ ὑπακοὴ ἠκούετο ἀπὸ τοῦ σταυροῦ ὅτι
 							<said who="cross">
-								ναί
+								ναί
 							</said>
 							.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="43">
 						<p>
-							συνεσκέπτοντο οὖν ἀλλήλοις ἐκεῖνοι ἀπελθεῖν καὶ ἐνφανίσαι ταῦτα τῷ Πειλάτῳ.
+							συνεσκέπτοντο οὖν ἀλλήλοις ἐκεῖνοι ἀπελθεῖν καὶ ἐνφανίσαι ταῦτα τῷ Πειλάτῳ.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="44">
 						<p>
-							καὶ ἔτι διανοουμένων αὐτῶν φαίνονται πάλιν ἀνοιχθέντες οἱ οὐρανοὶ,
-							καὶ ἀνθρωπός τις κατελθὼν
+							καὶ ἔτι διανοουμένων αὐτῶν φαίνονται πάλιν ἀνοιχθέντες οἱ οὐρανοὶ,
+							καὶ ἀνθρωπός τις κατελθὼν
 							<app type="variants">
 								<lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-									κατελθὼν
+									κατελθὼν
 								</lem>
 								<rdg wit="#A" source="#Foster">
-									κατελθόν
+									κατελθόν
 								</rdg>
 							</app>
 							, 
-							καὶ εἰσελθὼν εἰς τὸ μνῆμα.
+							καὶ εἰσελθὼν εἰς τὸ μνῆμα.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="45">
 						<p>
-							ταῦτα ἰδόντες οἱ περὶ τὸν κεντυρίωνα
+							ταῦτα ἰδόντες οἱ περὶ τὸν κεντυρίωνα
 							<app type="variants">
 								<lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-									κεντυρίωνα
+									κεντυρίωνα
 								</lem>
 								<rdg wit="#A" source="#Foster">
-									κεντύρωνα
+									κεντύρωνα
 								</rdg>
 							</app>
-							νυκτὸς ἔσπευσαν πρὸς Πειλάτον,
-							ἀφέντες τὸν τάφον ὃν ἐφύλασσον,
-							καὶ ἐξηγήσαντο πάντα ἅπερ εἶδον,
-							ἀγωνιῶντες
+							νυκτὸς ἔσπευσαν πρὸς Πειλάτον,
+							ἀφέντες τὸν τάφον ὃν ἐφύλασσον,
+							καὶ ἐξηγήσαντο πάντα ἅπερ εἶδον,
+							ἀγωνιῶντες
 							<app type="variants">
 								<lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">
 									αγωνιωντεϲ
 								</lem>
 								<rdg wit="#A" source="#Foster">
-									ἀπωνιῶντες
+									ἀπωνιῶντες
 								</rdg>
 							</app>
-							μεγαλῶς,
-							καὶ λέγοντες·
+							μεγαλῶς,
+							καὶ λέγοντες·
 							<said who="soldiers">
-								ἀληθῶς υἱὸς ἦν θεοῦ.
+								ἀληθῶς υἱὸς ἦν θεοῦ.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="46">
 						<p>
-							ἀποκριθεὶς ὁ Πειλάτος ἔφη·
+							ἀποκριθεὶς ὁ Πειλάτος ἔφη·
 							<said who="Pilate">
-								ἐγὼ καθαρεύω τοῦ αἵματος τοῦ υἱοῦ τοῦ θεοῦ·
-								ἡμῖν
+								ἐγὼ καθαρεύω τοῦ αἵματος τοῦ υἱοῦ τοῦ θεοῦ·
+								ἡμῖν
 								<app type="variants">
 									<lem wit="#A" source="#Foster" resp="#MGB">
-										ἡμῖν
+										ἡμῖν
 									</lem>
 									<rdg type="correction" source="#Mara #KrausNicklas">
-										ὑμῖν
+										ὑμῖν
 									</rdg>
 								</app>
-								δὲ τοῦτο ἔδοξεν.
+								δὲ τοῦτο ἔδοξεν.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="47">
 						<p>
-							εἰτα προσελθόντες πάντες ἐδέοντο αὐτοῦ,
-							καὶ παρεκάλουν κελεῦσαι τῷ κεντυρίωνι
+							εἰτα προσελθόντες πάντες ἐδέοντο αὐτοῦ,
+							καὶ παρεκάλουν κελεῦσαι τῷ κεντυρίωνι
 							<app type="variants">
 								<lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-									κεντυρίωνι
+									κεντυρίωνι
 								</lem>
 								<rdg wit="#A" source="#Foster">
-									κεντύριων
+									κεντύριων
 								</rdg>
 							</app>
 							, 
-							καὶ τοῖς στρατιώταις μηδὲν
+							καὶ τοῖς στρατιώταις μηδὲν
 							<app type="variants">
 								<lem wit="#A" source="#Foster #KrausNicklas" resp="#MGB">
-									μηδὲν
+									μηδὲν
 								</lem>
 								<rdg type="correction" source="#Mara">
-									μηδενὶ
+									μηδενὶ
 								</rdg>
 							</app>
 							,
-							εἰπεῖν ἁ εἶδον.
+							εἰπεῖν ἁ εἶδον.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="48">
 						<p>
 							<said who="all">
-								συμφέρει γάρ
+								συμφέρει γάρ
 							</said>
 							, 
-							φασίν,
+							φασίν,
 							<said who="all">
-								ἡμῖν ὀφλῆσαι μεγίστην ἁμαρτίαν ἔμπροσθεν τοῦ θεοῦ,
-								καὶ μὴ ἐμπεσεῖν εἰς χεῖρας τοῦ λαοῦ τῶν Ἰουδαίων καὶ λιθασθῆναι.
+								ἡμῖν ὀφλῆσαι μεγίστην ἁμαρτίαν ἔμπροσθεν τοῦ θεοῦ,
+								καὶ μὴ ἐμπεσεῖν εἰς χεῖρας τοῦ λαοῦ τῶν Ἰουδαίων καὶ λιθασθῆναι.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="49">
 						<p>
-							ἐκέλευσεν οὖν ὁ Πειλάτος τῷ
+							ἐκέλευσεν οὖν ὁ Πειλάτος τῷ
 							<app type="variants">
 								<lem type="correction" source="#Mara" resp="#MGB">
-									τῷ
+									τῷ
 								</lem>
 								<rdg type="correction" source="#KrausNicklas">
 									τωι
 								</rdg>
 								<rdg wit="#A" source="#Foster">
-									τῶν
+									τῶν
 								</rdg>
 							</app>
-							κεντυρίωνι
+							κεντυρίωνι
 							<app type="variants">
 								<lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-									κεντυρίωνι
+									κεντυρίωνι
 								</lem>
 								<rdg wit="#A" source="#Foster">
-									κεντυρίων
+									κεντυρίων
 								</rdg>
 							</app>
 							, 
-							καὶ τοῖς στρατιώταις μηδὲν εἰπεῖν.
+							καὶ τοῖς στρατιώταις μηδὲν εἰπεῖν.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="50">
 						<p>
-							ὀρθροῦ
+							ὀρθροῦ
 							<app type="variants">
 								<lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-									ὀρθροῦ
+									ὀρθροῦ
 								</lem>
 								<rdg wit="#A" source="#Foster">
-									ὀρθοῦ
+									ὀρθοῦ
 								</rdg>
 							</app>
-							δὲ τῆς κυριακῆς Μαριάμνη
+							δὲ τῆς κυριακῆς Μαριάμνη
 							<app type="variants">
 								<lem type="correction" resp="#MGB">
-									Μαριάμνη
+									Μαριάμνη
 								</lem>
 								<rdg wit="#A">
 									Μαριαμ᾽
 								</rdg>
 								<rdg type="correction" source="#Mara #KrausNicklas #Foster">
-									Μαριὰμ
+									Μαριὰμ
 								</rdg>
 							</app>
-							ἡ Μαγδαλινὴ μαθήτρια τοῦ κυρίου φοβουμένη διὰ τοὺς Ἰουδαίους,
-							ἐπειδὴ ἐφλέγοντο ὑπὸ τῆς ὀργῆς,
-							οὐκ ἐποίησεν ἐπὶ τῷ μνήματι τοῦ κυρίου,
-							ἁ ἐιώθεσαν ποιεῖν αἱ γυναῖκες ἐπὶ τοῖς ἀποθνήσκουσι καὶ τοῖς ἀγαπωμένοις αὐταῖς.
+							ἡ Μαγδαλινὴ μαθήτρια τοῦ κυρίου φοβουμένη διὰ τοὺς Ἰουδαίους,
+							ἐπειδὴ ἐφλέγοντο ὑπὸ τῆς ὀργῆς,
+							οὐκ ἐποίησεν ἐπὶ τῷ μνήματι τοῦ κυρίου,
+							ἁ ἐιώθεσαν ποιεῖν αἱ γυναῖκες ἐπὶ τοῖς ἀποθνήσκουσι καὶ τοῖς ἀγαπωμένοις αὐταῖς.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="51">
 						<p>
-							λαβοῦσα μεθ᾿ ἑαυτῆς τὰς φίλας,
-							ἦλθε ἐπὶ τὸ μνημεῖον ὅπου ἦν τεθείς.
+							λαβοῦσα μεθ᾿ ἑαυτῆς τὰς φίλας,
+							ἦλθε ἐπὶ τὸ μνημεῖον ὅπου ἦν τεθείς.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="52">
 						<p>
-							καὶ ἐφοβοῦντο μὴ ἴδωσιν αὐτὰς οἱ Ἰουδαῖοι,
-							καὶ ἔλεγον·
+							καὶ ἐφοβοῦντο μὴ ἴδωσιν αὐτὰς οἱ Ἰουδαῖοι,
+							καὶ ἔλεγον·
 							<said who="women">
-								εἰ καὶ μὴ ἐν ἐκείνῃ τῇ ἡμέρᾳ ᾑ ἐσταυρώθη,
-								ἐδυναθήμεν κλαῦσαι καὶ κόψασθαι
+								εἰ καὶ μὴ ἐν ἐκείνῃ τῇ ἡμέρᾳ ᾑ ἐσταυρώθη,
+								ἐδυναθήμεν κλαῦσαι καὶ κόψασθαι
 								<app type="variants">
 									<lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-										κόψασθαι
+										κόψασθαι
 									</lem>
 									<rdg wit="#A" source="#Foster">
-										κόψεσθαι
+										κόψεσθαι
 									</rdg>
 								</app>
 								, 
-								καὶ νῦν ἐπὶ τοῦ μνήματος αὐτοῦ ποιήσωμεν ταῦτα.
+								καὶ νῦν ἐπὶ τοῦ μνήματος αὐτοῦ ποιήσωμεν ταῦτα.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="53">
 						<p>
 							<said who="women">
-								τίς δὲ ἀποκυλίσει ἡμῖν καὶ τὸν λίθον τὸν τεθέντα ἐπὶ τῆς θύρᾳς τοῦ μνημείου,
-								ἵνα εἰσελθοῦσαι παρακαθεσθῶμεν αὐτῷ καὶ ποιήσωμεν τὰ ὀφειλόμενα
+								τίς δὲ ἀποκυλίσει ἡμῖν καὶ τὸν λίθον τὸν τεθέντα ἐπὶ τῆς θύρᾳς τοῦ μνημείου,
+								ἵνα εἰσελθοῦσαι παρακαθεσθῶμεν αὐτῷ καὶ ποιήσωμεν τὰ ὀφειλόμενα
 								<app type="variants">
 									<lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-										ὀφειλόμενα
+										ὀφειλόμενα
 									</lem>
 									<rdg wit="#A" source="#Foster">
-										ὀφιλόμενα
+										ὀφιλόμενα
 									</rdg>
 								</app>
 								;
@@ -1677,35 +1677,35 @@
 					<div type="textpart" subtype="verse" n="54">
 						<p>
 							<said who="women">
-								μέγας γὰρ ἦν ὁ λίθος,
-								καὶ φοβούμεθα μή τις ἡμᾶς ἴδῃ.
-								καὶ εἰ μὴ δυνάμεθα,
-								κἂν ἐπὶ τῆς θύρας βάλωμεν ἁ φέρομεν εἰς μνημοσύνην αὐτοῦ,
-								κλαύσομεν
+								μέγας γὰρ ἦν ὁ λίθος,
+								καὶ φοβούμεθα μή τις ἡμᾶς ἴδῃ.
+								καὶ εἰ μὴ δυνάμεθα,
+								κἂν ἐπὶ τῆς θύρας βάλωμεν ἁ φέρομεν εἰς μνημοσύνην αὐτοῦ,
+								κλαύσομεν
 								<app type="variants">
 									<lem wit="#A" source="#KrausNicklas #Foster" resp="#MGB">
-										κλαύσομεν
+										κλαύσομεν
 									</lem>
 									<rdg type="correction" source="#Mara">
-										κλαύσωμεν
+										κλαύσωμεν
 									</rdg>
 								</app>
-								καὶ κοψόμεθα
+								καὶ κοψόμεθα
 								<app type="variants">
 									<lem wit="#A" source="#KrausNicklas #Foster" resp="#MGB">
-										κοψόμεθα
+										κοψόμεθα
 									</lem>
 									<rdg type="correction" source="#Mara">
-										κοψώμεθα
+										κοψώμεθα
 									</rdg>
 								</app>
-								ἕως ἔλθωμεν εἰς τὸν οἶκον ἡμῶν.
+								ἕως ἔλθωμεν εἰς τὸν οἶκον ἡμῶν.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="55">
 						<p>
-							καὶ ἀπελθοῦσαι εὗρον τὸν τάφον ἠνεῳγμένον
+							καὶ ἀπελθοῦσαι εὗρον τὸν τάφον ἠνεῳγμένον
 							<app type="variants">
 								<lem wit="#A">
 									<w>
@@ -1713,33 +1713,33 @@
 									</w>
 								</lem>
 								<rdg wit="#A" source="#Foster" resp="#MGB">
-									ἠνεῳγμένον
+									ἠνεῳγμένον
 								</rdg>
 								<rdg wit="#A" source="#Mara">
-									ἠνεωγμένον
+									ἠνεωγμένον
 								</rdg>
 								<rdg type="correction" source="#KrausNicklas">
-									ἠνεωιγμένον
+									ἠνεωιγμένον
 								</rdg>
 							</app>
 							, 
-							καὶ προσελθοῦσαι παρέκυψαν ἐκεῖ,
-							καὶ ὁρῶσιν ἐκεῖ τινα νεανίσκον καθεζόμενον
+							καὶ προσελθοῦσαι παρέκυψαν ἐκεῖ,
+							καὶ ὁρῶσιν ἐκεῖ τινα νεανίσκον καθεζόμενον
 							<app type="variants">
 								<rdg type="addition" source="#Mara">
-									ἐν
+									ἐν
 								</rdg>
 								<rdg wit="#A" source="#Foster #KrausNicklas" resp="#MGB" type="omission" />
 							</app>
-							μέσῳ τοῦ τάφου,
-							ὡραῖον καὶ περιβεβλημένον στολὴν λαμπροτάτην,
-							ὅστις ἔφη αὐταῖς
+							μέσῳ τοῦ τάφου,
+							ὡραῖον καὶ περιβεβλημένον στολὴν λαμπροτάτην,
+							ὅστις ἔφη αὐταῖς
 							<app type="variants">
 								<lem>
-									αὐταῖς
+									αὐταῖς
 								</lem>
 								<rdg type="correction" source="#Foster #Mara #KrausNicklas" resp="#MGB">
-									αὐταῖς
+									αὐταῖς
 								</rdg>
 								<rdg wit="#A">
 									αυται
@@ -1751,81 +1751,81 @@
 					<div type="textpart" subtype="verse" n="56">
 						<p>
 							<said who="youngman">
-								τί
+								τί
 								<app type="variants">
 									<lem type="correction" source="#Mara #KrausNicklas" resp="#MGB">
-										τί
+										τί
 									</lem>
 									<rdg wit="#A" source="#Foster">
-										ὅτι
+										ὅτι
 									</rdg>
 								</app>
-								ἤλθατε;
-								τίνα ζητεῖτε;
-								μὴ τὸν σταυρωθέντα ἐκεῖνον;
-								ἀνέστη καὶ ἀπῆλθεν.
-								εἰ δὲ μὴ πιστεύεται
+								ἤλθατε;
+								τίνα ζητεῖτε;
+								μὴ τὸν σταυρωθέντα ἐκεῖνον;
+								ἀνέστη καὶ ἀπῆλθεν.
+								εἰ δὲ μὴ πιστεύεται
 								<app type="variants">
 									<lem wit="#A" resp="#MGB">
-										πιστεύεται
+										πιστεύεται
 									</lem>
 									<rdg type="correction" source="#Foster #Mara #KrausNicklas">
-										πιστεύετε
+										πιστεύετε
 									</rdg>
 								</app>
 								, 
-								παρακύψατε καὶ ἴδατε τὸν τόπον ἐνθὰ ἔκειτο
+								παρακύψατε καὶ ἴδατε τὸν τόπον ἐνθὰ ἔκειτο
 								<app type="variants">
 									<lem wit="#A" source="#Mara" resp="#MGB">
-										ἐνθὰ ἔκειτο
+										ἐνθὰ ἔκειτο
 									</lem>
 									<rdg wit="#A">
 										<del rend="strikethrough">
-											ἐνθὰ
+											ἐνθὰ
 										</del>
-										ἔκειτο
+										ἔκειτο
 									</rdg>
 									<rdg wit="#A" source="#Foster">
-										ἔκει
+										ἔκει
 										<hi rend="superscript">
 											το
 										</hi>
 									</rdg>
 									<rdg wit="#A" source="#KrausNicklas">
-										ἐνθὰ ἔκει
+										ἐνθὰ ἔκει
 										<hi rend="superscript">
 											το
 										</hi>
 									</rdg>
 								</app>
-								ὅτι οὐκ ἔστιν.
-								ἀνέστη γὰρ,
-								καὶ ἀπῆλθεν ἐκεῖ ὅθεν ἀπεστάλη.
+								ὅτι οὐκ ἔστιν.
+								ἀνέστη γὰρ,
+								καὶ ἀπῆλθεν ἐκεῖ ὅθεν ἀπεστάλη.
 							</said>
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="57">
 						<p>
-							τότε αἱ γυναῖκες φοβηθεῖσαι
+							τότε αἱ γυναῖκες φοβηθεῖσαι
 							<app type="variants">
 								<lem type="correction" source="#Mara #Foster #KrausNicklas" resp="#MGB">
-									φοβηθεῖσαι
+									φοβηθεῖσαι
 								</lem>
 								<rdg wit="#A">
 									φοβηθειϲ
 								</rdg>
 							</app>
-							ἔφυγον.
+							ἔφυγον.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="58">
 						<p>
-							ἦν δὲ τελευταία ἡμέρα τῶν ἀζύμων,
-							καὶ πολλοὶ τινες ἐξήρχοντο,
-							ὑποστρέφοντες εἰς τοὺς οἴκους αὐτῶν τῆς ἑορτῆς παυσαμένης
+							ἦν δὲ τελευταία ἡμέρα τῶν ἀζύμων,
+							καὶ πολλοὶ τινες ἐξήρχοντο,
+							ὑποστρέφοντες εἰς τοὺς οἴκους αὐτῶν τῆς ἑορτῆς παυσαμένης
 							<app type="variants">
 								<lem type="correction" source="#Mara #Foster #KrausNicklas" resp="#MGB">
-									παυσαμένης
+									παυσαμένης
 								</lem>
 								<rdg wit="#A">
 									παυσαμινης
@@ -1836,27 +1836,27 @@
 					</div>
 					<div type="textpart" subtype="verse" n="59">
 						<p>
-							ἡμεῖς δὲ οἱ δώδεκα μαθηταὶ τοῦ κυρίου ἐκλαίομεν καὶ ἐλυπούμεθα,
-							καὶ ἕκαστος,
-							λυπούμενος διὰ τὸ συμβὰν,
-							ἀπηλλάγη εἰς τὸν οἶκον αὐτοῦ.
+							ἡμεῖς δὲ οἱ δώδεκα μαθηταὶ τοῦ κυρίου ἐκλαίομεν καὶ ἐλυπούμεθα,
+							καὶ ἕκαστος,
+							λυπούμενος διὰ τὸ συμβὰν,
+							ἀπηλλάγη εἰς τὸν οἶκον αὐτοῦ.
 						</p>
 					</div>
 					<div type="textpart" subtype="verse" n="60">
 						<p>
-							ἐγὼ δὲ Σίμων Πέτρος καὶ Ἀνδρέας ὁ ἀδελφός μου,
-							λαβόντες ἡμῶν τὰ λίνα ἀπηλθάμεν εἰς τὴν θάλασσαν
+							ἐγὼ δὲ Σίμων Πέτρος καὶ Ἀνδρέας ὁ ἀδελφός μου,
+							λαβόντες ἡμῶν τὰ λίνα ἀπηλθάμεν εἰς τὴν θάλασσαν
 							<app type="variants">
 								<lem type="correction" source="#Mara #Foster #KrausNicklas" resp="#MGB">
-									θάλασσαν
+									θάλασσαν
 								</lem>
 								<rdg wit="#A">
-									θάλλασσαν
+									θάλλασσαν
 								</rdg>
 							</app>
 							, 
-							καὶ ἦν σὺν ἡμῖν Λευεὶς ὁ τοῦ Ἀλφαίου,
-							ὃν κύριος
+							καὶ ἦν σὺν ἡμῖν Λευεὶς ὁ τοῦ Ἀλφαίου,
+							ὃν κύριος
 						</p>
 					</div>
 				</div>
