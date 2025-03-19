@@ -7,7 +7,7 @@
    <ti:title xml:lang="fra">L'Évangile de Pierre</ti:title>  
 
    <ti:edition urn="urn:cts:greekLit:tlg1371.tlg001.src-MsA" workUrn="urn:cts:greekLit:tlg1371.tlg001" xml:lang="grc">
-      <ti:label xml:lang="eng">Gospel of Peter</ti:label>
+      <ti:label xml:lang="eng">Gospel of Peter</ti:label>     
       <ti:description xml:lang="eng">Diplomatic edition of Bibliotheca Alexandrina Antiquities Museum 0522, by Mark G. Bilby. 2025.</ti:description>
       <ti:editor xml:lang="eng">Mark G. Bilby</ti:editor>
    </ti:edition>

@@ -3,5 +3,7 @@
    
    <ti:groupname xml:lang="eng">Gospel of Peter</ti:groupname>
    <ti:groupname xml:lang="lat">Evangelium Petri</ti:groupname>
-   
+   <ti:groupname xml:lang="deu">Evangelium nach Petrus</ti:groupname>
+   <ti:groupname xml:lang="fra">L'Évangile de Pierre</ti:groupname>
+
 </ti:textgroup>
