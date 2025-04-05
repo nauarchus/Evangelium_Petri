@@ -15,7 +15,7 @@ The repository currently contains three files:
 
 The TEI-XML follows the schema of the [Patristic Text Archive](https://github.com/PatristicTextArchive/Schema) for the encoding of manuscripts and critical editions.
 
-All datasets use UTF-8 encoding and decomposed Unicode characters.
+All datasets use UTF-8 encoding and composed Unicode characters.
 
 ## Bibliography
 
