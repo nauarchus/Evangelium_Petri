@@ -1,0 +1,5 @@
+data/tlg1371/__cts__.xml
+data/tlg1371/tlg001/__cts__.xml
+data/tlg1371/tlg001/tlg1371.tlg001.src-MsA.xml
+data/tlg1371/tlg001/tlg1371.tlg001.src-MsB.xml
+data/tlg1371/tlg001/tlg1371.tlg001.src-grc1.xml
